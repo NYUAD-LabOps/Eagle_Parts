@@ -20238,9 +20238,7 @@ Source: DCJ0202.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="VID" value="Digikey" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
