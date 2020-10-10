@@ -20228,6 +20228,7 @@ Source: DCJ0202.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="LED_0805_GREEN" prefix="LED">
+<description>Green 570nm LED Indication - Discrete 2.2V 0805 (2012 Metric)</description>
 <gates>
 <gate name="G$1" symbol="LED_0805_GREEN" x="0" y="0"/>
 </gates>
@@ -20239,7 +20240,10 @@ Source: DCJ0202.pdf</description>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MN" value="OSRAM Opto Semiconductors Inc." constant="no"/>
+<attribute name="MPN" value="LG R971-KN-1" constant="no"/>
 <attribute name="VID" value="Digikey" constant="no"/>
+<attribute name="VPN" value="475-1410-2-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
