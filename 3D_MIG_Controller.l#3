@@ -21813,7 +21813,6 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 </devices>
 </deviceset>
 <deviceset name="HEADER_2_X_20_GENERIC" prefix="J" uservalue="yes">
-<description>CONN HEADER R/A 40POS 2.54MM</description>
 <gates>
 <gate name="G$1" symbol="2_X_20_HEADER_GENERIC" x="0.508" y="-0.254"/>
 </gates>
@@ -21862,10 +21861,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <connect gate="G$1" pin="P$9" pad="P$9"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="PARTNO" value="61304021021" constant="no"/>
-<attribute name="VALUE" value="40-pos" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -26044,7 +26040,6 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </devices>
 </deviceset>
 <deviceset name="3.81MM_1_X_2_RT_ANGLE_PLUG_HEADER" prefix="J" uservalue="yes">
-<description>TERM BLOCK HDR 2POS 90DEG 3.81MM</description>
 <gates>
 <gate name="A" symbol="1X2_HEADER" x="2.54" y="-2.54"/>
 </gates>
@@ -26055,10 +26050,7 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <connect gate="A" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="PARTNO" value="691322310002" constant="no"/>
-<attribute name="VALUE" value="2-pos" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -27076,34 +27068,6 @@ with shutdown</description>
 <technologies>
 <technology name="">
 <attribute name="PARTNO" value="AP2151WG-7" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CONN_05X2_RA" prefix="J" uservalue="yes">
-<description>Connector Header Through Hole, Right Angle 10 position 0.100" (2.54mm)</description>
-<gates>
-<gate name="G$1" symbol="CONN_05X2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="PTH" package="2X5">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PARTNO" value="PH2RA-10-UA" constant="no"/>
-<attribute name="VALUE" value="10-pos" constant="no"/>
 </technology>
 </technologies>
 </device>

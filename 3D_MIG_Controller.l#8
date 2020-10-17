@@ -21813,7 +21813,6 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 </devices>
 </deviceset>
 <deviceset name="HEADER_2_X_20_GENERIC" prefix="J" uservalue="yes">
-<description>CONN HEADER R/A 40POS 2.54MM</description>
 <gates>
 <gate name="G$1" symbol="2_X_20_HEADER_GENERIC" x="0.508" y="-0.254"/>
 </gates>
@@ -21862,10 +21861,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <connect gate="G$1" pin="P$9" pad="P$9"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="PARTNO" value="61304021021" constant="no"/>
-<attribute name="VALUE" value="40-pos" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -25552,7 +25548,6 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 </devices>
 </deviceset>
 <deviceset name="TPD2E2U06DRLR" prefix="U">
-<description>TVS DIODE 5.5V 12.4V SOT5</description>
 <gates>
 <gate name="A" symbol="TPD2E2U06DRLR" x="0" y="0"/>
 </gates>
@@ -25560,8 +25555,8 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <device name="" package="DRL5">
 <technologies>
 <technology name="">
-<attribute name="PARTNO" value="TPD2E2U06DRLR" constant="no"/>
-<attribute name="VALUE" value="TVS-Diode" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPD2E2U06DRLR" constant="no"/>
+<attribute name="VENDOR" value="Texas Instruments" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -25620,7 +25615,6 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 </devices>
 </deviceset>
 <deviceset name="AP2141DWG-5" prefix="U">
-<description>Power Switch/Driver 1:1 P-Channel 500mA SOT-25</description>
 <gates>
 <gate name="A" symbol="AP2141DWG-7" x="-2.54" y="0"/>
 </gates>
@@ -25634,9 +25628,7 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <connect gate="A" pin="VIN" pad="4"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="PARTNO" value="AP2151WG-7" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -25777,7 +25769,6 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </devices>
 </deviceset>
 <deviceset name="3.81MM_1_X_4_RT_ANGLE_PLUG_HEADER" prefix="J" uservalue="yes">
-<description>4 Position Terminal Block Header, Male Pins, Shrouded (4 Side) 0.150" (3.81mm) 90°, Right Angle - Through Hole</description>
 <gates>
 <gate name="G$1" symbol="1X4_HEADER" x="0" y="-7.62"/>
 </gates>
@@ -25790,10 +25781,7 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <connect gate="G$1" pin="P$4" pad="P$4"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="PARTNO" value="691322310004" constant="no"/>
-<attribute name="VALUE" value="4-pos" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -25812,8 +25800,15 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PARTNO" value="BC846BW,115" constant="no"/>
-<attribute name="VALUE" value="NPN" constant="no"/>
+<attribute name="A_NEW_TYPE" value="test_data" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1727-4848-2-ND" constant="no"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/en/products/detail/nexperia-usa-inc/BC846BW,115/1232266" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BC846BW,115" constant="no"/>
+<attribute name="MF" value="Nexperia USA Inc." constant="no"/>
+<attribute name="MP" value="BC846BW,115" constant="no"/>
+<attribute name="SIZE" value="SOT323" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VID" value="Digikey" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -25891,7 +25886,7 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <technologies>
 <technology name="">
 <attribute name="MF" value="Amphenol ICC"/>
-<attribute name="PARTNO" value="114-00841-68"/>
+<attribute name="MP" value="114-00841-68"/>
 <attribute name="VID" value="Digikey" constant="no"/>
 <attribute name="VP" value="114-00841-68-1-ND" constant="no"/>
 <attribute name="VURL" value="https://www.digikey.ae/product-detail/en/amphenol-icc-commercial-products/114-00841-68/114-00841-68-1-ND/2187101?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" constant="no"/>
@@ -26044,7 +26039,6 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </devices>
 </deviceset>
 <deviceset name="3.81MM_1_X_2_RT_ANGLE_PLUG_HEADER" prefix="J" uservalue="yes">
-<description>TERM BLOCK HDR 2POS 90DEG 3.81MM</description>
 <gates>
 <gate name="A" symbol="1X2_HEADER" x="2.54" y="-2.54"/>
 </gates>
@@ -26055,10 +26049,7 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <connect gate="A" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="PARTNO" value="691322310002" constant="no"/>
-<attribute name="VALUE" value="2-pos" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -27054,56 +27045,6 @@ with shutdown</description>
 <technology name="">
 <attribute name="PARTNO" value="RC0402JR-0730KL" constant="no"/>
 <attribute name="VALUE" value="30K0" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="AP2151DWG-7" prefix="U">
-<description>Power Switch/Driver 1:1 P-Channel 500mA SOT-25</description>
-<gates>
-<gate name="A" symbol="AP2141DWG-7" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT-23-5">
-<connects>
-<connect gate="A" pin="EN" pad="1"/>
-<connect gate="A" pin="FLG" pad="3"/>
-<connect gate="A" pin="GND" pad="2"/>
-<connect gate="A" pin="OUT" pad="5"/>
-<connect gate="A" pin="VIN" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PARTNO" value="AP2151WG-7" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CONN_05X2_RA" prefix="J" uservalue="yes">
-<description>Connector Header Through Hole, Right Angle 10 position 0.100" (2.54mm)</description>
-<gates>
-<gate name="G$1" symbol="CONN_05X2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="PTH" package="2X5">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PARTNO" value="PH2RA-10-UA" constant="no"/>
-<attribute name="VALUE" value="10-pos" constant="no"/>
 </technology>
 </technologies>
 </device>
