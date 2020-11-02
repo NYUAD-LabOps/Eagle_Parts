@@ -25548,6 +25548,7 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 </devices>
 </deviceset>
 <deviceset name="TPD2E2U06DRLR" prefix="U">
+<description>TVS DIODE 5.5V 12.4V SOT5</description>
 <gates>
 <gate name="A" symbol="TPD2E2U06DRLR" x="0" y="0"/>
 </gates>
@@ -25555,8 +25556,8 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <device name="" package="DRL5">
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="TPD2E2U06DRLR" constant="no"/>
-<attribute name="VENDOR" value="Texas Instruments" constant="no"/>
+<attribute name="PARTNO" value="TPD2E2U06DRLR" constant="no"/>
+<attribute name="VALUE" value="TVS-Diode" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -25772,6 +25773,7 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </devices>
 </deviceset>
 <deviceset name="3.81MM_1_X_4_RT_ANGLE_PLUG_HEADER" prefix="J" uservalue="yes">
+<description>4 Position Terminal Block Header, Male Pins, Shrouded (4 Side) 0.150" (3.81mm) 90°, Right Angle - Through Hole</description>
 <gates>
 <gate name="G$1" symbol="1X4_HEADER" x="0" y="-7.62"/>
 </gates>
@@ -25784,7 +25786,10 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <connect gate="G$1" pin="P$4" pad="P$4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTNO" value="691322310004" constant="no"/>
+<attribute name="VALUE" value="4-pos" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

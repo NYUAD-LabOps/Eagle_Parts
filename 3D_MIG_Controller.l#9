@@ -24697,7 +24697,10 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <connect gate="G$1" pin="XCOUT" pad="21"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTNO" value="R7FS7G27H3A01CFC#AA0" constant="no"/>
+<attribute name="VALUE" value="S7G2LQFP176" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -25797,15 +25800,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </connects>
 <technologies>
 <technology name="">
-<attribute name="A_NEW_TYPE" value="test_data" constant="no"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="1727-4848-2-ND" constant="no"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/en/products/detail/nexperia-usa-inc/BC846BW,115/1232266" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="BC846BW,115" constant="no"/>
-<attribute name="MF" value="Nexperia USA Inc." constant="no"/>
-<attribute name="MP" value="BC846BW,115" constant="no"/>
-<attribute name="SIZE" value="SOT323" constant="no"/>
-<attribute name="VENDOR" value="Digikey" constant="no"/>
-<attribute name="VID" value="Digikey" constant="no"/>
+<attribute name="PARTNO" value="BC846BW,115" constant="no"/>
+<attribute name="VALUE" value="NPN" constant="no"/>
 </technology>
 </technologies>
 </device>

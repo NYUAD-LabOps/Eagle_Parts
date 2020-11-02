@@ -25615,6 +25615,7 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 </devices>
 </deviceset>
 <deviceset name="AP2141DWG-5" prefix="U">
+<description>Power Switch/Driver 1:1 P-Channel 500mA SOT-25</description>
 <gates>
 <gate name="A" symbol="AP2141DWG-7" x="-2.54" y="0"/>
 </gates>
@@ -25628,7 +25629,9 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <connect gate="A" pin="VIN" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTNO" value="AP2151WG-7" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -25879,7 +25882,7 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <technologies>
 <technology name="">
 <attribute name="MF" value="Amphenol ICC"/>
-<attribute name="MP" value="114-00841-68"/>
+<attribute name="PARTNO" value="114-00841-68"/>
 <attribute name="VID" value="Digikey" constant="no"/>
 <attribute name="VP" value="114-00841-68-1-ND" constant="no"/>
 <attribute name="VURL" value="https://www.digikey.ae/product-detail/en/amphenol-icc-commercial-products/114-00841-68/114-00841-68-1-ND/2187101?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" constant="no"/>
@@ -27038,6 +27041,28 @@ with shutdown</description>
 <technology name="">
 <attribute name="PARTNO" value="RC0402JR-0730KL" constant="no"/>
 <attribute name="VALUE" value="30K0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AP2151DWG-7" prefix="U">
+<description>Power Switch/Driver 1:1 P-Channel 500mA SOT-25</description>
+<gates>
+<gate name="A" symbol="AP2141DWG-7" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-5">
+<connects>
+<connect gate="A" pin="EN" pad="1"/>
+<connect gate="A" pin="FLG" pad="3"/>
+<connect gate="A" pin="GND" pad="2"/>
+<connect gate="A" pin="OUT" pad="5"/>
+<connect gate="A" pin="VIN" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PARTNO" value="AP2151WG-7" constant="no"/>
 </technology>
 </technologies>
 </device>

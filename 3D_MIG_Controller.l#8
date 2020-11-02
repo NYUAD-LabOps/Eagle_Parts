@@ -25615,6 +25615,7 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 </devices>
 </deviceset>
 <deviceset name="AP2141DWG-5" prefix="U">
+<description>Power Switch/Driver 1:1 P-Channel 500mA SOT-25</description>
 <gates>
 <gate name="A" symbol="AP2141DWG-7" x="-2.54" y="0"/>
 </gates>
@@ -25628,7 +25629,9 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <connect gate="A" pin="VIN" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTNO" value="AP2151WG-7" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -25800,15 +25803,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </connects>
 <technologies>
 <technology name="">
-<attribute name="A_NEW_TYPE" value="test_data" constant="no"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="1727-4848-2-ND" constant="no"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/en/products/detail/nexperia-usa-inc/BC846BW,115/1232266" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="BC846BW,115" constant="no"/>
-<attribute name="MF" value="Nexperia USA Inc." constant="no"/>
-<attribute name="MP" value="BC846BW,115" constant="no"/>
-<attribute name="SIZE" value="SOT323" constant="no"/>
-<attribute name="VENDOR" value="Digikey" constant="no"/>
-<attribute name="VID" value="Digikey" constant="no"/>
+<attribute name="PARTNO" value="BC846BW,115" constant="no"/>
+<attribute name="VALUE" value="NPN" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -27045,6 +27041,28 @@ with shutdown</description>
 <technology name="">
 <attribute name="PARTNO" value="RC0402JR-0730KL" constant="no"/>
 <attribute name="VALUE" value="30K0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AP2151DWG-7" prefix="U">
+<description>Power Switch/Driver 1:1 P-Channel 500mA SOT-25</description>
+<gates>
+<gate name="A" symbol="AP2141DWG-7" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-5">
+<connects>
+<connect gate="A" pin="EN" pad="1"/>
+<connect gate="A" pin="FLG" pad="3"/>
+<connect gate="A" pin="GND" pad="2"/>
+<connect gate="A" pin="OUT" pad="5"/>
+<connect gate="A" pin="VIN" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PARTNO" value="AP2151WG-7" constant="no"/>
 </technology>
 </technologies>
 </device>

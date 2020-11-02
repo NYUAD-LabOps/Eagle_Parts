@@ -21813,6 +21813,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 </devices>
 </deviceset>
 <deviceset name="HEADER_2_X_20_GENERIC" prefix="J" uservalue="yes">
+<description>CONN HEADER R/A 40POS 2.54MM</description>
 <gates>
 <gate name="G$1" symbol="2_X_20_HEADER_GENERIC" x="0.508" y="-0.254"/>
 </gates>
@@ -21861,7 +21862,10 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <connect gate="G$1" pin="P$9" pad="P$9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTNO" value="61304021021" constant="no"/>
+<attribute name="VALUE" value="40-pos" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -26040,6 +26044,7 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </devices>
 </deviceset>
 <deviceset name="3.81MM_1_X_2_RT_ANGLE_PLUG_HEADER" prefix="J" uservalue="yes">
+<description>TERM BLOCK HDR 2POS 90DEG 3.81MM</description>
 <gates>
 <gate name="A" symbol="1X2_HEADER" x="2.54" y="-2.54"/>
 </gates>
@@ -26050,7 +26055,10 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <connect gate="A" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTNO" value="691322310002" constant="no"/>
+<attribute name="VALUE" value="2-pos" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

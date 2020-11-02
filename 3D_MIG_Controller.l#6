@@ -25548,6 +25548,7 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 </devices>
 </deviceset>
 <deviceset name="TPD2E2U06DRLR" prefix="U">
+<description>TVS DIODE 5.5V 12.4V SOT5</description>
 <gates>
 <gate name="A" symbol="TPD2E2U06DRLR" x="0" y="0"/>
 </gates>
@@ -25555,8 +25556,8 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <device name="" package="DRL5">
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="TPD2E2U06DRLR" constant="no"/>
-<attribute name="VENDOR" value="Texas Instruments" constant="no"/>
+<attribute name="PARTNO" value="TPD2E2U06DRLR" constant="no"/>
+<attribute name="VALUE" value="TVS-Diode" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -25882,7 +25883,7 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <technologies>
 <technology name="">
 <attribute name="MF" value="Amphenol ICC"/>
-<attribute name="MP" value="114-00841-68"/>
+<attribute name="PARTNO" value="114-00841-68"/>
 <attribute name="VID" value="Digikey" constant="no"/>
 <attribute name="VP" value="114-00841-68-1-ND" constant="no"/>
 <attribute name="VURL" value="https://www.digikey.ae/product-detail/en/amphenol-icc-commercial-products/114-00841-68/114-00841-68-1-ND/2187101?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" constant="no"/>
