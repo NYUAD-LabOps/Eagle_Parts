@@ -27835,10 +27835,10 @@ Source: DCJ0202.pdf</description>
 <gate name="G$1" symbol="LED_0805_GREEN" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="LED_0805_GREEN">
+<device name="" package="0805">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
