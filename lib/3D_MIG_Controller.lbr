@@ -32380,7 +32380,7 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="KSZ8081RNACA" constant="no"/>
+<attribute name="PARTNO" value="KSZ8081RNACA" constant="no"/>
 <attribute name="VENDOR" value="Micrel" constant="no"/>
 </technology>
 </technologies>
