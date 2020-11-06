@@ -32445,7 +32445,11 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <connect gate="G$1" pin="YLO" pad="11"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MAN" value="Shanghai YDS Tech" constant="no"/>
+<attribute name="PARTNO" value="13F-64GYD2PL2NL" constant="no"/>
+<attribute name="VENDOR" value="lcsc.com" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -32714,6 +32718,7 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 </devices>
 </deviceset>
 <deviceset name="2_X_10_HEADER_GENERIC" prefix="J" uservalue="yes">
+<description>CONN HEADER R/A 20POS 2.54MM, Straight, Right Angle</description>
 <gates>
 <gate name="G$1" symbol="2_X_10_HEADER_GENERIC" x="1.27" y="-13.462"/>
 </gates>
@@ -32742,7 +32747,38 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <connect gate="G$1" pin="P$9" pad="P$9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTNO" value="67996-420HLF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2_X_10_.1_IN_RA" package="2_X_10_.1_INCH">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$10" pad="P$10"/>
+<connect gate="G$1" pin="P$11" pad="P$11"/>
+<connect gate="G$1" pin="P$12" pad="P$12"/>
+<connect gate="G$1" pin="P$13" pad="P$13"/>
+<connect gate="G$1" pin="P$14" pad="P$14"/>
+<connect gate="G$1" pin="P$15" pad="P$15"/>
+<connect gate="G$1" pin="P$16" pad="P$16"/>
+<connect gate="G$1" pin="P$17" pad="P$17"/>
+<connect gate="G$1" pin="P$18" pad="P$18"/>
+<connect gate="G$1" pin="P$19" pad="P$19"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$20" pad="P$20"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
+<connect gate="G$1" pin="P$6" pad="P$6"/>
+<connect gate="G$1" pin="P$7" pad="P$7"/>
+<connect gate="G$1" pin="P$8" pad="P$8"/>
+<connect gate="G$1" pin="P$9" pad="P$9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PARTNO" value="PH2RA-20-UA" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -33284,7 +33320,7 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="PARTNO" value="‎TL8A0107M010D" constant="no"/>
+<attribute name="PARTNO" value="TL8A0107M010D" constant="no"/>
 <attribute name="VALUE" value="100uF" constant="no"/>
 </technology>
 </technologies>
