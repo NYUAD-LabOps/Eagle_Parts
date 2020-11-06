@@ -35305,7 +35305,7 @@ with shutdown</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PARTNO" value="ESP32-WROOM-32D" constant="no"/>
+<attribute name="PARTNO" value="ESP32-WROOM-32D (4MB)" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -35360,7 +35360,7 @@ with shutdown</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PARTNO" value="ESP32-WROOM-32U" constant="no"/>
+<attribute name="PARTNO" value="ESP32-WROOM-32U (4MB)" constant="no"/>
 </technology>
 </technologies>
 </device>
