@@ -1,0 +1,3 @@
+Element: J1, (24.000000,7.000000),Footprint=USB_A_SMT
+Element: J2, (30.040000,21.280000),Footprint=2_3.81MM_PITCH
+Element: U$1, (6.500000,15.000000),Footprint=LIMIT_SWITCH_D2HW-BR201DR

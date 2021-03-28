@@ -1,0 +1,81 @@
+/*  This ULP generates the files "boardname.mnT" for smds on TOP layer and a
+ *  file "boardname.mnB for smds on BOTTOM that can be used with a
+ *  mounting machine.
+ *  The x- and y- coordinates (units: mm) of the SMD elements are calculated
+ *  as mean of
+ *  maximum and mimimum value of the smd's origin points.
+ *  The calculated value does not necessarily fit with the origin
+ *  point of the part in the layout.
+ *  The syntax of the output data looks like this:
+ *
+ *     Name x-coord y-coord Rotation Value Package
+ */
+
+
+board(B) {
+  
+  output(filesetext(B.name, ".MNT")) {
+
+   B.elements(E) {
+
+     int wasSmd,
+         xmax =-2147483648,
+         xmin = 2147483647,
+         ymax = xmax,
+         ymin = xmin; 
+     
+      wasSmd = 0;
+      
+        E.package.contacts(C) {
+          if (C.smd && C.smd.layer == 1) {
+           wasSmd = 1;
+
+            if (C.x > xmax) xmax = C.x;
+            if (C.y > ymax) ymax = C.y;
+            if (C.x < xmin) xmin = C.x;
+            if (C.y < ymin) ymin = C.y; 
+          }
+         }
+        
+       if (wasSmd)
+         printf("%s %5.2f %5.2f %3.0f %s %s\n",
+         E.name, u2mm((xmin + xmax)/2), u2mm((ymin + ymax)/2),
+         E.angle, E.value, E.package.name);
+   }
+ }  
+
+
+  output(filesetext(B.name, ".MNB")) {
+
+   B.elements(E) {
+
+     int wasSmd,
+         xmax =-2147483648,
+         xmin = 2147483647,
+         ymax = xmax,
+         ymin = xmin; 
+     
+      wasSmd = 0;
+      
+        E.package.contacts(C) {
+          if (C.smd && C.smd.layer == 16) {
+           wasSmd = 1;
+
+            if (C.x > xmax) xmax = C.x;
+            if (C.y > ymax) ymax = C.y;
+            if (C.x < xmin) xmin = C.x;
+            if (C.y < ymin) ymin = C.y; 
+          }
+         }
+        
+       if (wasSmd)
+         printf("%s %5.2f %5.2f %3.0f %s %s\n",
+         E.name, u2mm((xmin + xmax)/2), u2mm((ymin + ymax)/2),
+         E.angle, E.value, E.package.name);
+   }
+ }  
+
+
+
+}
+   

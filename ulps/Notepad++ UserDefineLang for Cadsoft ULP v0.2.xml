@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="Eagle ULP" ext="ULP">
+        <Settings>
+            <Global caseIgnored="no" escapeChar="\" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="yes" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
+            <Keywords name="Folder+">{</Keywords>
+            <Keywords name="Folder-">}</Keywords>
+            <Keywords name="Operators">( ) . ; { }</Keywords>
+            <Keywords name="Comment">1/* 2*/ 0//</Keywords>
+            <Keywords name="Words1">case char continue default do else enum for if int numeric real return string switch void while #include #require #usage</Keywords>
+            <Keywords name="Words2">dlg CAP_ FONT_ FRAME_ GATE_ GRID_ INSTANCE_ LAYER_ LIBRARY_ NET_ PAD_ PART_ PIN_ POLYGON_ SIGNAL_ SMD_ VIA_ WIRE_</Keywords>
+            <Keywords name="Words3">abs acos asin atan ceil cfgget cfgset clrgroup country cos exit exp fdlsignature filedir fileerror fileext fileglob filename fileread filesetext filesize filetime floor frac inch2u ingroup isalnum isalpha iscntrl isdigit isgraph islower isprint ispunct isspace isupper isxdigit language log log10 lookup max mic2u mil2u min mm2u neterror netget netpost palette pow printf round setgroup setvariant sin sort sprintf sqrt status strchr strjoin strlen strlwr strrchr strrstr strsplit strstr strsub strtod strtol strupr strxstr system t2day t2dayofweek t2hour t2minute t2month t2second t2string t2year tan time tolower toupper trunc u2inch u2mic u2mil u2mm variant xmlattribute xmlattributes xmlelement xmlelements xmltags xmltext</Keywords>
+            <Keywords name="Words4">addlevel airwireshidden angle angle1 angle2 arc area attribute attributes board border busses cap circles classes clearance color column columns constant contactrefs contacts contours curve defaultvalue description device devices deviceset devicesets diameter display distance dots drill drillsymbol dx dy elements elongation end fill fillings flags font frames function gate gates grid headline holes instances isolate labels layer layers libraries library locked mirror multiple name names net number on orphans output package packages pad# part pieces pinrefs pins polygons pour prefix project radius rank ratio rectangles roundness row rows schematic segments shape sheet signal signals size smashed smd spacing spin# start style swaplevel symbol symbols technologies text texts thermals unit unitdist used value visible width wires x x1 x2 xc xrefs y y1 y2 yc</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
