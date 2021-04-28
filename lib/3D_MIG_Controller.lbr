@@ -26376,6 +26376,15 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <smd name="3" x="4.1" y="-1.27" dx="2.2" dy="1.7" layer="1"/>
 <smd name="4" x="4.1" y="1.27" dx="2.2" dy="1.7" layer="1"/>
 </package>
+<package name="CAPACITOR-ELKO-RM5-10X16">
+<circle x="0" y="0" radius="5.25" width="0.1" layer="21"/>
+<pad name="2" x="2.5" y="0" drill="1" diameter="2"/>
+<pad name="1" x="-2.5" y="0" drill="1" diameter="2"/>
+<text x="-5.175" y="-1" size="2" layer="21" font="vector">+</text>
+<rectangle x1="4.4742" y1="-1.5978" x2="5.6642" y2="1.4022" layer="21"/>
+<text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="C0402" urn="urn:adsk.eagle:package:26136/1" locally_modified="yes" type="box">
@@ -40506,6 +40515,23 @@ with shutdown</description>
 <connect gate="G$1" pin="NULL@3" pad="3"/>
 <connect gate="G$1" pin="NULL@4" pad="4"/>
 <connect gate="G$1" pin="NULL@5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ESL477M025AH9AA" prefix="C">
+<description>Electrolytic Cap, 470µF, 25V, Low ESR, Kemet, Pitch=5mm, Dia=10mm, L=12,5mm</description>
+<gates>
+<gate name="G$1" symbol="CAP_POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPACITOR-ELKO-RM5-10X16">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
