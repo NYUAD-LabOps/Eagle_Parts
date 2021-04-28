@@ -26284,6 +26284,28 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <smd name="1" x="-2.3" y="0" dx="1.4" dy="3" layer="1"/>
 <smd name="2" x="2.3" y="0" dx="1.4" dy="3" layer="1"/>
 </package>
+<package name="SMB">
+<description>Diode Schottky 100V 1A Surface Mount</description>
+<wire x1="-2.3" y1="-1.975" x2="-2.3" y2="1.975" width="0.15" layer="51"/>
+<wire x1="-2.3" y1="1.975" x2="2.3" y2="1.975" width="0.15" layer="51"/>
+<wire x1="2.3" y1="1.975" x2="2.3" y2="-1.975" width="0.15" layer="51"/>
+<wire x1="2.3" y1="-1.975" x2="-2.3" y2="-1.975" width="0.15" layer="51"/>
+<wire x1="-2.3" y1="1.975" x2="2.3" y2="1.975" width="0.15" layer="21"/>
+<wire x1="2.3" y1="-1.975" x2="2.3" y2="-1.746" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.746" x2="2.3" y2="1.975" width="0.15" layer="21"/>
+<wire x1="-2.3" y1="-1.975" x2="2.3" y2="-1.975" width="0.15" layer="21"/>
+<wire x1="-2.3" y1="-1.975" x2="-2.3" y2="-1.746" width="0.15" layer="21"/>
+<wire x1="-2.3" y1="1.746" x2="-2.3" y2="1.975" width="0.15" layer="21"/>
+<wire x1="-0.65" y1="-1.9" x2="-0.65" y2="1.9" width="0.3" layer="21"/>
+<wire x1="-3.389" y1="-2.075" x2="-3.389" y2="2.075" width="0.1" layer="39"/>
+<wire x1="-3.389" y1="2.075" x2="3.389" y2="2.075" width="0.1" layer="39"/>
+<wire x1="3.389" y1="2.075" x2="3.389" y2="-2.075" width="0.1" layer="39"/>
+<wire x1="3.389" y1="-2.075" x2="-3.389" y2="-2.075" width="0.1" layer="39"/>
+<text x="-3.25" y="2.25" size="1" layer="25">&gt;NAME</text>
+<circle x="-3.875" y="0" radius="0.25" width="0" layer="21"/>
+<smd name="1" x="-2.21" y="0" dx="2.159" dy="2.743" layer="1"/>
+<smd name="2" x="2.21" y="0" dx="2.159" dy="2.743" layer="1"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="C0402" urn="urn:adsk.eagle:package:26136/1" locally_modified="yes" type="box">
@@ -31059,6 +31081,23 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <wire x1="-5.08" y1="2.54" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
 <circle x="-2.54" y="5.08" radius="5.08" width="0.254" layer="94"/>
+</symbol>
+<symbol name="MBRS1100T3G">
+<description>Diode Schottky 100V 1A Surface Mount</description>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-7.62" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="-7.62" width="0.508" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="7.62" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="7.62" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="6.858" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="8.382" y1="-7.62" x2="8.382" y2="-6.858" width="0.508" layer="94"/>
+<wire x1="6.858" y1="-2.54" x2="6.858" y2="-3.302" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="8.382" y2="-7.62" width="0.508" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.15" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.15" layer="94"/>
+<text x="1.016" y="0.254" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<text x="1.016" y="-8.636" size="2.54" layer="95" align="top-left">MBRS1100T3G</text>
+<pin name="ANODE" x="-2.54" y="-5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="CATHODE" x="12.7" y="-5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -40159,6 +40198,55 @@ with shutdown</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MBRS1100T3G" prefix="D">
+<description>Diode Schottky 100V 1A Surface Mount</description>
+<gates>
+<gate name="G$0" symbol="MBRS1100T3G" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ON_SEMI_MBRS1100T3G_0_0" package="SMB">
+<connects>
+<connect gate="G$0" pin="ANODE" pad="2"/>
+<connect gate="G$0" pin="CATHODE" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="3DS_PART_NUMBER" value="417-00000"/>
+<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
+<attribute name="DATASHEET" value="http://www.onsemi.com/pub/Collateral/MBRS1100T3-D.PDF"/>
+<attribute name="DC_BLOCKING_VOLTAGE" value="100V"/>
+<attribute name="DEVICE_CLASS_L1" value="Discrete Semiconductors"/>
+<attribute name="DEVICE_CLASS_L2" value="Diodes"/>
+<attribute name="DEVICE_CLASS_L3" value="Schottky Diodes"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="DIODE SCHOTTKY 100V 1A SMB"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="MBRS1100T3GOSCT-ND"/>
+<attribute name="FOOTPRINT_URL" value="http://www.onsemi.cn/PowerSolutions/document/403A-03.PDF"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern"/>
+<attribute name="FORWARD_CURRENT" value="2A"/>
+<attribute name="HEIGHT" value="2.47mm"/>
+<attribute name="LEAD_FREE" value="yes"/>
+<attribute name="MAX_JUNCTION_TEMP" value="+175°C"/>
+<attribute name="MAX_REPETITIVE_REVERSE_VOLTAGE" value="100V"/>
+<attribute name="MF" value="ON Semi"/>
+<attribute name="MFG_PACKAGE_IDENT" value="403A-03"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="07/2012"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="J"/>
+<attribute name="MOUSER_DESCRIPTION" value="Schottky Diodes &amp; Rectifiers 1A 100V"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-MBRS1100T3G"/>
+<attribute name="MPN" value="MBRS1100T3G"/>
+<attribute name="PACKAGE" value="SMB"/>
+<attribute name="PREFIX" value="D"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STANDOFF_HEIGHT" value="0.05mm"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+175°C"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-65°C"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.1"/>
+<attribute name="WORKING_REVERSE_VOLTAGE" value="100V"/>
+</technology>
 </technologies>
 </device>
 </devices>
