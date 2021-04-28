@@ -40539,6 +40539,23 @@ with shutdown</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="SRN8040TA-220M">
+<description>FIXED IND 22UH 2.9A SMD, 73m-Ohm, Bourns</description>
+<gates>
+<gate name="G$1" symbol="INDUCTOR_2_PINS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SRN8040TA-220M">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
