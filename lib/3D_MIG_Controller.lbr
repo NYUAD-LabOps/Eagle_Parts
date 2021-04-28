@@ -25684,6 +25684,96 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
+<package name="SOT_15ALZ_ONS">
+<smd name="1" x="-2.285" y="-6.4135" dx="1.1684" dy="2.4892" layer="1"/>
+<smd name="3" x="2.285" y="-6.4135" dx="1.1684" dy="2.4892" layer="1"/>
+<smd name="4" x="0" y="1.9558" dx="5.5118" dy="5.9182" layer="1"/>
+<wire x1="-1.7272" y1="-3.0988" x2="-2.8448" y2="-3.0988" width="0.1524" layer="51"/>
+<wire x1="-2.8448" y1="-3.0988" x2="-2.8448" y2="-7.3152" width="0.1524" layer="51"/>
+<wire x1="-2.8448" y1="-7.3152" x2="-1.7272" y2="-7.3152" width="0.1524" layer="51"/>
+<wire x1="-1.7272" y1="-7.3152" x2="-1.7272" y2="-3.0988" width="0.1524" layer="51"/>
+<wire x1="2.8448" y1="-3.0988" x2="1.7272" y2="-3.0988" width="0.1524" layer="51"/>
+<wire x1="1.7272" y1="-3.0988" x2="1.7272" y2="-7.3152" width="0.1524" layer="51"/>
+<wire x1="1.7272" y1="-7.3152" x2="2.8448" y2="-7.3152" width="0.1524" layer="51"/>
+<wire x1="2.8448" y1="-7.3152" x2="2.8448" y2="-3.0988" width="0.1524" layer="51"/>
+<wire x1="-3.3528" y1="-3.0988" x2="3.3528" y2="-3.0988" width="0.1524" layer="51"/>
+<wire x1="3.3528" y1="-3.0988" x2="3.3528" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="3.3528" y1="3.0988" x2="-3.3528" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="-3.3528" y1="3.0988" x2="-3.3528" y2="-3.0988" width="0.1524" layer="51"/>
+<text x="-2.8702" y="-3.5052" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<wire x1="-2.8448" y1="-3.7084" x2="-2.8448" y2="-4.826" width="0.1524" layer="21"/>
+<wire x1="1.7272" y1="-3.7084" x2="1.7272" y2="-4.826" width="0.1524" layer="21"/>
+<wire x1="-1.7272" y1="-3.7084" x2="-1.7272" y2="-4.826" width="0.1524" layer="21"/>
+<wire x1="2.8448" y1="-3.7084" x2="2.8448" y2="-4.826" width="0.1524" layer="21"/>
+<wire x1="-3.5052" y1="-3.2512" x2="3.5052" y2="-3.2512" width="0.1524" layer="21"/>
+<wire x1="3.5052" y1="-3.2512" x2="3.5052" y2="3.2512" width="0.1524" layer="21"/>
+<wire x1="3.5052" y1="3.2512" x2="3.0988" y2="3.2512" width="0.1524" layer="21"/>
+<wire x1="-3.5052" y1="3.2512" x2="-3.5052" y2="-3.2512" width="0.1524" layer="21"/>
+<wire x1="-3.0988" y1="3.2512" x2="-3.5052" y2="3.2512" width="0.1524" layer="21"/>
+<text x="-5.7912" y="-7.0612" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+</package>
+<package name="SOT_15ALZ_ONS-M">
+<smd name="1" x="-2.285" y="-6.4643" dx="1.1684" dy="2.794" layer="1"/>
+<smd name="3" x="2.285" y="-6.4643" dx="1.1684" dy="2.794" layer="1"/>
+<smd name="4" x="0" y="2.0574" dx="5.5626" dy="6.223" layer="1"/>
+<wire x1="-1.7272" y1="-3.0988" x2="-2.8448" y2="-3.1242" width="0.1524" layer="51"/>
+<wire x1="-2.8448" y1="-3.1242" x2="-2.8448" y2="-7.3152" width="0.1524" layer="51"/>
+<wire x1="-2.8448" y1="-7.3152" x2="-1.7272" y2="-7.2898" width="0.1524" layer="51"/>
+<wire x1="-1.7272" y1="-7.2898" x2="-1.7272" y2="-3.0988" width="0.1524" layer="51"/>
+<wire x1="2.8448" y1="-3.0988" x2="1.7272" y2="-3.1242" width="0.1524" layer="51"/>
+<wire x1="1.7272" y1="-3.1242" x2="1.7272" y2="-7.3152" width="0.1524" layer="51"/>
+<wire x1="1.7272" y1="-7.3152" x2="2.8448" y2="-7.2898" width="0.1524" layer="51"/>
+<wire x1="2.8448" y1="-7.2898" x2="2.8448" y2="-3.0988" width="0.1524" layer="51"/>
+<wire x1="-3.3528" y1="-3.0988" x2="3.3528" y2="-3.0988" width="0.1524" layer="51"/>
+<wire x1="3.3528" y1="-3.0988" x2="3.3528" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="3.3528" y1="3.0988" x2="-3.3528" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="-3.3528" y1="3.0988" x2="-3.3528" y2="-3.0988" width="0.1524" layer="51"/>
+<text x="-2.8702" y="-3.5052" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<wire x1="-2.8448" y1="-3.7084" x2="-2.8448" y2="-4.7244" width="0.1524" layer="21"/>
+<wire x1="1.7272" y1="-3.7084" x2="1.7272" y2="-4.7244" width="0.1524" layer="21"/>
+<wire x1="-1.7272" y1="-3.7084" x2="-1.7272" y2="-4.7244" width="0.1524" layer="21"/>
+<wire x1="2.8448" y1="-3.7084" x2="2.8448" y2="-4.7244" width="0.1524" layer="21"/>
+<wire x1="-3.5052" y1="-3.2512" x2="3.5052" y2="-3.2512" width="0.1524" layer="21"/>
+<wire x1="3.5052" y1="-3.2512" x2="3.5052" y2="3.2512" width="0.1524" layer="21"/>
+<wire x1="3.5052" y1="3.2512" x2="3.1242" y2="3.2512" width="0.1524" layer="21"/>
+<wire x1="-3.5052" y1="3.2512" x2="-3.5052" y2="-3.2512" width="0.1524" layer="21"/>
+<wire x1="-3.1242" y1="3.2512" x2="-3.5052" y2="3.2512" width="0.1524" layer="21"/>
+<text x="-5.7912" y="-7.112" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+</package>
+<package name="SOT_15ALZ_ONS-L">
+<smd name="1" x="-2.285" y="-6.3627" dx="1.1176" dy="2.1844" layer="1"/>
+<smd name="3" x="2.285" y="-6.3627" dx="1.1176" dy="2.1844" layer="1"/>
+<smd name="4" x="0" y="1.8542" dx="5.461" dy="5.6134" layer="1"/>
+<wire x1="-1.7272" y1="-3.0988" x2="-2.8448" y2="-3.1242" width="0.1524" layer="51"/>
+<wire x1="-2.8448" y1="-3.1242" x2="-2.8448" y2="-7.3152" width="0.1524" layer="51"/>
+<wire x1="-2.8448" y1="-7.3152" x2="-1.7272" y2="-7.2898" width="0.1524" layer="51"/>
+<wire x1="-1.7272" y1="-7.2898" x2="-1.7272" y2="-3.0988" width="0.1524" layer="51"/>
+<wire x1="2.8448" y1="-3.0988" x2="1.7272" y2="-3.1242" width="0.1524" layer="51"/>
+<wire x1="1.7272" y1="-3.1242" x2="1.7272" y2="-7.3152" width="0.1524" layer="51"/>
+<wire x1="1.7272" y1="-7.3152" x2="2.8448" y2="-7.2898" width="0.1524" layer="51"/>
+<wire x1="2.8448" y1="-7.2898" x2="2.8448" y2="-3.0988" width="0.1524" layer="51"/>
+<wire x1="-3.3528" y1="-3.0988" x2="3.3528" y2="-3.0988" width="0.1524" layer="51"/>
+<wire x1="3.3528" y1="-3.0988" x2="3.3528" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="3.3528" y1="3.0988" x2="-3.3528" y2="3.0988" width="0.1524" layer="51"/>
+<wire x1="-3.3528" y1="3.0988" x2="-3.3528" y2="-3.0988" width="0.1524" layer="51"/>
+<text x="-2.8702" y="-3.5052" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<wire x1="-2.8448" y1="-3.7084" x2="-2.8448" y2="-4.9276" width="0.1524" layer="21"/>
+<wire x1="1.7272" y1="-3.7084" x2="1.7272" y2="-4.9276" width="0.1524" layer="21"/>
+<wire x1="-1.7272" y1="-3.7084" x2="-1.7272" y2="-4.9276" width="0.1524" layer="21"/>
+<wire x1="2.8448" y1="-3.7084" x2="2.8448" y2="-4.9276" width="0.1524" layer="21"/>
+<wire x1="-3.5052" y1="-3.2512" x2="3.5052" y2="-3.2512" width="0.1524" layer="21"/>
+<wire x1="3.5052" y1="-3.2512" x2="3.5052" y2="3.2512" width="0.1524" layer="21"/>
+<wire x1="3.5052" y1="3.2512" x2="3.0734" y2="3.2512" width="0.1524" layer="21"/>
+<wire x1="-3.5052" y1="3.2512" x2="-3.5052" y2="-3.2512" width="0.1524" layer="21"/>
+<wire x1="-3.0734" y1="3.2512" x2="-3.5052" y2="3.2512" width="0.1524" layer="21"/>
+<text x="-5.7912" y="-7.0104" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="C0402" urn="urn:adsk.eagle:package:26136/1" locally_modified="yes" type="box">
@@ -30253,6 +30343,83 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <wire x1="-7.62" y1="-7.62" x2="-7.62" y2="-12.7" width="0.254" layer="94" curve="-180"/>
 <wire x1="-2.54" y1="10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="2.54" y1="10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+</symbol>
+<symbol name="TRANS_N3-MOSFET">
+<pin name="D" x="7.62" y="7.62" visible="pin" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="7.62" y="-7.62" visible="pin" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-2.54" y="0" visible="pin" length="short" direction="pas"/>
+<wire x1="2.54" y1="0" x2="3.302" y2="0" width="0.2032" layer="94"/>
+<wire x1="3.302" y1="0" x2="4.445" y2="0" width="0.2032" layer="94"/>
+<wire x1="4.445" y1="-2.54" x2="4.445" y2="2.54" width="0.2032" layer="94"/>
+<wire x1="5.08" y1="-0.635" x2="5.08" y2="0.635" width="0.2032" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="-1.905" width="0.2032" layer="94"/>
+<wire x1="5.08" y1="-1.905" x2="5.08" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="5.08" y1="1.905" x2="5.08" y2="2.54" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="0" x2="6.985" y2="0" width="0.2032" layer="94"/>
+<wire x1="5.08" y1="-1.905" x2="6.9596" y2="-1.905" width="0.2032" layer="94"/>
+<wire x1="6.9596" y1="-1.905" x2="6.985" y2="-1.905" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="-2.54" x2="6.985" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="-2.54" x2="7.5946" y2="-2.54" width="0.2032" layer="94"/>
+<wire x1="7.5946" y1="-2.54" x2="7.62" y2="-2.54" width="0.2032" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="7.6454" y2="-2.54" width="0.2032" layer="94"/>
+<wire x1="7.6454" y1="-2.54" x2="8.255" y2="-2.54" width="0.2032" layer="94"/>
+<wire x1="5.08" y1="1.905" x2="6.985" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="0.635" x2="8.255" y2="2.54" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="-2.54" x2="8.255" y2="-0.635" width="0.2032" layer="94"/>
+<wire x1="8.89" y1="0.635" x2="7.62" y2="0.635" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="2.54" x2="7.5946" y2="2.54" width="0.2032" layer="94"/>
+<wire x1="7.5946" y1="2.54" x2="7.6454" y2="2.54" width="0.2032" layer="94"/>
+<wire x1="7.6454" y1="2.54" x2="8.255" y2="2.54" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="1.905" x2="6.985" y2="2.54" width="0.2032" layer="94"/>
+<wire x1="7.6454" y1="2.54" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0" x2="3.302" y2="-3.302" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="-3.302" x2="4.826" y2="-3.302" width="0.1524" layer="94"/>
+<wire x1="4.826" y1="-2.794" x2="4.826" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="4.826" y1="-2.794" x2="5.842" y2="-3.302" width="0.1524" layer="94"/>
+<wire x1="5.842" y1="-3.302" x2="4.826" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="5.842" y1="-3.302" x2="6.858" y2="-2.794" width="0.1524" layer="94"/>
+<wire x1="6.858" y1="-2.794" x2="6.858" y2="-3.302" width="0.1524" layer="94"/>
+<wire x1="6.858" y1="-3.302" x2="6.858" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="6.858" y1="-3.81" x2="5.842" y2="-3.302" width="0.1524" layer="94"/>
+<wire x1="5.842" y1="-3.81" x2="5.842" y2="-2.794" width="0.1524" layer="94"/>
+<wire x1="5.842" y1="-2.794" x2="5.588" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="5.842" y1="-3.81" x2="6.096" y2="-4.064" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="-3.302" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-3.302" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="6.858" y1="-3.302" x2="7.62" y2="-3.302" width="0.1524" layer="94"/>
+<wire x1="7.6454" y1="2.54" x2="7.5946" y2="2.54" width="0.508" layer="94" curve="-180"/>
+<wire x1="7.5946" y1="2.54" x2="7.6454" y2="2.54" width="0.508" layer="94" curve="-180"/>
+<wire x1="7.6454" y1="-2.54" x2="7.5946" y2="-2.54" width="0.508" layer="94" curve="-180"/>
+<wire x1="7.5946" y1="-2.54" x2="7.6454" y2="-2.54" width="0.508" layer="94" curve="-180"/>
+<wire x1="7.0104" y1="-1.905" x2="6.9596" y2="-1.905" width="0.508" layer="94" curve="-180"/>
+<wire x1="6.9596" y1="-1.905" x2="7.0104" y2="-1.905" width="0.508" layer="94" curve="-180"/>
+<wire x1="11.43" y1="0" x2="1.27" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="1.27" y1="0" x2="11.43" y2="0" width="0.254" layer="94" curve="-180"/>
+<polygon width="0.0254" layer="94">
+<vertex x="6.35" y="0.635"/>
+<vertex x="5.08" y="0"/>
+<vertex x="6.35" y="-0.635"/>
+</polygon>
+<polygon width="0.0254" layer="94">
+<vertex x="8.89" y="-0.635"/>
+<vertex x="7.62" y="-0.635"/>
+<vertex x="8.255" y="0.635"/>
+</polygon>
+<polygon width="0.0254" layer="94">
+<vertex x="5.842" y="-3.302"/>
+<vertex x="4.826" y="-3.81"/>
+<vertex x="4.826" y="-2.794"/>
+</polygon>
+<polygon width="0.0254" layer="94">
+<vertex x="5.842" y="-3.302"/>
+<vertex x="6.858" y="-2.794"/>
+<vertex x="6.858" y="-3.81"/>
+</polygon>
+<text x="13.97" y="0.635" size="2.54" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+<text x="13.97" y="-3.81" size="2.54" layer="96" ratio="10" rot="SR0">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -39111,6 +39278,58 @@ with shutdown</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="S3MB-13-F" constant="no"/>
 <attribute name="SOURCELIBRARY" value="DiodesInc_2015-05-08" constant="no"/>
 <attribute name="VENDOR" value="Diodes Inc" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RURD660S9A" prefix="U">
+<gates>
+<gate name="A" symbol="TRANS_N3-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT_15ALZ_ONS">
+<connects>
+<connect gate="A" pin="D" pad="3"/>
+<connect gate="A" pin="G" pad="1"/>
+<connect gate="A" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://datasheet.octopart.com/RURD660S9A-ON-Semiconductor-datasheet-137270896.pdf" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RURD660S9A" constant="no"/>
+<attribute name="SOURCELIBRARY" value="ON_Semiconductor_2020-03-06" constant="no"/>
+<attribute name="VENDOR" value="ON Semiconductor" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SOT_15ALZ_ONS-M" package="SOT_15ALZ_ONS-M">
+<connects>
+<connect gate="A" pin="D" pad="3"/>
+<connect gate="A" pin="G" pad="1"/>
+<connect gate="A" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://datasheet.octopart.com/RURD660S9A-ON-Semiconductor-datasheet-137270896.pdf" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RURD660S9A" constant="no"/>
+<attribute name="SOURCELIBRARY" value="ON_Semiconductor_2020-03-06" constant="no"/>
+<attribute name="VENDOR" value="ON Semiconductor" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SOT_15ALZ_ONS-L" package="SOT_15ALZ_ONS-L">
+<connects>
+<connect gate="A" pin="D" pad="3"/>
+<connect gate="A" pin="G" pad="1"/>
+<connect gate="A" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://datasheet.octopart.com/RURD660S9A-ON-Semiconductor-datasheet-137270896.pdf" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RURD660S9A" constant="no"/>
+<attribute name="SOURCELIBRARY" value="ON_Semiconductor_2020-03-06" constant="no"/>
+<attribute name="VENDOR" value="ON Semiconductor" constant="no"/>
 </technology>
 </technologies>
 </device>
