@@ -26483,6 +26483,26 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <pad name="1" x="-2.5" y="0" drill="0.9" diameter="1.4" shape="square"/>
 <pad name="2" x="2.5" y="0" drill="0.9" diameter="1.4"/>
 </package>
+<package name="ERG-2SJ390V_0">
+<description>RES 39 OHM 2W 5% AXIAL</description>
+<wire x1="-6.75" y1="-2.5" x2="-6.75" y2="2.5" width="0.15" layer="51"/>
+<wire x1="-6.75" y1="2.5" x2="6.75" y2="2.5" width="0.15" layer="51"/>
+<wire x1="6.75" y1="2.5" x2="6.75" y2="-2.5" width="0.15" layer="51"/>
+<wire x1="6.75" y1="-2.5" x2="-6.75" y2="-2.5" width="0.15" layer="51"/>
+<wire x1="-6.75" y1="-2.5" x2="-6.75" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-6.75" y1="2.5" x2="6.75" y2="2.5" width="0.15" layer="21"/>
+<wire x1="6.75" y1="2.5" x2="6.75" y2="-2.5" width="0.15" layer="21"/>
+<wire x1="6.75" y1="-2.5" x2="-6.75" y2="-2.5" width="0.15" layer="21"/>
+<wire x1="-6.75" y1="0" x2="-8.38" y2="0" width="0.15" layer="21"/>
+<wire x1="6.75" y1="0" x2="8.38" y2="0" width="0.15" layer="21"/>
+<wire x1="-10.43" y1="-2.6" x2="-10.43" y2="2.6" width="0.1" layer="39"/>
+<wire x1="-10.43" y1="2.6" x2="10.43" y2="2.6" width="0.1" layer="39"/>
+<wire x1="10.43" y1="2.6" x2="10.43" y2="-2.6" width="0.1" layer="39"/>
+<wire x1="10.43" y1="-2.6" x2="-10.43" y2="-2.6" width="0.1" layer="39"/>
+<text x="-10.13" y="3.175" size="1" layer="25">&gt;NAME</text>
+<pad name="1" x="-9.555" y="0" drill="1" diameter="1.55" shape="square"/>
+<pad name="2" x="9.555" y="0" drill="1" diameter="1.55"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="C0402" urn="urn:adsk.eagle:package:26136/1" locally_modified="yes" type="box">
@@ -31403,6 +31423,22 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <text x="6.096" y="-2.54" size="2.54" layer="95" align="top-left">400V</text>
 <pin name="CATHODE" x="2.54" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="ANODE" x="2.54" y="2.54" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="ERG-2SJ390V_0_0">
+<description>RES 39 OHM 2W 5% AXIAL</description>
+<wire x1="2.54" y1="-2.54" x2="3.302" y2="-1.27" width="0.508" layer="94"/>
+<wire x1="3.302" y1="-1.27" x2="4.572" y2="-3.81" width="0.508" layer="94"/>
+<wire x1="4.572" y1="-3.81" x2="5.842" y2="-1.27" width="0.508" layer="94"/>
+<wire x1="5.842" y1="-1.27" x2="7.112" y2="-3.81" width="0.508" layer="94"/>
+<wire x1="7.112" y1="-3.81" x2="8.382" y2="-1.27" width="0.508" layer="94"/>
+<wire x1="8.382" y1="-1.27" x2="9.652" y2="-3.81" width="0.508" layer="94"/>
+<wire x1="9.652" y1="-3.81" x2="10.16" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.15" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="-2.54" width="0.15" layer="94"/>
+<text x="2.54" y="-5.08" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<text x="2.54" y="-7.62" size="2.54" layer="95" align="top-left">39Ω</text>
+<pin name="1" x="-2.54" y="-2.54" visible="pad" length="middle"/>
+<pin name="2" x="15.24" y="-2.54" visible="pad" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -40980,6 +41016,41 @@ with shutdown</description>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="VERIFICATION_VERSION" value="0.0.0.1"/>
 <attribute name="VOLTAGE_RATING" value="400V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ERG-2SJ390V" prefix="R">
+<description>RES 39 OHM 2W 5% AXIAL</description>
+<gates>
+<gate name="G$0" symbol="ERG-2SJ390V_0_0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="PANASONIC_ERG-2SJ390V_0_0" package="ERG-2SJ390V_0">
+<connects>
+<connect gate="G$0" pin="1" pad="1"/>
+<connect gate="G$0" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
+<attribute name="DATASHEET" value="https://industrial.panasonic.com/cdbs/www-data/pdf/RDB0000/AOA0000C349.pdf"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="RES 39 OHM 2W 5% AXIAL"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="P39W-2CT-ND"/>
+<attribute name="IPC_LAND_PATTERN_NAME" value="RESAD1911W100L1350D500"/>
+<attribute name="LEAD_FREE" value="yes"/>
+<attribute name="MF" value="Panasonic"/>
+<attribute name="MFG_PACKAGE_IDENT" value="ERG(X)2S"/>
+<attribute name="MOUSER_DESCRIPTION" value="Metal Oxide Resistors Metal Oxide Film Resistor 2W 5%"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERG-2SJ390V"/>
+<attribute name="MPN" value="ERG-2SJ390V"/>
+<attribute name="PACKAGE" value="AXIAL"/>
+<attribute name="PREFIX" value="R"/>
+<attribute name="RESISTANCE" value="39Ω"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+235°C"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-55°C"/>
 </technology>
 </technologies>
 </device>
