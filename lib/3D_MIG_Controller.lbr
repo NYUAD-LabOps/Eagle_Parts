@@ -26584,6 +26584,27 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <smd name="2" x="-2.95" y="0" dx="1" dy="2.7" layer="1" rot="R90"/>
 <smd name="1" x="-2.95" y="2.3" dx="1" dy="2.7" layer="1" rot="R90"/>
 </package>
+<package name="SOT223_LM317AEMP">
+<description>PM-REG-LM317ADJ-SOT4</description>
+<wire x1="-1.85" y1="-3.35" x2="-1.85" y2="3.35" width="0.15" layer="21"/>
+<wire x1="1.85" y1="-3.35" x2="1.85" y2="3.35" width="0.15" layer="21"/>
+<wire x1="-1.85" y1="3.35" x2="1.85" y2="3.35" width="0.15" layer="21"/>
+<wire x1="-1.85" y1="-3.35" x2="1.85" y2="-3.35" width="0.15" layer="21"/>
+<wire x1="-1.85" y1="-3.35" x2="-1.85" y2="3.35" width="0.1" layer="51"/>
+<wire x1="1.85" y1="-3.35" x2="1.85" y2="3.35" width="0.1" layer="51"/>
+<wire x1="-1.85" y1="3.35" x2="1.85" y2="3.35" width="0.1" layer="51"/>
+<wire x1="-1.85" y1="-3.35" x2="1.85" y2="-3.35" width="0.1" layer="51"/>
+<wire x1="-4.7" y1="-3.85" x2="-4.7" y2="3.85" width="0.1" layer="39"/>
+<wire x1="-4.7" y1="3.85" x2="4.7" y2="3.85" width="0.1" layer="39"/>
+<wire x1="4.7" y1="3.85" x2="4.7" y2="-3.85" width="0.1" layer="39"/>
+<wire x1="4.7" y1="-3.85" x2="-4.7" y2="-3.85" width="0.1" layer="39"/>
+<text x="-1.651" y="-0.381" size="0.8" layer="25">&gt;NAME</text>
+<circle x="-3.175" y="3.35" radius="0.125" width="0.25" layer="21"/>
+<smd name="1" x="-3.175" y="2.3" dx="1" dy="2.05" layer="1" roundness="20" rot="R90"/>
+<smd name="2" x="-3.175" y="0" dx="1" dy="2.05" layer="1" roundness="20" rot="R90"/>
+<smd name="3" x="-3.175" y="-2.3" dx="1" dy="2.05" layer="1" roundness="20" rot="R90"/>
+<smd name="4" x="3.175" y="0" dx="3.25" dy="2.05" layer="1" roundness="10" rot="R90"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="C0402" urn="urn:adsk.eagle:package:26136/1" locally_modified="yes" type="box">
@@ -31580,6 +31601,23 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <pin name="GND" x="7.62" y="-20.32" visible="pad" length="middle" direction="pwr" rot="R90"/>
 <pin name="1_VOUT" x="20.32" y="-7.62" length="middle" direction="pwr" rot="R180"/>
 <pin name="2_VOUT" x="20.32" y="-10.16" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+<symbol name="LM317AEMP">
+<description>PM-REG-LM317ADJ-SOT4</description>
+<wire x1="0" y1="-15.24" x2="0" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="0" y1="-5.08" x2="15.24" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="-15.24" width="0.508" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="0" y2="-15.24" width="0.508" layer="94"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-7.62" width="0.15" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="15.24" y2="-7.62" width="0.15" layer="94"/>
+<wire x1="15.24" y1="-12.7" x2="15.24" y2="-12.7" width="0.15" layer="94"/>
+<wire x1="0" y1="-12.7" x2="0" y2="-12.7" width="0.15" layer="94"/>
+<text x="0" y="-2.54" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<text x="0" y="-20.32" size="2.54" layer="95" align="top-left">LM317AEMP</text>
+<pin name="IN" x="-5.08" y="-7.62" length="middle" direction="pwr"/>
+<pin name="OUT" x="20.32" y="-7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="ADJ" x="20.32" y="-12.7" length="middle" direction="in" rot="R180"/>
+<pin name="TAB" x="-5.08" y="-12.7" length="middle" direction="pwr"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -41377,6 +41415,52 @@ with shutdown</description>
 <attribute name="RELEASE_DATE" value="1329864104"/>
 <attribute name="VAULT_GUID" value="D06A7811-FD98-4E2B-AEF1-2CCCEBFA7F2E"/>
 <attribute name="VAULT_REVISION" value="17BC8CDD-C9B8-4E5D-BFC7-D7023DBFD9F1"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM317AEMP" prefix="U">
+<description>PM-REG-LM317ADJ-SOT4</description>
+<gates>
+<gate name="G$0" symbol="LM317AEMP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TI_NATIONAL_SEMICONDUCTOR_LM317AEMP_0_2" package="SOT223_LM317AEMP">
+<connects>
+<connect gate="G$0" pin="ADJ" pad="1"/>
+<connect gate="G$0" pin="IN" pad="3"/>
+<connect gate="G$0" pin="OUT" pad="2"/>
+<connect gate="G$0" pin="TAB" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CIIVA_IDS" value="1170815"/>
+<attribute name="CODE__IPC" value="SOT223-4"/>
+<attribute name="CODE__JEDEC" value="TO-261-AA"/>
+<attribute name="CODE__JEITA" value=""/>
+<attribute name="COMPONENT_LINK_1_DESCRIPTION" value="Datasheet URL"/>
+<attribute name="COMPONENT_LINK_1_URL" value="http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=LM317-N&amp;fileType=pdf"/>
+<attribute name="COMP_TYPE" value="LDO IC"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Level C"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_1" value="Level B"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_2" value="Level A"/>
+<attribute name="HIGH__RELIABILITY" value=""/>
+<attribute name="IMPORTED" value="yes"/>
+<attribute name="IMPORTED_FROM" value="vault"/>
+<attribute name="IMPORT_TS" value="1521842153"/>
+<attribute name="MF" value="TI National Semiconductor"/>
+<attribute name="MPN" value="LM317AEMP"/>
+<attribute name="PACKAGE" value="DCY0004A"/>
+<attribute name="PACKAGE_DESCRIPTION" value="Molded SOT-223, 6.50 x 3.56 x 1.6mm Body, 4 Lead, 2.3mm Pitch"/>
+<attribute name="PACKAGE_TOP_MARKING" value="XYTT*N07A"/>
+<attribute name="PIN_COUNT" value="4"/>
+<attribute name="POWER_WISE" value="N"/>
+<attribute name="PREFIX" value="U"/>
+<attribute name="RELEASE_DATE" value="1464077472"/>
+<attribute name="ROHS" value="No"/>
+<attribute name="VAULT_GUID" value="07690705-FB61-44AA-9EC3-BE46C50DBF55"/>
+<attribute name="VAULT_REVISION" value="D31EB5EF-1985-4066-8377-D1A3E6522E4C"/>
 </technology>
 </technologies>
 </device>
