@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -26521,6 +26521,26 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <pad name="1" x="-11.25" y="0" drill="1" diameter="1.55" shape="square"/>
 <pad name="2" x="11.25" y="0" drill="1" diameter="1.55"/>
 </package>
+<package name="EPCOS_B72205S0271K101_0">
+<description>430V 400A Varistor 1 Circuit Through Hole Disc 5mm</description>
+<wire x1="-3.5" y1="-2.15" x2="-3.5" y2="2.15" width="0.15" layer="51"/>
+<wire x1="-3.5" y1="2.15" x2="3.5" y2="2.15" width="0.15" layer="51"/>
+<wire x1="3.5" y1="2.15" x2="3.5" y2="-2.15" width="0.15" layer="51"/>
+<wire x1="3.5" y1="-2.15" x2="-3.5" y2="-2.15" width="0.15" layer="51"/>
+<wire x1="-3.6" y1="-2.25" x2="-3.6" y2="2.25" width="0.1" layer="41"/>
+<wire x1="-3.6" y1="2.25" x2="3.6" y2="2.25" width="0.1" layer="41"/>
+<wire x1="3.6" y1="2.25" x2="3.6" y2="-2.25" width="0.1" layer="41"/>
+<wire x1="3.6" y1="-2.25" x2="-3.6" y2="-2.25" width="0.1" layer="41"/>
+<wire x1="-3.5" y1="2.15" x2="3.5" y2="2.15" width="0.15" layer="21"/>
+<wire x1="3.5" y1="-2.15" x2="3.5" y2="-1.825" width="0.15" layer="21"/>
+<wire x1="3.5" y1="0.225" x2="3.5" y2="2.15" width="0.15" layer="21"/>
+<wire x1="-3.5" y1="-2.15" x2="3.5" y2="-2.15" width="0.15" layer="21"/>
+<wire x1="-3.5" y1="-2.15" x2="-3.5" y2="-0.225" width="0.15" layer="21"/>
+<wire x1="-3.5" y1="1.825" x2="-3.5" y2="2.15" width="0.15" layer="21"/>
+<text x="-3.5" y="2.45" size="1" layer="25">&gt;NAME</text>
+<pad name="1" x="-2.5" y="0.8" drill="0.8" diameter="1.3" shape="square"/>
+<pad name="2" x="2.5" y="-0.8" drill="0.8" diameter="1.3"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="C0402" urn="urn:adsk.eagle:package:26136/1" locally_modified="yes" type="box">
@@ -31468,6 +31488,24 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <text x="6.096" y="-2.54" size="2.54" layer="95" align="top-left">0.47uF</text>
 <pin name="1" x="2.54" y="2.54" visible="pad" length="short" direction="pas" rot="R270"/>
 <pin name="2" x="2.54" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="EPCOS_B72205S0271K101_0_0">
+<description>430V 400A Varistor 1 Circuit Through Hole Disc 5mm</description>
+<wire x1="10.16" y1="-2.54" x2="9.398" y2="-1.27" width="0.508" layer="94"/>
+<wire x1="9.398" y1="-1.27" x2="8.128" y2="-3.81" width="0.508" layer="94"/>
+<wire x1="8.128" y1="-3.81" x2="6.858" y2="-1.27" width="0.508" layer="94"/>
+<wire x1="6.858" y1="-1.27" x2="5.588" y2="-3.81" width="0.508" layer="94"/>
+<wire x1="5.588" y1="-3.81" x2="4.318" y2="-1.27" width="0.508" layer="94"/>
+<wire x1="4.318" y1="-1.27" x2="3.048" y2="-3.81" width="0.508" layer="94"/>
+<wire x1="3.048" y1="-3.81" x2="2.54" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="9.652" y1="-4.826" x2="2.794" y2="-0.254" width="0.508" layer="94"/>
+<wire x1="9.652" y1="-4.826" x2="11.43" y2="-4.826" width="0.508" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="-2.54" width="0.15" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.15" layer="94"/>
+<text x="2.54" y="-5.334" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<pin name="2" x="15.24" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="1" x="-2.54" y="-2.54" visible="pad" length="middle" direction="pas"/>
+<text x="5.08" y="0" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -41127,6 +41165,56 @@ with shutdown</description>
 <attribute name="VERIFICATION_VERSION" value="0.0.0.3"/>
 <attribute name="VOLTAGE_AC_RATING_X" value="330V"/>
 <attribute name="VOLTAGE_RATING" value="800V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EPCOS_B72205S0271K101" prefix="R">
+<description>275VAC 400A Varistor 1 Circuit Through Hole Disc 5mm , MFN B72205S0271K101</description>
+<gates>
+<gate name="G$0" symbol="EPCOS_B72205S0271K101_0_0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="EPCOS_B72205S0271K101_0_0" package="EPCOS_B72205S0271K101_0">
+<connects>
+<connect gate="G$0" pin="1" pad="1"/>
+<connect gate="G$0" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AUTOMOTIVE" value="No"/>
+<attribute name="CAPACITANCE" value="60pF"/>
+<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
+<attribute name="CLAMPING_CURRENT" value="5A"/>
+<attribute name="CLAMPING_VOLTAGE" value="710V"/>
+<attribute name="DATASHEET" value="https://www.tdk-electronics.tdk.com/inf/70/db/var/SIOV_Leaded_StandarD.pdf"/>
+<attribute name="DEVICE_CLASS_L1" value="Circuit Protection"/>
+<attribute name="DEVICE_CLASS_L2" value="Varistors"/>
+<attribute name="DEVICE_CLASS_L3" value="unset"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="RES VARISTOR 430V 400A DISC 5MM"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="495-4636-ND"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern"/>
+<attribute name="HEIGHT" value="8.5mm"/>
+<attribute name="LEAD_FREE" value="Yes"/>
+<attribute name="MF" value="EPCOS"/>
+<attribute name="MFG_PACKAGE_IDENT" value="B72205S0"/>
+<attribute name="MFG_PACKAGE_IDENT_COMPONENT_ID" value="b8432e50c9ebc0d1"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0"/>
+<attribute name="MOUSER_DESCRIPTION" value="Varistors 275volts 400A"/>
+<attribute name="MOUSER_PART_NUMBER" value="871-B72205S271K101"/>
+<attribute name="MPN" value="B72205S0271K101"/>
+<attribute name="PACKAGE" value="RADIAL"/>
+<attribute name="PREFIX" value="R"/>
+<attribute name="ROHS" value="Yes"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+105°C"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C"/>
+<attribute name="VARISTOR_VOLTAGE" value="430V"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.3"/>
+<attribute name="VOLTAGE_RATING_AC" value="275V"/>
+<attribute name="VOLTAGE_RATING_DC" value="350V"/>
+<attribute name="VOLTAGE_TOLERANCE" value="10%"/>
 </technology>
 </technologies>
 </device>
