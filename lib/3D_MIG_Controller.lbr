@@ -26667,6 +26667,28 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <pad name="3" x="-8" y="8" drill="1.8"/>
 <pad name="4" x="8" y="8" drill="1.8"/>
 </package>
+<package name="VSSOP-8">
+<circle x="-3.854109375" y="0.975" radius="0.125" width="0.25" layer="21"/>
+<smd name="8" x="2.15085625" y="0.975" dx="1.4" dy="0.45" layer="1" roundness="50"/>
+<smd name="7" x="2.15085625" y="0.325" dx="1.4" dy="0.45" layer="1" roundness="50"/>
+<smd name="6" x="2.15085625" y="-0.325" dx="1.4" dy="0.45" layer="1" roundness="50"/>
+<smd name="5" x="2.15085625" y="-0.975" dx="1.4" dy="0.45" layer="1" roundness="50"/>
+<smd name="4" x="-2.15085625" y="-0.975" dx="1.4" dy="0.45" layer="1" roundness="50"/>
+<smd name="3" x="-2.15085625" y="-0.325" dx="1.4" dy="0.45" layer="1" roundness="50"/>
+<smd name="2" x="-2.15085625" y="0.325" dx="1.4" dy="0.45" layer="1" roundness="50"/>
+<smd name="1" x="-2.15085625" y="0.975" dx="1.4" dy="0.45" layer="1" roundness="50"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.2" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.2" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.2" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.2" layer="51"/>
+<wire x1="0" y1="-0.5" x2="0" y2="0.5" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.1" layer="51"/>
+<wire x1="-0.84760625" y1="-1.5" x2="0.84760625" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-0.84760625" y1="1.5" x2="0.84760625" y2="1.5" width="0.2" layer="21"/>
+<rectangle x1="-0.9" y1="-1.075" x2="0.9" y2="1.075" layer="1"/>
+<text x="-3.81" y="2.54" size="0.6096" layer="25" font="vector">&gt;NAME</text>
+<text x="1.27" y="-2.794" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="C0402" urn="urn:adsk.eagle:package:26136/1" locally_modified="yes" type="box">
@@ -31895,6 +31917,23 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <wire x1="-10.16" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="2.54" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="2.54" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+</symbol>
+<symbol name="UCC27524">
+<description>UCC27524 Dual Gate Driver</description>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<pin name="ENA" x="-15.24" y="7.62" length="middle"/>
+<pin name="INA" x="-15.24" y="2.54" length="middle"/>
+<pin name="GND" x="-15.24" y="-2.54" length="middle"/>
+<pin name="INB" x="-15.24" y="-7.62" length="middle"/>
+<pin name="OUTB" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="VDD" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="OUTA" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="ENB" x="15.24" y="7.62" length="middle" rot="R180"/>
+<text x="-10.16" y="10.16" size="1.778" layer="95">&gt;Name</text>
+<text x="-10.16" y="-12.7" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -41831,6 +41870,29 @@ with shutdown</description>
 <connect gate="A" pin="2" pad="2"/>
 <connect gate="A" pin="3" pad="3"/>
 <connect gate="A" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UCC27524DGN" prefix="IC">
+<description>Gate Driver, Dual Channel, Noninverting, VSSOP-8 exposed pad, Texas Instruments</description>
+<gates>
+<gate name="G$1" symbol="UCC27524" x="0" y="0"/>
+</gates>
+<devices>
+<device name="VSS" package="VSSOP-8">
+<connects>
+<connect gate="G$1" pin="ENA" pad="1"/>
+<connect gate="G$1" pin="ENB" pad="5"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="INA" pad="2"/>
+<connect gate="G$1" pin="INB" pad="4"/>
+<connect gate="G$1" pin="OUTA" pad="6"/>
+<connect gate="G$1" pin="OUTB" pad="8"/>
+<connect gate="G$1" pin="VDD" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>
