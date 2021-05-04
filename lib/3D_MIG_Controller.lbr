@@ -31722,7 +31722,7 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <pin name="1" x="2.54" y="2.54" visible="pad" length="short" direction="pas" rot="R270"/>
 <pin name="2" x="2.54" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
 </symbol>
-<symbol name="EPCOS_B72205S0271K101_0_0">
+<symbol name="VARISTOR">
 <description>430V 400A Varistor 1 Circuit Through Hole Disc 5mm</description>
 <wire x1="10.16" y1="-2.54" x2="9.398" y2="-1.27" width="0.508" layer="94"/>
 <wire x1="9.398" y1="-1.27" x2="8.128" y2="-3.81" width="0.508" layer="94"/>
@@ -41797,10 +41797,10 @@ with shutdown</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="EPCOS_B72205S0271K101" prefix="R">
+<deviceset name="EPCOS_B72205S0271K101_DELETE" prefix="R">
 <description>275VAC 400A Varistor 1 Circuit Through Hole Disc 5mm , MFN B72205S0271K101</description>
 <gates>
-<gate name="G$0" symbol="EPCOS_B72205S0271K101_0_0" x="0" y="0"/>
+<gate name="G$0" symbol="VARISTOR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="EPCOS_B72205S0271K101_0_0" package="EPCOS_B72205S0271K101_0">
@@ -42206,6 +42206,22 @@ with shutdown</description>
 <connect gate="G$1" pin="2_VOUT" pad="4"/>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="VIN" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B72205S0271K101" prefix="R">
+<gates>
+<gate name="G$1" symbol="VARISTOR" x="-7.62" y="2.54"/>
+</gates>
+<devices>
+<device name="B72205S0271K101" package="0201">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
