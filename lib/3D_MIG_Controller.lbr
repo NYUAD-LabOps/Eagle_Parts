@@ -41715,41 +41715,6 @@ with shutdown</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ERG-2SJ390V" prefix="R">
-<description>RES 39 OHM 2W 5% AXIAL</description>
-<gates>
-<gate name="G$0" symbol="ERG-2SJ390V_0_0" x="0" y="0"/>
-</gates>
-<devices>
-<device name="PANASONIC_ERG-2SJ390V_0_0" package="ERG-2SJ390V_0">
-<connects>
-<connect gate="G$0" pin="1" pad="1"/>
-<connect gate="G$0" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
-<attribute name="DATASHEET" value="https://industrial.panasonic.com/cdbs/www-data/pdf/RDB0000/AOA0000C349.pdf"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="RES 39 OHM 2W 5% AXIAL"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="P39W-2CT-ND"/>
-<attribute name="IPC_LAND_PATTERN_NAME" value="RESAD1911W100L1350D500"/>
-<attribute name="LEAD_FREE" value="yes"/>
-<attribute name="MF" value="Panasonic"/>
-<attribute name="MFG_PACKAGE_IDENT" value="ERG(X)2S"/>
-<attribute name="MOUSER_DESCRIPTION" value="Metal Oxide Resistors Metal Oxide Film Resistor 2W 5%"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERG-2SJ390V"/>
-<attribute name="MPN" value="ERG-2SJ390V"/>
-<attribute name="PACKAGE" value="AXIAL"/>
-<attribute name="PREFIX" value="R"/>
-<attribute name="RESISTANCE" value="39Ω"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+235°C"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-55°C"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="R49AN347050B1M" prefix="C">
 <description>0.47µF X Cap 330V 800V Polypropylene (PP), Metallized Radial</description>
 <gates>
@@ -41792,56 +41757,6 @@ with shutdown</description>
 <attribute name="VERIFICATION_VERSION" value="0.0.0.3"/>
 <attribute name="VOLTAGE_AC_RATING_X" value="330V"/>
 <attribute name="VOLTAGE_RATING" value="800V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="EPCOS_B72205S0271K101_DELETE" prefix="R">
-<description>275VAC 400A Varistor 1 Circuit Through Hole Disc 5mm , MFN B72205S0271K101</description>
-<gates>
-<gate name="G$0" symbol="VARISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="EPCOS_B72205S0271K101_0_0" package="EPCOS_B72205S0271K101_0">
-<connects>
-<connect gate="G$0" pin="1" pad="1"/>
-<connect gate="G$0" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AUTOMOTIVE" value="No"/>
-<attribute name="CAPACITANCE" value="60pF"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
-<attribute name="CLAMPING_CURRENT" value="5A"/>
-<attribute name="CLAMPING_VOLTAGE" value="710V"/>
-<attribute name="DATASHEET" value="https://www.tdk-electronics.tdk.com/inf/70/db/var/SIOV_Leaded_StandarD.pdf"/>
-<attribute name="DEVICE_CLASS_L1" value="Circuit Protection"/>
-<attribute name="DEVICE_CLASS_L2" value="Varistors"/>
-<attribute name="DEVICE_CLASS_L3" value="unset"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="RES VARISTOR 430V 400A DISC 5MM"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="495-4636-ND"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern"/>
-<attribute name="HEIGHT" value="8.5mm"/>
-<attribute name="LEAD_FREE" value="Yes"/>
-<attribute name="MF" value="EPCOS"/>
-<attribute name="MFG_PACKAGE_IDENT" value="B72205S0"/>
-<attribute name="MFG_PACKAGE_IDENT_COMPONENT_ID" value="b8432e50c9ebc0d1"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0"/>
-<attribute name="MOUSER_DESCRIPTION" value="Varistors 275volts 400A"/>
-<attribute name="MOUSER_PART_NUMBER" value="871-B72205S271K101"/>
-<attribute name="MPN" value="B72205S0271K101"/>
-<attribute name="PACKAGE" value="RADIAL"/>
-<attribute name="PREFIX" value="R"/>
-<attribute name="ROHS" value="Yes"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+105°C"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C"/>
-<attribute name="VARISTOR_VOLTAGE" value="430V"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.3"/>
-<attribute name="VOLTAGE_RATING_AC" value="275V"/>
-<attribute name="VOLTAGE_RATING_DC" value="350V"/>
-<attribute name="VOLTAGE_TOLERANCE" value="10%"/>
 </technology>
 </technologies>
 </device>
@@ -42214,14 +42129,32 @@ with shutdown</description>
 </devices>
 </deviceset>
 <deviceset name="B72205S0271K101" prefix="R">
+<description>VARISTOR 430V 400A DISC 5MM</description>
 <gates>
 <gate name="G$1" symbol="VARISTOR" x="-7.62" y="2.54"/>
 </gates>
 <devices>
-<device name="B72205S0271K101" package="0201">
+<device name="" package="EPCOS_B72205S0271K101_0">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ERG-2SJ390V" prefix="R">
+<description>RES 39 OHM 2W 5% AXIAL, Metal Oxide, Panasonic</description>
+<gates>
+<gate name="G$1" symbol="ERG-2SJ390V_0_0" x="2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="ERG-2SJ390V_0">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
