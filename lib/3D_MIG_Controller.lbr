@@ -26758,6 +26758,22 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="TE_726386-2">
+<description>Terminals GDS-FLACHSTECK 6.3</description>
+<wire x1="-4" y1="-0.415" x2="-4" y2="0.415" width="0.15" layer="51"/>
+<wire x1="-4" y1="0.415" x2="4" y2="0.415" width="0.15" layer="51"/>
+<wire x1="4" y1="0.415" x2="4" y2="-0.415" width="0.15" layer="51"/>
+<wire x1="4" y1="-0.415" x2="-4" y2="-0.415" width="0.15" layer="51"/>
+<wire x1="-0.79" y1="0.415" x2="0.79" y2="0.415" width="0.15" layer="21"/>
+<wire x1="-0.79" y1="-0.415" x2="0.79" y2="-0.415" width="0.15" layer="21"/>
+<wire x1="-4.1" y1="-1.175" x2="-4.1" y2="1.175" width="0.1" layer="39"/>
+<wire x1="-4.1" y1="1.175" x2="4.1" y2="1.175" width="0.1" layer="39"/>
+<wire x1="4.1" y1="1.175" x2="4.1" y2="-1.175" width="0.1" layer="39"/>
+<wire x1="4.1" y1="-1.175" x2="-4.1" y2="-1.175" width="0.1" layer="39"/>
+<text x="-4" y="1.615" size="1" layer="25">&gt;NAME</text>
+<pad name="1" x="-2.54" y="0" drill="1.4" diameter="2.15"/>
+<pad name="1-2" x="2.54" y="0" drill="1.4" diameter="2.15"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="C0402" urn="urn:adsk.eagle:package:26136/1" locally_modified="yes" type="box">
@@ -32101,6 +32117,22 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <circle x="-1.27" y="0.508" radius="0.359209375" width="0.254" layer="94"/>
 <rectangle x1="-7.62" y1="5.08" x2="-5.08" y2="7.62" layer="94"/>
 <rectangle x1="5.08" y1="5.08" x2="7.62" y2="7.62" layer="94"/>
+</symbol>
+<symbol name="726386-2">
+<description>Terminals GDS-FLACHSTECK 6.3</description>
+<wire x1="0" y1="-15.24" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-15.24" x2="0" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-10.668" x2="1.27" y2="-9.652" width="1.016" layer="94"/>
+<wire x1="1.27" y1="-9.652" x2="3.048" y2="-9.652" width="1.016" layer="94"/>
+<wire x1="3.048" y1="-9.652" x2="3.048" y2="-10.668" width="1.016" layer="94"/>
+<wire x1="3.048" y1="-10.668" x2="1.27" y2="-10.668" width="1.016" layer="94"/>
+<wire x1="3.302" y1="-10.16" x2="5.08" y2="-10.16" width="0.508" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.15" layer="94"/>
+<text x="0" y="-2.54" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<pin name="1" x="10.16" y="-10.16" visible="pad" length="middle" direction="pas" rot="R180"/>
+<text x="0" y="-17.78" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -41903,52 +41935,6 @@ with shutdown</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM317AEMP" prefix="U">
-<description>PM-REG-LM317ADJ-SOT4</description>
-<gates>
-<gate name="G$0" symbol="LM317AEMP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="TI_NATIONAL_SEMICONDUCTOR_LM317AEMP_0_2" package="SOT223_LM317AEMP">
-<connects>
-<connect gate="G$0" pin="ADJ" pad="1"/>
-<connect gate="G$0" pin="IN" pad="3"/>
-<connect gate="G$0" pin="OUT" pad="2"/>
-<connect gate="G$0" pin="TAB" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CIIVA_IDS" value="1170815"/>
-<attribute name="CODE__IPC" value="SOT223-4"/>
-<attribute name="CODE__JEDEC" value="TO-261-AA"/>
-<attribute name="CODE__JEITA" value=""/>
-<attribute name="COMPONENT_LINK_1_DESCRIPTION" value="Datasheet URL"/>
-<attribute name="COMPONENT_LINK_1_URL" value="http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=LM317-N&amp;fileType=pdf"/>
-<attribute name="COMP_TYPE" value="LDO IC"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Level C"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_1" value="Level B"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_2" value="Level A"/>
-<attribute name="HIGH__RELIABILITY" value=""/>
-<attribute name="IMPORTED" value="yes"/>
-<attribute name="IMPORTED_FROM" value="vault"/>
-<attribute name="IMPORT_TS" value="1521842153"/>
-<attribute name="MF" value="TI National Semiconductor"/>
-<attribute name="MPN" value="LM317AEMP"/>
-<attribute name="PACKAGE" value="DCY0004A"/>
-<attribute name="PACKAGE_DESCRIPTION" value="Molded SOT-223, 6.50 x 3.56 x 1.6mm Body, 4 Lead, 2.3mm Pitch"/>
-<attribute name="PACKAGE_TOP_MARKING" value="XYTT*N07A"/>
-<attribute name="PIN_COUNT" value="4"/>
-<attribute name="POWER_WISE" value="N"/>
-<attribute name="PREFIX" value="U"/>
-<attribute name="RELEASE_DATE" value="1464077472"/>
-<attribute name="ROHS" value="No"/>
-<attribute name="VAULT_GUID" value="07690705-FB61-44AA-9EC3-BE46C50DBF55"/>
-<attribute name="VAULT_REVISION" value="D31EB5EF-1985-4066-8377-D1A3E6522E4C"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="IGBT_FGH60N60SFD" prefix="Q" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="IGBT_STANDARD" x="0" y="0"/>
@@ -42180,6 +42166,67 @@ with shutdown</description>
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="726386-2" prefix="X">
+<description>Terminals, Faston, GDS-Flachstecker 6.3x0.8mm, TE</description>
+<gates>
+<gate name="G$0" symbol="726386-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TE_726386-2" package="TE_726386-2">
+<connects>
+<connect gate="G$0" pin="1" pad="1 1-2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
+<attribute name="CONN_GENDER" value="Male"/>
+<attribute name="CONN_ORIENTATION" value="Straight"/>
+<attribute name="CONTACT_MATERIAL" value="Tin"/>
+<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F726386%7FG%7Fpdf%7FEnglish%7FENG_CD_726386_G.pdf%7F726386-2"/>
+<attribute name="DEVICE_CLASS_L1" value="Connectors"/>
+<attribute name="DEVICE_CLASS_L2" value="Terminal Blocks | Terminals"/>
+<attribute name="DEVICE_CLASS_L3" value="unset"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="CONN QC TAB 0.250 SOLDER"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="A114371-ND"/>
+<attribute name="HEIGHT" value="10mm"/>
+<attribute name="LEAD_FREE" value="yes"/>
+<attribute name="MF" value="TE"/>
+<attribute name="MFG_PACKAGE_IDENT" value="726386-2"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0"/>
+<attribute name="MOUSER_DESCRIPTION" value="Terminals GDS-FLACHSTECK 6.3"/>
+<attribute name="MOUSER_PART_NUMBER" value="571-726386-2"/>
+<attribute name="MPN" value="726386-2"/>
+<attribute name="PACKAGE" value="PTH_TERMINAL_8MM0_0MM8"/>
+<attribute name="PREFIX" value="J"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+110°C"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-30°C"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.1"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM317AEMP" prefix="IC">
+<description>Linear Voltage Regulator IC Positive Adjustable Output 1.5A SOT-223-4</description>
+<gates>
+<gate name="G$1" symbol="LM317AEMP" x="-7.62" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="SOT223_LM317AEMP">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+<connect gate="G$1" pin="TAB" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
