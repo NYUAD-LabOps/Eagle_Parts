@@ -26748,6 +26748,16 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <pad name="3" x="-1.8" y="-12" drill="2.1" diameter="2.6"/>
 <pad name="4" x="25.8" y="-12" drill="2.1" diameter="2.6"/>
 </package>
+<package name="AC-1020-3PIN">
+<pad name="2" x="6.35" y="0" drill="1.27" diameter="2.0828"/>
+<pad name="1" x="-6.35" y="0" drill="1.27" diameter="2.0828"/>
+<wire x1="-13.97" y1="-5.08" x2="-13.97" y2="5.08" width="0.1" layer="21"/>
+<wire x1="-13.97" y1="5.08" x2="13.97" y2="5.08" width="0.1" layer="21"/>
+<wire x1="13.97" y1="-5.08" x2="13.97" y2="5.08" width="0.1" layer="21"/>
+<wire x1="-13.97" y1="-5.08" x2="13.97" y2="-5.08" width="0.1" layer="21"/>
+<text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="C0402" urn="urn:adsk.eagle:package:26136/1" locally_modified="yes" type="box">
@@ -32078,6 +32088,19 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <pin name="NO" x="-5.08" y="-12.7" visible="pad" length="middle" direction="pas"/>
 <pin name="COM" x="15.24" y="-12.7" visible="pad" length="middle" direction="pas" rot="R180"/>
 <pin name="1" x="-5.08" y="-7.62" visible="pad" length="middle" direction="pas"/>
+</symbol>
+<symbol name="CURRENT_TRANSFORMER">
+<wire x1="-2.54" y1="1.27" x2="-1.27" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-1.27" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="1.27" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<pin name="P$1" x="-2.54" y="-2.54" length="short" rot="R90"/>
+<pin name="P$2" x="2.54" y="-2.54" length="short" rot="R90"/>
+<circle x="-1.27" y="0.508" radius="0.359209375" width="0.254" layer="94"/>
+<rectangle x1="-7.62" y1="5.08" x2="-5.08" y2="7.62" layer="94"/>
+<rectangle x1="5.08" y1="5.08" x2="7.62" y2="7.62" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -42144,6 +42167,22 @@ with shutdown</description>
 <attribute name="VAULT_GUID" value="49A0321D-630D-49EF-B2C8-0308632C255A"/>
 <attribute name="VAULT_REVISION" value="10808CD6-6A28-402B-B998-FC10EF34438A"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CR8348-2000" prefix="TR">
+<gates>
+<gate name="G$1" symbol="CURRENT_TRANSFORMER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AC-1020-3PIN">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
