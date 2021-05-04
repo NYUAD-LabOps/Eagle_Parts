@@ -41895,46 +41895,6 @@ with shutdown</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LD1117S33TR" prefix="IC">
-<description>PM-REG-LD1117-SOT4</description>
-<gates>
-<gate name="G$0" symbol="LD1117S33TR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="STMICROELECTRONICS_LD1117S33TR_0_2" package="SOT223_LD1117S33TR">
-<connects>
-<connect gate="G$0" pin="1_VOUT" pad="2"/>
-<connect gate="G$0" pin="2_VOUT" pad="4"/>
-<connect gate="G$0" pin="GND" pad="1"/>
-<connect gate="G$0" pin="VIN" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CIIVA_IDS" value="1170393"/>
-<attribute name="COMPONENT_LINK_1_DESCRIPTION" value="Manufacturer URL"/>
-<attribute name="COMPONENT_LINK_1_URL" value="http://www.st.com"/>
-<attribute name="DATASHEET" value="http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00000544.pdf"/>
-<attribute name="DATASHEET_VERSION" value="1/11/2011"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Level C"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_1" value="Level B"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_2" value="Level A"/>
-<attribute name="IMPORTED" value="yes"/>
-<attribute name="IMPORTED_FROM" value="vault"/>
-<attribute name="IMPORT_TS" value="1521854501"/>
-<attribute name="MF" value="STMicroelectronics"/>
-<attribute name="MPN" value="LD1117S33TR"/>
-<attribute name="PACKAGE" value="SOT-223"/>
-<attribute name="PACKAGE_DESCRIPTION" value="4-Pin SOT-223 Package, 6.5 x 3.5 mm Body, 2.3 mm Pitch, 7 mm Lead Span"/>
-<attribute name="PACKAGE_VERSION" value="2010"/>
-<attribute name="PREFIX" value="U"/>
-<attribute name="RELEASE_DATE" value="1329864104"/>
-<attribute name="VAULT_GUID" value="D06A7811-FD98-4E2B-AEF1-2CCCEBFA7F2E"/>
-<attribute name="VAULT_REVISION" value="17BC8CDD-C9B8-4E5D-BFC7-D7023DBFD9F1"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="IGBT_FGH60N60SFD" prefix="Q" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="IGBT_STANDARD" x="0" y="0"/>
@@ -42227,6 +42187,25 @@ with shutdown</description>
 <connect gate="G$1" pin="IN" pad="3"/>
 <connect gate="G$1" pin="OUT" pad="2"/>
 <connect gate="G$1" pin="TAB" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LD1117S33TR" prefix="IC">
+<description>IC REG LINEAR 3.3V 800mA SOT223</description>
+<gates>
+<gate name="G$1" symbol="LD1117S33TR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT223_LD1117S33TR">
+<connects>
+<connect gate="G$1" pin="1_VOUT" pad="2"/>
+<connect gate="G$1" pin="2_VOUT" pad="4"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="VIN" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
