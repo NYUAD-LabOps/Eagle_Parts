@@ -26707,7 +26707,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
-<package name="FAIRCHILD_GBPC3510W_0">
+<package name="GBPC3510W">
 <description>Bridge Rectifiers (Glass Passivated)</description>
 <wire x1="-14.375" y1="-14.375" x2="-14.375" y2="14.375" width="0.15" layer="51"/>
 <wire x1="-14.375" y1="14.375" x2="14.375" y2="14.375" width="0.15" layer="51"/>
@@ -32052,7 +32052,7 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <text x="-7.62" y="17.78" size="1.27" layer="95">&gt;Name</text>
 <text x="-7.62" y="-7.62" size="1.27" layer="96">&gt;Value</text>
 </symbol>
-<symbol name="FAIRCHILD_GBPC3510W_0_0">
+<symbol name="GBPC3510W">
 <description>Bridge Rectifiers (Glass Passivated)</description>
 <wire x1="2.54" y1="-12.7" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-5.08" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
@@ -41949,39 +41949,6 @@ with shutdown</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FAIRCHILD_GBPC3510W" prefix="U">
-<description>Bridge Rectifier 1KV, 35A</description>
-<gates>
-<gate name="G$0" symbol="FAIRCHILD_GBPC3510W_0_0" x="0" y="0"/>
-</gates>
-<devices>
-<device name="FAIRCHILD_GBPC3510W_0_0" package="FAIRCHILD_GBPC3510W_0">
-<connects>
-<connect gate="G$0" pin="+" pad="1"/>
-<connect gate="G$0" pin="-" pad="3"/>
-<connect gate="G$0" pin="1_~" pad="2"/>
-<connect gate="G$0" pin="2_~" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
-<attribute name="DATASHEET" value="https://www.onsemi.com/pub/Collateral/GBPC3510-D.pdf"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="IC DIODE BRIDGE 1000V 35A GBPC-T/W"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="1242-1296-ND"/>
-<attribute name="LEAD_FREE" value="yes"/>
-<attribute name="MF" value="Fairchild"/>
-<attribute name="MOUSER_PART_NUMBER" value="821-GBPC3510W"/>
-<attribute name="MPN" value="GBPC3510W"/>
-<attribute name="PACKAGE" value="GBPC-W 4L"/>
-<attribute name="PREFIX" value="U"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+150°C"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-55°C"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="PANASONIC_ALFG2PF09" prefix="K">
 <description>Relay 31A, 9V, SPST-NO (1 Form A) Panasonic</description>
 <gates>
@@ -42155,6 +42122,25 @@ with shutdown</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GBPC3510W" prefix="D">
+<description>BRIDGE RECT 1xPhase 1KV 35A GBPC-W Package</description>
+<gates>
+<gate name="G$1" symbol="GBPC3510W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="GBPC3510W">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="3"/>
+<connect gate="G$1" pin="1_~" pad="2"/>
+<connect gate="G$1" pin="2_~" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
