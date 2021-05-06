@@ -26802,6 +26802,50 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <text x="-1.27" y="7.62" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.27" y="-7.874" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="X01_M10_7461061">
+<pad name="1" x="-6.35" y="-6.35" drill="1.45" diameter="2.2"/>
+<pad name="1-1" x="-3.81" y="-6.35" drill="1.45" diameter="2.2"/>
+<pad name="1-2" x="-1.27" y="-6.35" drill="1.45" diameter="2.2"/>
+<pad name="1-3" x="1.27" y="-6.35" drill="1.45" diameter="2.2"/>
+<pad name="1-4" x="-6.35" y="-3.81" drill="1.45" diameter="2.2"/>
+<pad name="1-5" x="-3.81" y="-3.81" drill="1.45" diameter="2.2"/>
+<pad name="1-6" x="-1.27" y="-3.81" drill="1.45" diameter="2.2"/>
+<pad name="1-7" x="1.27" y="-3.81" drill="1.45" diameter="2.2"/>
+<pad name="1-8" x="-6.35" y="-1.27" drill="1.45" diameter="2.2"/>
+<pad name="1-9" x="-3.81" y="-1.27" drill="1.45" diameter="2.2"/>
+<pad name="1-10" x="-1.27" y="-1.27" drill="1.45" diameter="2.2"/>
+<pad name="1-11" x="1.27" y="-1.27" drill="1.45" diameter="2.2"/>
+<pad name="1-12" x="-6.35" y="1.27" drill="1.45" diameter="2.2"/>
+<pad name="1-13" x="-3.81" y="1.27" drill="1.45" diameter="2.2"/>
+<pad name="1-14" x="-1.27" y="1.27" drill="1.45" diameter="2.2"/>
+<pad name="1-15" x="1.27" y="1.27" drill="1.45" diameter="2.2"/>
+<pad name="1-16" x="3.81" y="-6.35" drill="1.45" diameter="2.2"/>
+<pad name="1-17" x="3.81" y="-3.81" drill="1.45" diameter="2.2"/>
+<pad name="1-18" x="3.81" y="-1.27" drill="1.45" diameter="2.2"/>
+<pad name="1-19" x="3.81" y="1.27" drill="1.45" diameter="2.2"/>
+<pad name="1-20" x="3.81" y="3.81" drill="1.45" diameter="2.2"/>
+<pad name="1-21" x="1.27" y="3.81" drill="1.45" diameter="2.2"/>
+<pad name="1-22" x="-1.27" y="3.81" drill="1.45" diameter="2.2"/>
+<pad name="1-23" x="-3.81" y="3.81" drill="1.45" diameter="2.2"/>
+<pad name="1-24" x="-6.35" y="3.81" drill="1.45" diameter="2.2"/>
+<pad name="1-25" x="6.35" y="-1.27" drill="1.45" diameter="2.2"/>
+<pad name="1-26" x="6.35" y="-3.81" drill="1.45" diameter="2.2"/>
+<pad name="1-27" x="6.35" y="-6.35" drill="1.45" diameter="2.2"/>
+<pad name="1-28" x="6.35" y="1.27" drill="1.45" diameter="2.2"/>
+<pad name="1-29" x="6.35" y="3.81" drill="1.45" diameter="2.2"/>
+<pad name="1-30" x="-6.35" y="6.35" drill="1.45" diameter="2.2"/>
+<pad name="1-31" x="-3.81" y="6.35" drill="1.45" diameter="2.2"/>
+<pad name="1-32" x="-1.27" y="6.35" drill="1.45" diameter="2.2"/>
+<pad name="1-33" x="1.27" y="6.35" drill="1.45" diameter="2.2"/>
+<pad name="1-34" x="3.81" y="6.35" drill="1.45" diameter="2.2"/>
+<pad name="1-35" x="6.35" y="6.35" drill="1.45" diameter="2.2"/>
+<wire x1="-7.87" y1="-7.87" x2="7.87" y2="-7.87" width="0.1" layer="21"/>
+<wire x1="-7.87" y1="7.87" x2="7.87" y2="7.87" width="0.1" layer="21"/>
+<wire x1="-7.87" y1="-7.87" x2="-7.87" y2="7.87" width="0.1" layer="21"/>
+<wire x1="7.87" y1="-7.87" x2="7.87" y2="7.87" width="0.1" layer="21"/>
+<text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="C0402" urn="urn:adsk.eagle:package:26136/1" locally_modified="yes" type="box">
@@ -32161,6 +32205,13 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <text x="0" y="-2.54" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <pin name="1" x="10.16" y="-10.16" visible="pad" length="middle" direction="pas" rot="R180"/>
 <text x="0" y="-17.78" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="X01_FASTON">
+<rectangle x1="-7.62" y1="-2.54" x2="0" y2="2.54" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-12.7" y2="0" width="0.254" layer="94"/>
+<pin name="P$1" x="-12.7" y="0" length="middle"/>
+<text x="-7.62" y="5.08" size="1.27" layer="95">&gt;Name</text>
+<text x="-7.62" y="-5.08" size="1.27" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -42203,6 +42254,22 @@ with shutdown</description>
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="7461061" prefix="X">
+<description>Pin Screw Terminal, Power Tap M10 Through Hole, Pressfit, Redcube series</description>
+<gates>
+<gate name="G$1" symbol="X01_FASTON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="X01_M10_7461061">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1 1-1 1-2 1-3 1-4 1-5 1-6 1-7 1-8 1-9 1-10 1-11 1-12 1-13 1-14 1-15 1-16 1-17 1-18 1-19 1-20 1-21 1-22 1-23 1-24 1-25 1-26 1-27 1-28 1-29 1-30 1-31 1-32 1-33 1-34 1-35"/>
 </connects>
 <technologies>
 <technology name=""/>
