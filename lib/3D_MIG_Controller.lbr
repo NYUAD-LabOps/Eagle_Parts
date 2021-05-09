@@ -26861,6 +26861,16 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 </package>
+<package name="VARISTOR_D25_P7.5">
+<pad name="2" x="3.75" y="-0.925" drill="1.1" diameter="1.8" shape="long"/>
+<pad name="1" x="-3.75" y="0.925" drill="1.1" diameter="1.8" shape="long"/>
+<wire x1="12.5" y1="-2.6" x2="12.5" y2="2.6" width="0.1" layer="21"/>
+<wire x1="-12.5" y1="-2.6" x2="-12.5" y2="2.6" width="0.1" layer="21"/>
+<wire x1="-12.5" y1="2.6" x2="12.5" y2="2.6" width="0.1" layer="21"/>
+<wire x1="-12.5" y1="-2.6" x2="12.5" y2="-2.6" width="0.1" layer="21"/>
+<text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="C0402" urn="urn:adsk.eagle:package:26136/1" locally_modified="yes" type="box">
@@ -42358,6 +42368,23 @@ with shutdown</description>
 <technology name="">
 <attribute name="POPULARITY" value="21" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B57364S100M54">
+<description>NTC Inrush Current Limiter</description>
+<gates>
+<gate name="G$1" symbol="VARISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VARISTOR_D25_P7.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
