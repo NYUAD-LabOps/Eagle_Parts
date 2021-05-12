@@ -27024,6 +27024,16 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <smd name="31" x="-2" y="4.25" dx="0.6" dy="1.95" layer="1" roundness="100"/>
 <smd name="32" x="-2.8" y="4.25" dx="0.6" dy="1.95" layer="1" roundness="100"/>
 </package>
+<package name="J120D">
+<pad name="P$1" x="-12" y="-6" drill="1.8"/>
+<pad name="P$2" x="10" y="-6" drill="1.8"/>
+<pad name="P$3" x="13.8" y="6" drill="1.8"/>
+<pad name="P$4" x="-13.8" y="6" drill="1.8"/>
+<wire x1="-16" y1="8" x2="-16" y2="-8" width="0.1" layer="21"/>
+<wire x1="-16" y1="-8" x2="16" y2="-8" width="0.1" layer="21"/>
+<wire x1="16" y1="-8" x2="16" y2="8" width="0.1" layer="21"/>
+<wire x1="16" y1="8" x2="-16" y2="8" width="0.1" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="C0402" urn="urn:adsk.eagle:package:26136/1" locally_modified="yes" type="box">
@@ -32510,6 +32520,24 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <pin name="AIN0.7" x="35.56" y="-35.56" length="middle" direction="in" rot="R180"/>
 <pin name="VREF+" x="35.56" y="-40.64" length="middle" rot="R180"/>
 <pin name="VREF-" x="35.56" y="-43.18" length="middle" rot="R180"/>
+</symbol>
+<symbol name="RELAY_SOLENOID">
+<pin name="P$1" x="-22.86" y="-5.08" length="middle"/>
+<pin name="P$2" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="P$3" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="P$4" x="-22.86" y="5.08" length="middle"/>
+<wire x1="-17.78" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="15.24" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-17.78" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="10.16" x2="-17.78" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-10.16" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="15.24" y2="10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="10.16" x2="-17.78" y2="10.16" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -42799,6 +42827,24 @@ with shutdown</description>
 <attribute name="VAULT_GUID" value="9261A95B-ECF6-4F5A-A7B5-F615F036E093"/>
 <attribute name="VAULT_REVISION" value="A4298A9B-E721-46AA-8EF5-68061D50DFE6"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="J120D1AS12VDCP" prefix="RL" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="RELAY_SOLENOID" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="J120D">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
