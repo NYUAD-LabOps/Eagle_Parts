@@ -26871,6 +26871,159 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="SILICON_LABS_C8051F350-GQ_0">
+<description>MC-8B-C8051F350-SQ32</description>
+<wire x1="-3.05" y1="-3.05" x2="-3.05" y2="3.05" width="0.15" layer="21"/>
+<wire x1="3.05" y1="-3.05" x2="3.05" y2="3.05" width="0.15" layer="21"/>
+<wire x1="-3.05" y1="3.05" x2="3.05" y2="3.05" width="0.15" layer="21"/>
+<wire x1="-3.05" y1="-3.05" x2="3.05" y2="-3.05" width="0.15" layer="21"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-4.9" y1="-4.9" x2="-4.9" y2="4.9" width="0.1" layer="39"/>
+<wire x1="-4.9" y1="4.9" x2="4.9" y2="4.9" width="0.1" layer="39"/>
+<wire x1="4.9" y1="4.9" x2="4.9" y2="-4.9" width="0.1" layer="39"/>
+<wire x1="4.9" y1="-4.9" x2="-4.9" y2="-4.9" width="0.1" layer="39"/>
+<text x="-5.9" y="4.9" size="1" layer="25">&gt;NAME</text>
+<circle x="-4.15" y="3.625" radius="0.125" width="0.25" layer="21"/>
+<circle x="-2.05" y="2.05" radius="0.3" width="0.6" layer="21"/>
+<circle x="-2.6" y="2.6" radius="0.5" width="0.1" layer="51"/>
+<smd name="1" x="-4.15" y="2.8" dx="0.55" dy="1.35" layer="1" roundness="100" rot="R90"/>
+<smd name="2" x="-4.15" y="2" dx="0.55" dy="1.35" layer="1" roundness="100" rot="R90"/>
+<smd name="3" x="-4.15" y="1.2" dx="0.55" dy="1.35" layer="1" roundness="100" rot="R90"/>
+<smd name="4" x="-4.15" y="0.4" dx="0.55" dy="1.35" layer="1" roundness="100" rot="R90"/>
+<smd name="5" x="-4.15" y="-0.4" dx="0.55" dy="1.35" layer="1" roundness="100" rot="R90"/>
+<smd name="6" x="-4.15" y="-1.2" dx="0.55" dy="1.35" layer="1" roundness="100" rot="R90"/>
+<smd name="7" x="-4.15" y="-2" dx="0.55" dy="1.35" layer="1" roundness="100" rot="R90"/>
+<smd name="8" x="-4.15" y="-2.8" dx="0.55" dy="1.35" layer="1" roundness="100" rot="R90"/>
+<smd name="9" x="-2.8" y="-4.15" dx="0.55" dy="1.35" layer="1" roundness="100"/>
+<smd name="10" x="-2" y="-4.15" dx="0.55" dy="1.35" layer="1" roundness="100"/>
+<smd name="11" x="-1.2" y="-4.15" dx="0.55" dy="1.35" layer="1" roundness="100"/>
+<smd name="12" x="-0.4" y="-4.15" dx="0.55" dy="1.35" layer="1" roundness="100"/>
+<smd name="13" x="0.4" y="-4.15" dx="0.55" dy="1.35" layer="1" roundness="100"/>
+<smd name="14" x="1.2" y="-4.15" dx="0.55" dy="1.35" layer="1" roundness="100"/>
+<smd name="15" x="2" y="-4.15" dx="0.55" dy="1.35" layer="1" roundness="100"/>
+<smd name="16" x="2.8" y="-4.15" dx="0.55" dy="1.35" layer="1" roundness="100"/>
+<smd name="17" x="4.15" y="-2.8" dx="0.55" dy="1.35" layer="1" roundness="100" rot="R90"/>
+<smd name="18" x="4.15" y="-2" dx="0.55" dy="1.35" layer="1" roundness="100" rot="R90"/>
+<smd name="19" x="4.15" y="-1.2" dx="0.55" dy="1.35" layer="1" roundness="100" rot="R90"/>
+<smd name="20" x="4.15" y="-0.4" dx="0.55" dy="1.35" layer="1" roundness="100" rot="R90"/>
+<smd name="21" x="4.15" y="0.4" dx="0.55" dy="1.35" layer="1" roundness="100" rot="R90"/>
+<smd name="22" x="4.15" y="1.2" dx="0.55" dy="1.35" layer="1" roundness="100" rot="R90"/>
+<smd name="23" x="4.15" y="2" dx="0.55" dy="1.35" layer="1" roundness="100" rot="R90"/>
+<smd name="24" x="4.15" y="2.8" dx="0.55" dy="1.35" layer="1" roundness="100" rot="R90"/>
+<smd name="25" x="2.8" y="4.15" dx="0.55" dy="1.35" layer="1" roundness="100"/>
+<smd name="26" x="2" y="4.15" dx="0.55" dy="1.35" layer="1" roundness="100"/>
+<smd name="27" x="1.2" y="4.15" dx="0.55" dy="1.35" layer="1" roundness="100"/>
+<smd name="28" x="0.4" y="4.15" dx="0.55" dy="1.35" layer="1" roundness="100"/>
+<smd name="29" x="-0.4" y="4.15" dx="0.55" dy="1.35" layer="1" roundness="100"/>
+<smd name="30" x="-1.2" y="4.15" dx="0.55" dy="1.35" layer="1" roundness="100"/>
+<smd name="31" x="-2" y="4.15" dx="0.55" dy="1.35" layer="1" roundness="100"/>
+<smd name="32" x="-2.8" y="4.15" dx="0.55" dy="1.35" layer="1" roundness="100"/>
+</package>
+<package name="SILICON_LABS_C8051F350-GQ_1">
+<description>MC-8B-C8051F350-SQ32</description>
+<wire x1="-2.95" y1="-2.95" x2="2.95" y2="-2.95" width="0.15" layer="21"/>
+<wire x1="-2.95" y1="2.95" x2="2.95" y2="2.95" width="0.15" layer="21"/>
+<wire x1="2.95" y1="-2.95" x2="2.95" y2="2.95" width="0.15" layer="21"/>
+<wire x1="-2.95" y1="-2.95" x2="-2.95" y2="2.95" width="0.15" layer="21"/>
+<wire x1="-3.5" y1="-3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-5.25" y1="-5.25" x2="-5.25" y2="5.25" width="0.1" layer="39"/>
+<wire x1="-5.25" y1="5.25" x2="5.25" y2="5.25" width="0.1" layer="39"/>
+<wire x1="5.25" y1="5.25" x2="5.25" y2="-5.25" width="0.1" layer="39"/>
+<wire x1="5.25" y1="-5.25" x2="-5.25" y2="-5.25" width="0.1" layer="39"/>
+<text x="-6.25" y="5.25" size="1" layer="25">&gt;NAME</text>
+<circle x="-1.95" y="1.95" radius="0.3" width="0.6" layer="21"/>
+<circle x="-4.2" y="3.625" radius="0.125" width="0.25" layer="21"/>
+<circle x="-2.6" y="2.6" radius="0.5" width="0.1" layer="51"/>
+<smd name="32" x="-2.8" y="4.2" dx="0.55" dy="1.65" layer="1" roundness="100"/>
+<smd name="31" x="-2" y="4.2" dx="0.55" dy="1.65" layer="1" roundness="100"/>
+<smd name="30" x="-1.2" y="4.2" dx="0.55" dy="1.65" layer="1" roundness="100"/>
+<smd name="29" x="-0.4" y="4.2" dx="0.55" dy="1.65" layer="1" roundness="100"/>
+<smd name="28" x="0.4" y="4.2" dx="0.55" dy="1.65" layer="1" roundness="100"/>
+<smd name="27" x="1.2" y="4.2" dx="0.55" dy="1.65" layer="1" roundness="100"/>
+<smd name="26" x="2" y="4.2" dx="0.55" dy="1.65" layer="1" roundness="100"/>
+<smd name="25" x="2.8" y="4.2" dx="0.55" dy="1.65" layer="1" roundness="100"/>
+<smd name="24" x="4.2" y="2.8" dx="0.55" dy="1.65" layer="1" roundness="100" rot="R90"/>
+<smd name="23" x="4.2" y="2" dx="0.55" dy="1.65" layer="1" roundness="100" rot="R90"/>
+<smd name="22" x="4.2" y="1.2" dx="0.55" dy="1.65" layer="1" roundness="100" rot="R90"/>
+<smd name="21" x="4.2" y="0.4" dx="0.55" dy="1.65" layer="1" roundness="100" rot="R90"/>
+<smd name="20" x="4.2" y="-0.4" dx="0.55" dy="1.65" layer="1" roundness="100" rot="R90"/>
+<smd name="19" x="4.2" y="-1.2" dx="0.55" dy="1.65" layer="1" roundness="100" rot="R90"/>
+<smd name="18" x="4.2" y="-2" dx="0.55" dy="1.65" layer="1" roundness="100" rot="R90"/>
+<smd name="17" x="4.2" y="-2.8" dx="0.55" dy="1.65" layer="1" roundness="100" rot="R90"/>
+<smd name="16" x="2.8" y="-4.2" dx="0.55" dy="1.65" layer="1" roundness="100"/>
+<smd name="15" x="2" y="-4.2" dx="0.55" dy="1.65" layer="1" roundness="100"/>
+<smd name="14" x="1.2" y="-4.2" dx="0.55" dy="1.65" layer="1" roundness="100"/>
+<smd name="13" x="0.4" y="-4.2" dx="0.55" dy="1.65" layer="1" roundness="100"/>
+<smd name="12" x="-0.4" y="-4.2" dx="0.55" dy="1.65" layer="1" roundness="100"/>
+<smd name="11" x="-1.2" y="-4.2" dx="0.55" dy="1.65" layer="1" roundness="100"/>
+<smd name="10" x="-2" y="-4.2" dx="0.55" dy="1.65" layer="1" roundness="100"/>
+<smd name="9" x="-2.8" y="-4.2" dx="0.55" dy="1.65" layer="1" roundness="100"/>
+<smd name="8" x="-4.2" y="-2.8" dx="0.55" dy="1.65" layer="1" roundness="100" rot="R90"/>
+<smd name="7" x="-4.2" y="-2" dx="0.55" dy="1.65" layer="1" roundness="100" rot="R90"/>
+<smd name="6" x="-4.2" y="-1.2" dx="0.55" dy="1.65" layer="1" roundness="100" rot="R90"/>
+<smd name="5" x="-4.2" y="-0.4" dx="0.55" dy="1.65" layer="1" roundness="100" rot="R90"/>
+<smd name="4" x="-4.2" y="0.4" dx="0.55" dy="1.65" layer="1" roundness="100" rot="R90"/>
+<smd name="3" x="-4.2" y="1.2" dx="0.55" dy="1.65" layer="1" roundness="100" rot="R90"/>
+<smd name="2" x="-4.2" y="2" dx="0.55" dy="1.65" layer="1" roundness="100" rot="R90"/>
+<smd name="1" x="-4.2" y="2.8" dx="0.55" dy="1.65" layer="1" roundness="100" rot="R90"/>
+</package>
+<package name="SILICON_LABS_C8051F350-GQ_2">
+<description>MC-8B-C8051F350-SQ32</description>
+<wire x1="-2.85" y1="-2.85" x2="-2.85" y2="2.85" width="0.15" layer="21"/>
+<wire x1="2.85" y1="-2.85" x2="2.85" y2="2.85" width="0.15" layer="21"/>
+<wire x1="-2.85" y1="2.85" x2="2.85" y2="2.85" width="0.15" layer="21"/>
+<wire x1="-2.85" y1="-2.85" x2="2.85" y2="-2.85" width="0.15" layer="21"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-5.7" y1="-5.7" x2="-5.7" y2="5.7" width="0.1" layer="39"/>
+<wire x1="-5.7" y1="5.7" x2="5.7" y2="5.7" width="0.1" layer="39"/>
+<wire x1="5.7" y1="5.7" x2="5.7" y2="-5.7" width="0.1" layer="39"/>
+<wire x1="5.7" y1="-5.7" x2="-5.7" y2="-5.7" width="0.1" layer="39"/>
+<text x="-6.7" y="5.7" size="1" layer="25">&gt;NAME</text>
+<circle x="-4.25" y="3.65" radius="0.125" width="0.25" layer="21"/>
+<circle x="-1.85" y="1.85" radius="0.3" width="0.6" layer="21"/>
+<circle x="-2.6" y="2.6" radius="0.5" width="0.1" layer="51"/>
+<smd name="1" x="-4.25" y="2.8" dx="0.6" dy="1.95" layer="1" roundness="100" rot="R90"/>
+<smd name="2" x="-4.25" y="2" dx="0.6" dy="1.95" layer="1" roundness="100" rot="R90"/>
+<smd name="3" x="-4.25" y="1.2" dx="0.6" dy="1.95" layer="1" roundness="100" rot="R90"/>
+<smd name="4" x="-4.25" y="0.4" dx="0.6" dy="1.95" layer="1" roundness="100" rot="R90"/>
+<smd name="5" x="-4.25" y="-0.4" dx="0.6" dy="1.95" layer="1" roundness="100" rot="R90"/>
+<smd name="6" x="-4.25" y="-1.2" dx="0.6" dy="1.95" layer="1" roundness="100" rot="R90"/>
+<smd name="7" x="-4.25" y="-2" dx="0.6" dy="1.95" layer="1" roundness="100" rot="R90"/>
+<smd name="8" x="-4.25" y="-2.8" dx="0.6" dy="1.95" layer="1" roundness="100" rot="R90"/>
+<smd name="9" x="-2.8" y="-4.25" dx="0.6" dy="1.95" layer="1" roundness="100"/>
+<smd name="10" x="-2" y="-4.25" dx="0.6" dy="1.95" layer="1" roundness="100"/>
+<smd name="11" x="-1.2" y="-4.25" dx="0.6" dy="1.95" layer="1" roundness="100"/>
+<smd name="12" x="-0.4" y="-4.25" dx="0.6" dy="1.95" layer="1" roundness="100"/>
+<smd name="13" x="0.4" y="-4.25" dx="0.6" dy="1.95" layer="1" roundness="100"/>
+<smd name="14" x="1.2" y="-4.25" dx="0.6" dy="1.95" layer="1" roundness="100"/>
+<smd name="15" x="2" y="-4.25" dx="0.6" dy="1.95" layer="1" roundness="100"/>
+<smd name="16" x="2.8" y="-4.25" dx="0.6" dy="1.95" layer="1" roundness="100"/>
+<smd name="17" x="4.25" y="-2.8" dx="0.6" dy="1.95" layer="1" roundness="100" rot="R90"/>
+<smd name="18" x="4.25" y="-2" dx="0.6" dy="1.95" layer="1" roundness="100" rot="R90"/>
+<smd name="19" x="4.25" y="-1.2" dx="0.6" dy="1.95" layer="1" roundness="100" rot="R90"/>
+<smd name="20" x="4.25" y="-0.4" dx="0.6" dy="1.95" layer="1" roundness="100" rot="R90"/>
+<smd name="21" x="4.25" y="0.4" dx="0.6" dy="1.95" layer="1" roundness="100" rot="R90"/>
+<smd name="22" x="4.25" y="1.2" dx="0.6" dy="1.95" layer="1" roundness="100" rot="R90"/>
+<smd name="23" x="4.25" y="2" dx="0.6" dy="1.95" layer="1" roundness="100" rot="R90"/>
+<smd name="24" x="4.25" y="2.8" dx="0.6" dy="1.95" layer="1" roundness="100" rot="R90"/>
+<smd name="25" x="2.8" y="4.25" dx="0.6" dy="1.95" layer="1" roundness="100"/>
+<smd name="26" x="2" y="4.25" dx="0.6" dy="1.95" layer="1" roundness="100"/>
+<smd name="27" x="1.2" y="4.25" dx="0.6" dy="1.95" layer="1" roundness="100"/>
+<smd name="28" x="0.4" y="4.25" dx="0.6" dy="1.95" layer="1" roundness="100"/>
+<smd name="29" x="-0.4" y="4.25" dx="0.6" dy="1.95" layer="1" roundness="100"/>
+<smd name="30" x="-1.2" y="4.25" dx="0.6" dy="1.95" layer="1" roundness="100"/>
+<smd name="31" x="-2" y="4.25" dx="0.6" dy="1.95" layer="1" roundness="100"/>
+<smd name="32" x="-2.8" y="4.25" dx="0.6" dy="1.95" layer="1" roundness="100"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="C0402" urn="urn:adsk.eagle:package:26136/1" locally_modified="yes" type="box">
@@ -32284,6 +32437,79 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
 <pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="SILICON_LABS_C8051F350-GQ_0_0">
+<description>MC-8B-C8051F350-SQ32</description>
+<wire x1="0" y1="-60.96" x2="0" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="0" y1="-5.08" x2="30.48" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="30.48" y1="-5.08" x2="30.48" y2="-60.96" width="0.508" layer="94"/>
+<wire x1="30.48" y1="-60.96" x2="0" y2="-60.96" width="0.508" layer="94"/>
+<wire x1="0" y1="-58.42" x2="0" y2="-58.42" width="0.15" layer="94"/>
+<wire x1="30.48" y1="-58.42" x2="30.48" y2="-58.42" width="0.15" layer="94"/>
+<wire x1="0" y1="-53.34" x2="0" y2="-53.34" width="0.15" layer="94"/>
+<wire x1="30.48" y1="-53.34" x2="30.48" y2="-53.34" width="0.15" layer="94"/>
+<wire x1="30.48" y1="-12.7" x2="30.48" y2="-12.7" width="0.15" layer="94"/>
+<wire x1="30.48" y1="-7.62" x2="30.48" y2="-7.62" width="0.15" layer="94"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-7.62" width="0.15" layer="94"/>
+<wire x1="0" y1="-10.16" x2="0" y2="-10.16" width="0.15" layer="94"/>
+<wire x1="0" y1="-12.7" x2="0" y2="-12.7" width="0.15" layer="94"/>
+<wire x1="0" y1="-15.24" x2="0" y2="-15.24" width="0.15" layer="94"/>
+<wire x1="0" y1="-17.78" x2="0" y2="-17.78" width="0.15" layer="94"/>
+<wire x1="0" y1="-20.32" x2="0" y2="-20.32" width="0.15" layer="94"/>
+<wire x1="0" y1="-22.86" x2="0" y2="-22.86" width="0.15" layer="94"/>
+<wire x1="0" y1="-25.4" x2="0" y2="-25.4" width="0.15" layer="94"/>
+<wire x1="0" y1="-30.48" x2="0" y2="-30.48" width="0.15" layer="94"/>
+<wire x1="0" y1="-33.02" x2="0" y2="-33.02" width="0.15" layer="94"/>
+<wire x1="0" y1="-35.56" x2="0" y2="-35.56" width="0.15" layer="94"/>
+<wire x1="0" y1="-38.1" x2="0" y2="-38.1" width="0.15" layer="94"/>
+<wire x1="0" y1="-40.64" x2="0" y2="-40.64" width="0.15" layer="94"/>
+<wire x1="0" y1="-43.18" x2="0" y2="-43.18" width="0.15" layer="94"/>
+<wire x1="0" y1="-45.72" x2="0" y2="-45.72" width="0.15" layer="94"/>
+<wire x1="0" y1="-48.26" x2="0" y2="-48.26" width="0.15" layer="94"/>
+<wire x1="30.48" y1="-17.78" x2="30.48" y2="-17.78" width="0.15" layer="94"/>
+<wire x1="30.48" y1="-20.32" x2="30.48" y2="-20.32" width="0.15" layer="94"/>
+<wire x1="30.48" y1="-22.86" x2="30.48" y2="-22.86" width="0.15" layer="94"/>
+<wire x1="30.48" y1="-25.4" x2="30.48" y2="-25.4" width="0.15" layer="94"/>
+<wire x1="30.48" y1="-27.94" x2="30.48" y2="-27.94" width="0.15" layer="94"/>
+<wire x1="30.48" y1="-30.48" x2="30.48" y2="-30.48" width="0.15" layer="94"/>
+<wire x1="30.48" y1="-33.02" x2="30.48" y2="-33.02" width="0.15" layer="94"/>
+<wire x1="30.48" y1="-35.56" x2="30.48" y2="-35.56" width="0.15" layer="94"/>
+<wire x1="30.48" y1="-40.64" x2="30.48" y2="-40.64" width="0.15" layer="94"/>
+<wire x1="30.48" y1="-43.18" x2="30.48" y2="-43.18" width="0.15" layer="94"/>
+<text x="0" y="-2.54" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<text x="0" y="-66.04" size="2.54" layer="95" align="top-left">C8051F350-GQ</text>
+<pin name="VDD" x="-5.08" y="-58.42" length="middle" direction="pwr"/>
+<pin name="DGND" x="35.56" y="-58.42" length="middle" direction="pwr" rot="R180"/>
+<pin name="AV+" x="-5.08" y="-53.34" length="middle" direction="pwr"/>
+<pin name="AGND" x="35.56" y="-53.34" length="middle" direction="pwr" rot="R180"/>
+<pin name="!RST!/C2CK" x="35.56" y="-12.7" length="middle" rot="R180"/>
+<pin name="P2.0/C2D" x="35.56" y="-7.62" length="middle" rot="R180"/>
+<pin name="P0.0" x="-5.08" y="-7.62" length="middle"/>
+<pin name="P0.1" x="-5.08" y="-10.16" length="middle"/>
+<pin name="P0.2/XTAL1" x="-5.08" y="-12.7" length="middle"/>
+<pin name="P0.3/XTAL2" x="-5.08" y="-15.24" length="middle"/>
+<pin name="P0.4" x="-5.08" y="-17.78" length="middle"/>
+<pin name="P0.5" x="-5.08" y="-20.32" length="middle"/>
+<pin name="P0.6/CNVSTR" x="-5.08" y="-22.86" length="middle"/>
+<pin name="P0.7" x="-5.08" y="-25.4" length="middle"/>
+<pin name="P1.0" x="-5.08" y="-30.48" length="middle"/>
+<pin name="P1.1" x="-5.08" y="-33.02" length="middle"/>
+<pin name="P1.2" x="-5.08" y="-35.56" length="middle"/>
+<pin name="P1.3" x="-5.08" y="-38.1" length="middle"/>
+<pin name="P1.4" x="-5.08" y="-40.64" length="middle"/>
+<pin name="P1.5" x="-5.08" y="-43.18" length="middle"/>
+<pin name="P1.6/IDA0" x="-5.08" y="-45.72" length="middle"/>
+<pin name="P1.7/IDA1" x="-5.08" y="-48.26" length="middle"/>
+<pin name="AIN0.0" x="35.56" y="-17.78" length="middle" direction="in" rot="R180"/>
+<pin name="AIN0.1" x="35.56" y="-20.32" length="middle" direction="in" rot="R180"/>
+<pin name="AIN0.2" x="35.56" y="-22.86" length="middle" direction="in" rot="R180"/>
+<pin name="AIN0.3" x="35.56" y="-25.4" length="middle" direction="in" rot="R180"/>
+<pin name="AIN0.4" x="35.56" y="-27.94" length="middle" direction="in" rot="R180"/>
+<pin name="AIN0.5" x="35.56" y="-30.48" length="middle" direction="in" rot="R180"/>
+<pin name="AIN0.6" x="35.56" y="-33.02" length="middle" direction="in" rot="R180"/>
+<pin name="AIN0.7" x="35.56" y="-35.56" length="middle" direction="in" rot="R180"/>
+<pin name="VREF+" x="35.56" y="-40.64" length="middle" rot="R180"/>
+<pin name="VREF-" x="35.56" y="-43.18" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -42385,6 +42611,194 @@ with shutdown</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SILICON_LABS_C8051F350-GQ" prefix="U">
+<description>MC-8B-C8051F350-SQ32</description>
+<gates>
+<gate name="G$0" symbol="SILICON_LABS_C8051F350-GQ_0_0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SILICON_LABS_C8051F350-GQ_0_0" package="SILICON_LABS_C8051F350-GQ_0">
+<connects>
+<connect gate="G$0" pin="!RST!/C2CK" pad="12"/>
+<connect gate="G$0" pin="AGND" pad="9"/>
+<connect gate="G$0" pin="AIN0.0" pad="1"/>
+<connect gate="G$0" pin="AIN0.1" pad="2"/>
+<connect gate="G$0" pin="AIN0.2" pad="3"/>
+<connect gate="G$0" pin="AIN0.3" pad="4"/>
+<connect gate="G$0" pin="AIN0.4" pad="5"/>
+<connect gate="G$0" pin="AIN0.5" pad="6"/>
+<connect gate="G$0" pin="AIN0.6" pad="7"/>
+<connect gate="G$0" pin="AIN0.7" pad="8"/>
+<connect gate="G$0" pin="AV+" pad="10"/>
+<connect gate="G$0" pin="DGND" pad="22"/>
+<connect gate="G$0" pin="P0.0" pad="13"/>
+<connect gate="G$0" pin="P0.1" pad="14"/>
+<connect gate="G$0" pin="P0.2/XTAL1" pad="15"/>
+<connect gate="G$0" pin="P0.3/XTAL2" pad="16"/>
+<connect gate="G$0" pin="P0.4" pad="17"/>
+<connect gate="G$0" pin="P0.5" pad="18"/>
+<connect gate="G$0" pin="P0.6/CNVSTR" pad="19"/>
+<connect gate="G$0" pin="P0.7" pad="20"/>
+<connect gate="G$0" pin="P1.0" pad="23"/>
+<connect gate="G$0" pin="P1.1" pad="24"/>
+<connect gate="G$0" pin="P1.2" pad="25"/>
+<connect gate="G$0" pin="P1.3" pad="26"/>
+<connect gate="G$0" pin="P1.4" pad="27"/>
+<connect gate="G$0" pin="P1.5" pad="28"/>
+<connect gate="G$0" pin="P1.6/IDA0" pad="29"/>
+<connect gate="G$0" pin="P1.7/IDA1" pad="30"/>
+<connect gate="G$0" pin="P2.0/C2D" pad="11"/>
+<connect gate="G$0" pin="VDD" pad="21"/>
+<connect gate="G$0" pin="VREF+" pad="31"/>
+<connect gate="G$0" pin="VREF-" pad="32"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CIIVA_IDS" value="1203194"/>
+<attribute name="COMPONENT_LINK_1_DESCRIPTION" value="Manufacturer Link"/>
+<attribute name="COMPONENT_LINK_1_URL" value="http://www.silabs.com"/>
+<attribute name="DATASHEET" value="http://www.silabs.com/Support%20Documents/TechnicalDocs/C8051F35x.pdf"/>
+<attribute name="DATASHEET_VERSION" value="rev1.1, May-2007"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Level C"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_1" value="Level B"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_2" value="Level A"/>
+<attribute name="IMPORTED" value="yes"/>
+<attribute name="IMPORTED_FROM" value="vault"/>
+<attribute name="IMPORT_TS" value="1521846147"/>
+<attribute name="MF" value="Silicon Labs"/>
+<attribute name="MPN" value="C8051F350-GQ"/>
+<attribute name="PACKAGE" value="LQFP-32"/>
+<attribute name="PACKAGE_DESCRIPTION" value="32-Pin Thin Quad Flat Pack, 7 x 7 x 1.4 mm Body, 0.8 mm Pitch"/>
+<attribute name="PACKAGE_VERSION" value="2007"/>
+<attribute name="PREFIX" value="U"/>
+<attribute name="RELEASE_DATE" value="1316160815"/>
+<attribute name="VAULT_GUID" value="9261A95B-ECF6-4F5A-A7B5-F615F036E093"/>
+<attribute name="VAULT_REVISION" value="A4298A9B-E721-46AA-8EF5-68061D50DFE6"/>
+</technology>
+</technologies>
+</device>
+<device name="SILICON_LABS_C8051F350-GQ_0_1" package="SILICON_LABS_C8051F350-GQ_1">
+<connects>
+<connect gate="G$0" pin="!RST!/C2CK" pad="12"/>
+<connect gate="G$0" pin="AGND" pad="9"/>
+<connect gate="G$0" pin="AIN0.0" pad="1"/>
+<connect gate="G$0" pin="AIN0.1" pad="2"/>
+<connect gate="G$0" pin="AIN0.2" pad="3"/>
+<connect gate="G$0" pin="AIN0.3" pad="4"/>
+<connect gate="G$0" pin="AIN0.4" pad="5"/>
+<connect gate="G$0" pin="AIN0.5" pad="6"/>
+<connect gate="G$0" pin="AIN0.6" pad="7"/>
+<connect gate="G$0" pin="AIN0.7" pad="8"/>
+<connect gate="G$0" pin="AV+" pad="10"/>
+<connect gate="G$0" pin="DGND" pad="22"/>
+<connect gate="G$0" pin="P0.0" pad="13"/>
+<connect gate="G$0" pin="P0.1" pad="14"/>
+<connect gate="G$0" pin="P0.2/XTAL1" pad="15"/>
+<connect gate="G$0" pin="P0.3/XTAL2" pad="16"/>
+<connect gate="G$0" pin="P0.4" pad="17"/>
+<connect gate="G$0" pin="P0.5" pad="18"/>
+<connect gate="G$0" pin="P0.6/CNVSTR" pad="19"/>
+<connect gate="G$0" pin="P0.7" pad="20"/>
+<connect gate="G$0" pin="P1.0" pad="23"/>
+<connect gate="G$0" pin="P1.1" pad="24"/>
+<connect gate="G$0" pin="P1.2" pad="25"/>
+<connect gate="G$0" pin="P1.3" pad="26"/>
+<connect gate="G$0" pin="P1.4" pad="27"/>
+<connect gate="G$0" pin="P1.5" pad="28"/>
+<connect gate="G$0" pin="P1.6/IDA0" pad="29"/>
+<connect gate="G$0" pin="P1.7/IDA1" pad="30"/>
+<connect gate="G$0" pin="P2.0/C2D" pad="11"/>
+<connect gate="G$0" pin="VDD" pad="21"/>
+<connect gate="G$0" pin="VREF+" pad="31"/>
+<connect gate="G$0" pin="VREF-" pad="32"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CIIVA_IDS" value="1203194"/>
+<attribute name="COMPONENT_LINK_1_DESCRIPTION" value="Manufacturer Link"/>
+<attribute name="COMPONENT_LINK_1_URL" value="http://www.silabs.com"/>
+<attribute name="DATASHEET" value="http://www.silabs.com/Support%20Documents/TechnicalDocs/C8051F35x.pdf"/>
+<attribute name="DATASHEET_VERSION" value="rev1.1, May-2007"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Level C"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_1" value="Level B"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_2" value="Level A"/>
+<attribute name="IMPORTED" value="yes"/>
+<attribute name="IMPORTED_FROM" value="vault"/>
+<attribute name="IMPORT_TS" value="1521846147"/>
+<attribute name="MF" value="Silicon Labs"/>
+<attribute name="MPN" value="C8051F350-GQ"/>
+<attribute name="PACKAGE" value="LQFP-32"/>
+<attribute name="PACKAGE_DESCRIPTION" value="32-Pin Thin Quad Flat Pack, 7 x 7 x 1.4 mm Body, 0.8 mm Pitch"/>
+<attribute name="PACKAGE_VERSION" value="2007"/>
+<attribute name="PREFIX" value="U"/>
+<attribute name="RELEASE_DATE" value="1316160815"/>
+<attribute name="VAULT_GUID" value="9261A95B-ECF6-4F5A-A7B5-F615F036E093"/>
+<attribute name="VAULT_REVISION" value="A4298A9B-E721-46AA-8EF5-68061D50DFE6"/>
+</technology>
+</technologies>
+</device>
+<device name="SILICON_LABS_C8051F350-GQ_0_2" package="SILICON_LABS_C8051F350-GQ_2">
+<connects>
+<connect gate="G$0" pin="!RST!/C2CK" pad="12"/>
+<connect gate="G$0" pin="AGND" pad="9"/>
+<connect gate="G$0" pin="AIN0.0" pad="1"/>
+<connect gate="G$0" pin="AIN0.1" pad="2"/>
+<connect gate="G$0" pin="AIN0.2" pad="3"/>
+<connect gate="G$0" pin="AIN0.3" pad="4"/>
+<connect gate="G$0" pin="AIN0.4" pad="5"/>
+<connect gate="G$0" pin="AIN0.5" pad="6"/>
+<connect gate="G$0" pin="AIN0.6" pad="7"/>
+<connect gate="G$0" pin="AIN0.7" pad="8"/>
+<connect gate="G$0" pin="AV+" pad="10"/>
+<connect gate="G$0" pin="DGND" pad="22"/>
+<connect gate="G$0" pin="P0.0" pad="13"/>
+<connect gate="G$0" pin="P0.1" pad="14"/>
+<connect gate="G$0" pin="P0.2/XTAL1" pad="15"/>
+<connect gate="G$0" pin="P0.3/XTAL2" pad="16"/>
+<connect gate="G$0" pin="P0.4" pad="17"/>
+<connect gate="G$0" pin="P0.5" pad="18"/>
+<connect gate="G$0" pin="P0.6/CNVSTR" pad="19"/>
+<connect gate="G$0" pin="P0.7" pad="20"/>
+<connect gate="G$0" pin="P1.0" pad="23"/>
+<connect gate="G$0" pin="P1.1" pad="24"/>
+<connect gate="G$0" pin="P1.2" pad="25"/>
+<connect gate="G$0" pin="P1.3" pad="26"/>
+<connect gate="G$0" pin="P1.4" pad="27"/>
+<connect gate="G$0" pin="P1.5" pad="28"/>
+<connect gate="G$0" pin="P1.6/IDA0" pad="29"/>
+<connect gate="G$0" pin="P1.7/IDA1" pad="30"/>
+<connect gate="G$0" pin="P2.0/C2D" pad="11"/>
+<connect gate="G$0" pin="VDD" pad="21"/>
+<connect gate="G$0" pin="VREF+" pad="31"/>
+<connect gate="G$0" pin="VREF-" pad="32"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CIIVA_IDS" value="1203194"/>
+<attribute name="COMPONENT_LINK_1_DESCRIPTION" value="Manufacturer Link"/>
+<attribute name="COMPONENT_LINK_1_URL" value="http://www.silabs.com"/>
+<attribute name="DATASHEET" value="http://www.silabs.com/Support%20Documents/TechnicalDocs/C8051F35x.pdf"/>
+<attribute name="DATASHEET_VERSION" value="rev1.1, May-2007"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Level C"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_1" value="Level B"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_2" value="Level A"/>
+<attribute name="IMPORTED" value="yes"/>
+<attribute name="IMPORTED_FROM" value="vault"/>
+<attribute name="IMPORT_TS" value="1521846147"/>
+<attribute name="MF" value="Silicon Labs"/>
+<attribute name="MPN" value="C8051F350-GQ"/>
+<attribute name="PACKAGE" value="LQFP-32"/>
+<attribute name="PACKAGE_DESCRIPTION" value="32-Pin Thin Quad Flat Pack, 7 x 7 x 1.4 mm Body, 0.8 mm Pitch"/>
+<attribute name="PACKAGE_VERSION" value="2007"/>
+<attribute name="PREFIX" value="U"/>
+<attribute name="RELEASE_DATE" value="1316160815"/>
+<attribute name="VAULT_GUID" value="9261A95B-ECF6-4F5A-A7B5-F615F036E093"/>
+<attribute name="VAULT_REVISION" value="A4298A9B-E721-46AA-8EF5-68061D50DFE6"/>
+</technology>
 </technologies>
 </device>
 </devices>
