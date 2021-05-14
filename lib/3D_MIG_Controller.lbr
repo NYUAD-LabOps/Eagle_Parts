@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -27029,8 +27029,8 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <smd name="32" x="-2.8" y="4.25" dx="0.6" dy="1.95" layer="1" roundness="100"/>
 </package>
 <package name="J120D">
-<pad name="P$1" x="-12" y="-6" drill="1.8"/>
-<pad name="P$2" x="10" y="-6" drill="1.8"/>
+<pad name="P$1" x="-10" y="-6" drill="1.8"/>
+<pad name="P$2" x="12" y="-6" drill="1.8"/>
 <pad name="P$3" x="13.8" y="6" drill="1.8"/>
 <pad name="P$4" x="-13.8" y="6" drill="1.8"/>
 <wire x1="-16" y1="8" x2="-16" y2="-8" width="0.1" layer="21"/>
@@ -27044,6 +27044,10 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <package name="YAG_RSF200_YAG">
 <pad name="1" x="0" y="0" drill="1.1176" diameter="1.6256" shape="square"/>
 <pad name="2" x="23.368" y="0" drill="1.1176" diameter="1.6256" rot="R180"/>
+<wire x1="19.939" y1="-2.7432" x2="19.939" y2="0" width="0.1524" layer="51"/>
+<text x="8.4074" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="9.9568" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<wire x1="3.429" y1="0" x2="3.429" y2="-2.7432" width="0.1524" layer="51"/>
 <wire x1="3.302" y1="-2.8956" x2="20.066" y2="-2.8956" width="0.1524" layer="21"/>
 <wire x1="20.066" y1="-2.8956" x2="20.066" y2="2.8956" width="0.1524" layer="21"/>
 <wire x1="20.066" y1="2.8956" x2="3.302" y2="2.8956" width="0.1524" layer="21"/>
@@ -27051,11 +27055,27 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <wire x1="0" y1="0" x2="3.429" y2="0" width="0.1524" layer="51"/>
 <wire x1="23.368" y1="0" x2="19.939" y2="0" width="0.1524" layer="51"/>
 <wire x1="3.429" y1="-2.7432" x2="19.939" y2="-2.7432" width="0.1524" layer="51"/>
-<wire x1="19.939" y1="-2.7432" x2="19.939" y2="2.7432" width="0.1524" layer="51"/>
+<wire x1="19.939" y1="0" x2="19.939" y2="2.7432" width="0.1524" layer="51"/>
 <wire x1="19.939" y1="2.7432" x2="3.429" y2="2.7432" width="0.1524" layer="51"/>
-<wire x1="3.429" y1="2.7432" x2="3.429" y2="-2.7432" width="0.1524" layer="51"/>
+<wire x1="3.429" y1="2.7432" x2="3.429" y2="0" width="0.1524" layer="51"/>
 <text x="8.4074" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="9.9568" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+</package>
+<package name="RS005_VIS">
+<pad name="1" x="0" y="0" drill="1.3208" diameter="1.8288" shape="square"/>
+<pad name="2" x="33.9344" y="0" drill="1.3208" diameter="1.8288" rot="R180"/>
+<wire x1="4.1402" y1="-4.4704" x2="29.7942" y2="-4.4704" width="0.1524" layer="21"/>
+<wire x1="29.7942" y1="-4.4704" x2="29.7942" y2="4.4704" width="0.1524" layer="21"/>
+<wire x1="29.7942" y1="4.4704" x2="4.1402" y2="4.4704" width="0.1524" layer="21"/>
+<wire x1="4.1402" y1="4.4704" x2="4.1402" y2="-4.4704" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="4.2672" y2="0" width="0.1524" layer="51"/>
+<wire x1="33.9344" y1="0" x2="29.6672" y2="0" width="0.1524" layer="51"/>
+<wire x1="4.2672" y1="-4.3688" x2="29.6672" y2="-4.3688" width="0.1524" layer="51"/>
+<wire x1="29.6672" y1="-4.3688" x2="29.6672" y2="4.3688" width="0.1524" layer="51"/>
+<wire x1="29.6672" y1="4.3688" x2="4.2672" y2="4.3688" width="0.1524" layer="51"/>
+<wire x1="4.2672" y1="4.3688" x2="4.2672" y2="-4.3688" width="0.1524" layer="51"/>
+<text x="7.3406" y="5.715" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="22.86" y="5.715" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
 </packages>
 <packages3d>
@@ -32571,6 +32591,8 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <symbol name="RES">
 <pin name="1" x="0" y="0" visible="pin" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="12.7" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-2.6162" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
+<text x="-2.1844" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
 <wire x1="3.175" y1="1.27" x2="4.445" y2="-1.27" width="0.2032" layer="94"/>
 <wire x1="4.445" y1="-1.27" x2="5.715" y2="1.27" width="0.2032" layer="94"/>
 <wire x1="5.715" y1="1.27" x2="6.985" y2="-1.27" width="0.2032" layer="94"/>
@@ -32578,12 +32600,14 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <wire x1="8.255" y1="1.27" x2="9.525" y2="-1.27" width="0.2032" layer="94"/>
 <wire x1="2.54" y1="0" x2="3.175" y2="1.27" width="0.2032" layer="94"/>
 <wire x1="9.525" y1="-1.27" x2="10.16" y2="0" width="0.2032" layer="94"/>
-<text x="-2.6162" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
-<text x="-2.1844" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
 </symbol>
 <symbol name="RESV">
 <pin name="1" x="0" y="12.7" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<text x="1.905" y="3.3528" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
+<text x="1.905" y="6.5024" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+<text x="1.905" y="3.3528" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
+<text x="1.905" y="6.5024" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
 <wire x1="0" y1="2.54" x2="-1.27" y2="3.175" width="0.2032" layer="94"/>
 <wire x1="-1.27" y1="3.175" x2="1.27" y2="4.445" width="0.2032" layer="94"/>
 <wire x1="1.27" y1="4.445" x2="-1.27" y2="5.715" width="0.2032" layer="94"/>
@@ -43004,6 +43028,27 @@ with shutdown</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RS00547K00FE73" prefix="R">
+<gates>
+<gate name="A" symbol="RES" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RS005_VIS">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RS00547K00FE73" constant="no"/>
+<attribute name="SOURCELIBRARY" value="Vishay_2014-12-31" constant="no"/>
+<attribute name="VENDOR" value="Vishay" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
