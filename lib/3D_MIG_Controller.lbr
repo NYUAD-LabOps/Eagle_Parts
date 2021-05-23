@@ -8407,6 +8407,8 @@ Holes are 0.05".
 <wire x1="3.81" y1="16.51" x2="5.08" y2="16.51" width="0.127" layer="21"/>
 <wire x1="5.08" y1="16.51" x2="5.08" y2="15.24" width="0.127" layer="21"/>
 <wire x1="5.08" y1="15.24" x2="3.81" y2="15.24" width="0.127" layer="21"/>
+<pad name="P$9" x="-12.7" y="15.7" drill="1.5"/>
+<pad name="P$10" x="3.8" y="15.7" drill="1.5"/>
 </package>
 <package name="LIMIT_SWITCH_D2F-L">
 <pad name="C" x="0" y="-5.08" drill="1.2"/>
@@ -27295,32 +27297,6 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <text x="-2.362" y="3.565" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="6.462" y="3.565" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
-<package name="RJ45_TH_VERT">
-<pad name="P$1" x="-1.27" y="0" drill="1.2" shape="square"/>
-<pad name="P$2" x="0" y="2.54" drill="1.2"/>
-<pad name="P$3" x="-3.81" y="0" drill="1.2"/>
-<pad name="P$4" x="-2.54" y="2.54" drill="1.2"/>
-<pad name="P$5" x="-6.35" y="0" drill="1.2"/>
-<pad name="P$6" x="-5.08" y="2.54" drill="1.2"/>
-<pad name="P$7" x="-8.89" y="0" drill="1.2"/>
-<pad name="P$8" x="-7.62" y="2.54" drill="1.2"/>
-<hole x="1.27" y="8.89" drill="3"/>
-<hole x="-10.16" y="8.89" drill="3"/>
-<wire x1="3.81" y1="-1.27" x2="3.81" y2="15.24" width="0.127" layer="21"/>
-<wire x1="3.81" y1="15.24" x2="3.81" y2="16.51" width="0.127" layer="21"/>
-<wire x1="3.81" y1="16.51" x2="3.81" y2="19.05" width="0.127" layer="21"/>
-<wire x1="3.81" y1="19.05" x2="-12.7" y2="19.05" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="19.05" x2="-12.7" y2="16.51" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="16.51" x2="-12.7" y2="15.24" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="-1.27" x2="3.81" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="16.51" x2="-13.97" y2="16.51" width="0.127" layer="21"/>
-<wire x1="-13.97" y1="16.51" x2="-13.97" y2="15.24" width="0.127" layer="21"/>
-<wire x1="-13.97" y1="15.24" x2="-12.7" y2="15.24" width="0.127" layer="21"/>
-<wire x1="3.81" y1="16.51" x2="5.08" y2="16.51" width="0.127" layer="21"/>
-<wire x1="5.08" y1="16.51" x2="5.08" y2="15.24" width="0.127" layer="21"/>
-<wire x1="5.08" y1="15.24" x2="3.81" y2="15.24" width="0.127" layer="21"/>
-</package>
 <package name="ASSMANN_A-2014-2S-4-N-R">
 <wire x1="-8.075" y1="6.55" x2="8.075" y2="6.55" width="0.127" layer="51"/>
 <wire x1="8.075" y1="6.55" x2="8.075" y2="-10.15" width="0.127" layer="51"/>
@@ -27350,16 +27326,16 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <text x="-7.62" y="-12.7" size="1.27" layer="27">&gt;VALUE</text>
 <hole x="-5.715" y="0" drill="3.51"/>
 <hole x="5.715" y="0" drill="3.51"/>
-<pad name="S1" x="-7.875" y="3.05" drill="1.71"/>
-<pad name="S2" x="7.875" y="3.05" drill="1.71"/>
-<pad name="8" x="-4.445" y="-8.89" drill="0.9"/>
-<pad name="6" x="-1.905" y="-8.89" drill="0.9"/>
-<pad name="4" x="0.635" y="-8.89" drill="0.9"/>
-<pad name="2" x="3.175" y="-8.89" drill="0.9"/>
-<pad name="7" x="-3.175" y="-6.35" drill="0.9"/>
-<pad name="5" x="-0.635" y="-6.35" drill="0.9"/>
-<pad name="3" x="1.905" y="-6.35" drill="0.9"/>
-<pad name="1" x="4.445" y="-6.35" drill="0.9" shape="square"/>
+<pad name="S1" x="-7.875" y="3.05" drill="1.5"/>
+<pad name="S2" x="7.875" y="3.05" drill="1.5"/>
+<pad name="8" x="-4.445" y="-8.89" drill="1"/>
+<pad name="6" x="-1.905" y="-8.89" drill="1"/>
+<pad name="4" x="0.635" y="-8.89" drill="1"/>
+<pad name="2" x="3.175" y="-8.89" drill="1"/>
+<pad name="7" x="-3.175" y="-6.35" drill="1"/>
+<pad name="5" x="-0.635" y="-6.35" drill="1"/>
+<pad name="3" x="1.905" y="-6.35" drill="1"/>
+<pad name="1" x="4.445" y="-6.35" drill="1" shape="square"/>
 </package>
 </packages>
 <packages3d>
@@ -35507,6 +35483,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <device name="" package="RJ45_TH">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$10" pad="P$10"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 <connect gate="G$1" pin="P$3" pad="P$3"/>
 <connect gate="G$1" pin="P$4" pad="P$4"/>
@@ -35514,6 +35491,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <connect gate="G$1" pin="P$6" pad="P$6"/>
 <connect gate="G$1" pin="P$7" pad="P$7"/>
 <connect gate="G$1" pin="P$8" pad="P$8"/>
+<connect gate="G$1" pin="P$9" pad="P$9"/>
 </connects>
 <technologies>
 <technology name=""/>
