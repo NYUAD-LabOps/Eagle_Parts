@@ -486,7 +486,7 @@
 <label x="175.26" y="-35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="VDD12" class="0">
+<net name="VDD" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="3"/>
 <wire x1="106.68" y1="-10.16" x2="109.22" y2="-10.16" width="0.1524" layer="91"/>
@@ -494,6 +494,11 @@
 </segment>
 </net>
 <net name="VDD5" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="5"/>
+<wire x1="106.68" y1="-5.08" x2="109.22" y2="-5.08" width="0.1524" layer="91"/>
+<label x="109.22" y="-5.08" size="1.016" layer="95" xref="yes"/>
+</segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="8"/>
 <wire x1="106.68" y1="2.54" x2="109.22" y2="2.54" width="0.1524" layer="91"/>
@@ -505,13 +510,6 @@
 <pinref part="J4" gate="G$1" pin="7"/>
 <wire x1="106.68" y1="0" x2="109.22" y2="0" width="0.1524" layer="91"/>
 <label x="109.22" y="0" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="VDD" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="5"/>
-<wire x1="106.68" y1="-5.08" x2="109.22" y2="-5.08" width="0.1524" layer="91"/>
-<label x="109.22" y="-5.08" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -1015,17 +1013,16 @@ design rules under a new name.</description>
 <signal name="DIR_M_">
 <contactref element="R3" pad="P$1"/>
 </signal>
-<signal name="VDD12">
+<signal name="VDD">
 <contactref element="J4" pad="3"/>
 </signal>
 <signal name="VDD5">
+<contactref element="J4" pad="5"/>
 <contactref element="J4" pad="8"/>
+<wire x1="15.655" y1="76.61" x2="19.465" y2="79.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD-12">
 <contactref element="J4" pad="7"/>
-</signal>
-<signal name="VDD">
-<contactref element="J4" pad="5"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
