@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -33937,6 +33937,62 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <wire x1="8.89" y1="-3.556" x2="8.89" y2="4.064" width="0.254" layer="94"/>
 <text x="-7.874" y="4.572" size="1.778" layer="125">&gt;Name</text>
 </symbol>
+<symbol name="R7FS3A6783A01CFLAA0">
+<wire x1="-35.56" y1="35.56" x2="-35.56" y2="-38.1" width="0.1524" layer="94"/>
+<wire x1="-35.56" y1="-38.1" x2="38.1" y2="-38.1" width="0.1524" layer="94"/>
+<wire x1="38.1" y1="-38.1" x2="38.1" y2="35.56" width="0.1524" layer="94"/>
+<wire x1="38.1" y1="35.56" x2="-35.56" y2="35.56" width="0.1524" layer="94"/>
+<text x="-4.7244" y="4.0386" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-15.5194" y="-3.5814" size="2.0828" layer="96" ratio="6" rot="SR0">R7FS3A6783A01CFLAA0</text>
+<pin name="P400" x="-40.64" y="12.7" length="middle"/>
+<pin name="VBATT" x="-40.64" y="10.16" length="middle"/>
+<pin name="VCL" x="-40.64" y="7.62" length="middle"/>
+<pin name="P215/XCIN" x="-40.64" y="5.08" length="middle"/>
+<pin name="P214/XCOUT" x="-40.64" y="2.54" length="middle"/>
+<pin name="VSS" x="-40.64" y="0" length="middle"/>
+<pin name="P213/XTAL" x="-40.64" y="-2.54" length="middle"/>
+<pin name="P212/EXTAL" x="-40.64" y="-5.08" length="middle"/>
+<pin name="VCC" x="-40.64" y="-7.62" length="middle"/>
+<pin name="P409" x="-40.64" y="-10.16" length="middle"/>
+<pin name="P408" x="-40.64" y="-12.7" length="middle"/>
+<pin name="P407" x="-40.64" y="-15.24" length="middle"/>
+<pin name="VSS_USB" x="-12.7" y="-43.18" length="middle" rot="R90"/>
+<pin name="P915/USB_DM" x="-10.16" y="-43.18" length="middle" rot="R90"/>
+<pin name="P914/USB_DP" x="-7.62" y="-43.18" length="middle" rot="R90"/>
+<pin name="VCC_USB" x="-5.08" y="-43.18" length="middle" rot="R90"/>
+<pin name="VCC_USB_LDO" x="-2.54" y="-43.18" length="middle" rot="R90"/>
+<pin name="P206" x="0" y="-43.18" length="middle" rot="R90"/>
+<pin name="RES" x="2.54" y="-43.18" length="middle" rot="R90"/>
+<pin name="P201/MD" x="5.08" y="-43.18" length="middle" rot="R90"/>
+<pin name="P200" x="7.62" y="-43.18" length="middle" rot="R90"/>
+<pin name="P302" x="10.16" y="-43.18" length="middle" rot="R90"/>
+<pin name="P301" x="12.7" y="-43.18" length="middle" rot="R90"/>
+<pin name="P300/TCK/SWCLK" x="15.24" y="-43.18" length="middle" rot="R90"/>
+<pin name="P108/TMS/SWDIO" x="43.18" y="-15.24" length="middle" rot="R180"/>
+<pin name="P109/TDO/SWO" x="43.18" y="-12.7" length="middle" rot="R180"/>
+<pin name="P110/TDI" x="43.18" y="-10.16" length="middle" rot="R180"/>
+<pin name="P111" x="43.18" y="-7.62" length="middle" rot="R180"/>
+<pin name="P112" x="43.18" y="-5.08" length="middle" rot="R180"/>
+<pin name="VCC_2" x="43.18" y="-2.54" length="middle" rot="R180"/>
+<pin name="VSS_2" x="43.18" y="0" length="middle" rot="R180"/>
+<pin name="P104" x="43.18" y="2.54" length="middle" rot="R180"/>
+<pin name="P103" x="43.18" y="5.08" length="middle" rot="R180"/>
+<pin name="P102" x="43.18" y="7.62" length="middle" rot="R180"/>
+<pin name="P101" x="43.18" y="10.16" length="middle" rot="R180"/>
+<pin name="P100" x="43.18" y="12.7" length="middle" rot="R180"/>
+<pin name="P500" x="15.24" y="40.64" length="middle" rot="R270"/>
+<pin name="P015" x="12.7" y="40.64" length="middle" rot="R270"/>
+<pin name="P014" x="10.16" y="40.64" length="middle" rot="R270"/>
+<pin name="P013/VREFL" x="7.62" y="40.64" length="middle" rot="R270"/>
+<pin name="P012/VREFH" x="5.08" y="40.64" length="middle" rot="R270"/>
+<pin name="AVCC0" x="2.54" y="40.64" length="middle" rot="R270"/>
+<pin name="AVSS0" x="0" y="40.64" length="middle" rot="R270"/>
+<pin name="P011/VREFL0" x="-2.54" y="40.64" length="middle" rot="R270"/>
+<pin name="P010/VREFH0" x="-5.08" y="40.64" length="middle" rot="R270"/>
+<pin name="P002" x="-7.62" y="40.64" length="middle" rot="R270"/>
+<pin name="P001" x="-10.16" y="40.64" length="middle" rot="R270"/>
+<pin name="P000" x="-12.7" y="40.64" length="middle" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="C8051F350">
@@ -44636,9 +44692,60 @@ with shutdown</description>
 </deviceset>
 <deviceset name="R7FS3A6783A01CFLAA0" prefix="U">
 <gates>
+<gate name="G$1" symbol="R7FS3A6783A01CFLAA0" x="1.016" y="-2.032"/>
 </gates>
 <devices>
 <device name="" package="PLQP0048KB-B_REN">
+<connects>
+<connect gate="G$1" pin="AVCC0" pad="42"/>
+<connect gate="G$1" pin="AVSS0" pad="43"/>
+<connect gate="G$1" pin="P000" pad="48"/>
+<connect gate="G$1" pin="P001" pad="47"/>
+<connect gate="G$1" pin="P002" pad="46"/>
+<connect gate="G$1" pin="P010/VREFH0" pad="45"/>
+<connect gate="G$1" pin="P011/VREFL0" pad="44"/>
+<connect gate="G$1" pin="P012/VREFH" pad="41"/>
+<connect gate="G$1" pin="P013/VREFL" pad="40"/>
+<connect gate="G$1" pin="P014" pad="39"/>
+<connect gate="G$1" pin="P015" pad="38"/>
+<connect gate="G$1" pin="P100" pad="36"/>
+<connect gate="G$1" pin="P101" pad="35"/>
+<connect gate="G$1" pin="P102" pad="34"/>
+<connect gate="G$1" pin="P103" pad="33"/>
+<connect gate="G$1" pin="P104" pad="32"/>
+<connect gate="G$1" pin="P108/TMS/SWDIO" pad="25"/>
+<connect gate="G$1" pin="P109/TDO/SWO" pad="26"/>
+<connect gate="G$1" pin="P110/TDI" pad="27"/>
+<connect gate="G$1" pin="P111" pad="28"/>
+<connect gate="G$1" pin="P112" pad="29"/>
+<connect gate="G$1" pin="P200" pad="21"/>
+<connect gate="G$1" pin="P201/MD" pad="20"/>
+<connect gate="G$1" pin="P206" pad="18"/>
+<connect gate="G$1" pin="P212/EXTAL" pad="8"/>
+<connect gate="G$1" pin="P213/XTAL" pad="7"/>
+<connect gate="G$1" pin="P214/XCOUT" pad="5"/>
+<connect gate="G$1" pin="P215/XCIN" pad="4"/>
+<connect gate="G$1" pin="P300/TCK/SWCLK" pad="24"/>
+<connect gate="G$1" pin="P301" pad="23"/>
+<connect gate="G$1" pin="P302" pad="22"/>
+<connect gate="G$1" pin="P400" pad="1"/>
+<connect gate="G$1" pin="P407" pad="12"/>
+<connect gate="G$1" pin="P408" pad="11"/>
+<connect gate="G$1" pin="P409" pad="10"/>
+<connect gate="G$1" pin="P500" pad="37"/>
+<connect gate="G$1" pin="P914/USB_DP" pad="15"/>
+<connect gate="G$1" pin="P915/USB_DM" pad="14"/>
+<connect gate="G$1" pin="RES" pad="19"/>
+<connect gate="G$1" pin="VBATT" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="9"/>
+<connect gate="G$1" pin="VCC_2" pad="30"/>
+<connect gate="G$1" pin="VCC_USB" pad="16"/>
+<connect gate="G$1" pin="VCC_USB_LDO" pad="17"/>
+<connect gate="G$1" pin="VCL" pad="3"/>
+<connect gate="G$1" pin="VSS" pad="6"/>
+<connect gate="G$1" pin="VSS_2" pad="31"/>
+<connect gate="G$1" pin="VSS_USB" pad="13"/>
+</connects>
 <technologies>
 <technology name="">
 <attribute name="BUILT_BY" value="EMA_Jessica" constant="no"/>
@@ -44650,6 +44757,56 @@ with shutdown</description>
 </technologies>
 </device>
 <device name="PLQP0048KB-B_REN-M" package="PLQP0048KB-B_REN-M">
+<connects>
+<connect gate="G$1" pin="AVCC0" pad="42"/>
+<connect gate="G$1" pin="AVSS0" pad="43"/>
+<connect gate="G$1" pin="P000" pad="48"/>
+<connect gate="G$1" pin="P001" pad="47"/>
+<connect gate="G$1" pin="P002" pad="46"/>
+<connect gate="G$1" pin="P010/VREFH0" pad="45"/>
+<connect gate="G$1" pin="P011/VREFL0" pad="44"/>
+<connect gate="G$1" pin="P012/VREFH" pad="41"/>
+<connect gate="G$1" pin="P013/VREFL" pad="40"/>
+<connect gate="G$1" pin="P014" pad="39"/>
+<connect gate="G$1" pin="P015" pad="38"/>
+<connect gate="G$1" pin="P100" pad="36"/>
+<connect gate="G$1" pin="P101" pad="35"/>
+<connect gate="G$1" pin="P102" pad="34"/>
+<connect gate="G$1" pin="P103" pad="33"/>
+<connect gate="G$1" pin="P104" pad="32"/>
+<connect gate="G$1" pin="P108/TMS/SWDIO" pad="25"/>
+<connect gate="G$1" pin="P109/TDO/SWO" pad="26"/>
+<connect gate="G$1" pin="P110/TDI" pad="27"/>
+<connect gate="G$1" pin="P111" pad="28"/>
+<connect gate="G$1" pin="P112" pad="29"/>
+<connect gate="G$1" pin="P200" pad="21"/>
+<connect gate="G$1" pin="P201/MD" pad="20"/>
+<connect gate="G$1" pin="P206" pad="18"/>
+<connect gate="G$1" pin="P212/EXTAL" pad="8"/>
+<connect gate="G$1" pin="P213/XTAL" pad="7"/>
+<connect gate="G$1" pin="P214/XCOUT" pad="5"/>
+<connect gate="G$1" pin="P215/XCIN" pad="4"/>
+<connect gate="G$1" pin="P300/TCK/SWCLK" pad="24"/>
+<connect gate="G$1" pin="P301" pad="23"/>
+<connect gate="G$1" pin="P302" pad="22"/>
+<connect gate="G$1" pin="P400" pad="1"/>
+<connect gate="G$1" pin="P407" pad="12"/>
+<connect gate="G$1" pin="P408" pad="11"/>
+<connect gate="G$1" pin="P409" pad="10"/>
+<connect gate="G$1" pin="P500" pad="37"/>
+<connect gate="G$1" pin="P914/USB_DP" pad="15"/>
+<connect gate="G$1" pin="P915/USB_DM" pad="14"/>
+<connect gate="G$1" pin="RES" pad="19"/>
+<connect gate="G$1" pin="VBATT" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="9"/>
+<connect gate="G$1" pin="VCC_2" pad="30"/>
+<connect gate="G$1" pin="VCC_USB" pad="16"/>
+<connect gate="G$1" pin="VCC_USB_LDO" pad="17"/>
+<connect gate="G$1" pin="VCL" pad="3"/>
+<connect gate="G$1" pin="VSS" pad="6"/>
+<connect gate="G$1" pin="VSS_2" pad="31"/>
+<connect gate="G$1" pin="VSS_USB" pad="13"/>
+</connects>
 <technologies>
 <technology name="">
 <attribute name="BUILT_BY" value="EMA_Jessica" constant="no"/>
@@ -44661,6 +44818,56 @@ with shutdown</description>
 </technologies>
 </device>
 <device name="PLQP0048KB-B_REN-L" package="PLQP0048KB-B_REN-L">
+<connects>
+<connect gate="G$1" pin="AVCC0" pad="42"/>
+<connect gate="G$1" pin="AVSS0" pad="43"/>
+<connect gate="G$1" pin="P000" pad="48"/>
+<connect gate="G$1" pin="P001" pad="47"/>
+<connect gate="G$1" pin="P002" pad="46"/>
+<connect gate="G$1" pin="P010/VREFH0" pad="45"/>
+<connect gate="G$1" pin="P011/VREFL0" pad="44"/>
+<connect gate="G$1" pin="P012/VREFH" pad="41"/>
+<connect gate="G$1" pin="P013/VREFL" pad="40"/>
+<connect gate="G$1" pin="P014" pad="39"/>
+<connect gate="G$1" pin="P015" pad="38"/>
+<connect gate="G$1" pin="P100" pad="36"/>
+<connect gate="G$1" pin="P101" pad="35"/>
+<connect gate="G$1" pin="P102" pad="34"/>
+<connect gate="G$1" pin="P103" pad="33"/>
+<connect gate="G$1" pin="P104" pad="32"/>
+<connect gate="G$1" pin="P108/TMS/SWDIO" pad="25"/>
+<connect gate="G$1" pin="P109/TDO/SWO" pad="26"/>
+<connect gate="G$1" pin="P110/TDI" pad="27"/>
+<connect gate="G$1" pin="P111" pad="28"/>
+<connect gate="G$1" pin="P112" pad="29"/>
+<connect gate="G$1" pin="P200" pad="21"/>
+<connect gate="G$1" pin="P201/MD" pad="20"/>
+<connect gate="G$1" pin="P206" pad="18"/>
+<connect gate="G$1" pin="P212/EXTAL" pad="8"/>
+<connect gate="G$1" pin="P213/XTAL" pad="7"/>
+<connect gate="G$1" pin="P214/XCOUT" pad="5"/>
+<connect gate="G$1" pin="P215/XCIN" pad="4"/>
+<connect gate="G$1" pin="P300/TCK/SWCLK" pad="24"/>
+<connect gate="G$1" pin="P301" pad="23"/>
+<connect gate="G$1" pin="P302" pad="22"/>
+<connect gate="G$1" pin="P400" pad="1"/>
+<connect gate="G$1" pin="P407" pad="12"/>
+<connect gate="G$1" pin="P408" pad="11"/>
+<connect gate="G$1" pin="P409" pad="10"/>
+<connect gate="G$1" pin="P500" pad="37"/>
+<connect gate="G$1" pin="P914/USB_DP" pad="15"/>
+<connect gate="G$1" pin="P915/USB_DM" pad="14"/>
+<connect gate="G$1" pin="RES" pad="19"/>
+<connect gate="G$1" pin="VBATT" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="9"/>
+<connect gate="G$1" pin="VCC_2" pad="30"/>
+<connect gate="G$1" pin="VCC_USB" pad="16"/>
+<connect gate="G$1" pin="VCC_USB_LDO" pad="17"/>
+<connect gate="G$1" pin="VCL" pad="3"/>
+<connect gate="G$1" pin="VSS" pad="6"/>
+<connect gate="G$1" pin="VSS_2" pad="31"/>
+<connect gate="G$1" pin="VSS_USB" pad="13"/>
+</connects>
 <technologies>
 <technology name="">
 <attribute name="BUILT_BY" value="EMA_Jessica" constant="no"/>
