@@ -1,0 +1,69 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Create_devices LOG file                                          )
+(                                                                     )
+(    Drawing          : sk_s7g2-v2.brd                                )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Oct 23 09:55:00 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/qfn20_1p5m.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/sot23_5.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/cons2x3_3j_a.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/h2x2p20z.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/usbmicro5_6c.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/cons2x7_3j.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/x3s32x13.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/x2s32x15.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/x4s32x25.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/qfn24_1p5m.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/soic8ja.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/ssop16fg.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/soic8jg.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/drl5p5q.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/qfn48_1p4a.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/sot223p4.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/dfn6_1fn.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/lqfp100p5.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/sop10p5h.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/lqfp176_24x24mm_pit0_5mm.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/tp30.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/sws4b60s.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/ctsu_rx113.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/ctsu_s10mm.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/r0603.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/r0805.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/r0402.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/mhc50d30.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/led0603.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/l1008.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/l0402.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/l0805.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/h2x3mz.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/usbs4_4al.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/fpc50_2p5.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/h6m.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/h8m.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/h10m.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/h2x20mz.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/h2m.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/h2x5w52jz.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/audios4-2b180x60.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/h3p20.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/h2x6lmz_f.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/rj45_13f-64gy_p12_4.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/h4m.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/h3m.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/f0603.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/sot23_123.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/c1210.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/c1206.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/c0603.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/c0402.txt': written successfully.
+Device file 'D:/SA/SK-S7G2(Renesas)/SK-S7G2-V2/05-Library/02-PCB Library/1/ant2_rjc-11k09.txt': written successfully.
+
+  Created device files: 54
+

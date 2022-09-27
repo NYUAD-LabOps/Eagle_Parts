@@ -1,0 +1,35 @@
+*************************************************************
+FileName = ATM90E2x-DB.GBR
+AutoAperture = True
+*************************************************************
+Generating : Drill Drawing
+      File : ATM90E2x-DB.GD1
+
+    Adding Layer      : Mechanical 12
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : ATM90E2x-DB.GG1
+
+    Adding Layer      : Mechanical 12
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D10
+*************************************************************
+
