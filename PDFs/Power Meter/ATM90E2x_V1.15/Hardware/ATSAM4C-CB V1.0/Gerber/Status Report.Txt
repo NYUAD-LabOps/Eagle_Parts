@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [ATSAM4C-CB.PrjPcb]
+   Generated File[ATSAM4C-CB-RoundHoles.TXT]
+   Generated File[ATSAM4C-CB-SlotHoles.TXT]
+   Generated File[ATSAM4C-CB.LDP]
+   Generated File[ATSAM4C-CB.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 10:35:41 On 10/25/2013

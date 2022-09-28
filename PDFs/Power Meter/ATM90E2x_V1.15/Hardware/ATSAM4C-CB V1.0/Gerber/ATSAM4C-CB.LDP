@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Work\ATMEL\Misc\ATSAM4C-CB V1.0\ATSAM4C-CB.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=atsam4c-cb-roundholes.txt|LayerPairs=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=atsam4c-cb-slotholes.txt|LayerPairs=gtl,gbl
