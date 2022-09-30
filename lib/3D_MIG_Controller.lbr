@@ -37030,6 +37030,21 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <wire x1="20.32" y1="-10.16" x2="20.32" y2="15.24" width="0.254" layer="94"/>
 <wire x1="20.32" y1="15.24" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
 </symbol>
+<symbol name="TEKNIC_8PIN_SD">
+<pin name="1-HLFB+" x="0" y="0" length="middle" direction="pas"/>
+<pin name="2-STEP+" x="0" y="-5.08" length="middle" direction="pas"/>
+<pin name="3-DIR+" x="0" y="-10.16" length="middle" direction="pas"/>
+<pin name="4-ENABLE+" x="0" y="-15.24" length="middle" direction="pas"/>
+<pin name="5-HLFB-" x="0" y="-2.54" length="middle" direction="pas"/>
+<pin name="6-STEP-" x="0" y="-7.62" length="middle" direction="pas"/>
+<pin name="7-DIR-" x="0" y="-12.7" length="middle" direction="pas"/>
+<pin name="8-ENABLE-" x="0" y="-17.78" length="middle" direction="pas"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-20.32" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-20.32" x2="20.32" y2="-20.32" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="-20.32" x2="20.32" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<text x="4.1656" y="5.3086" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="C8051F350">
@@ -48441,7 +48456,7 @@ with shutdown</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TEKNIC_8PIN_MOTOR" prefix="J" uservalue="yes">
+<deviceset name="TEKNIC_MOTOR_8PIN" prefix="J" uservalue="yes">
 <gates>
 <gate name="HLFB" symbol="CON_39281083_TEKNIC_8PIN" x="0" y="0"/>
 </gates>
@@ -48487,6 +48502,32 @@ with shutdown</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEKNIC_MOTOR_SD_8PIN" prefix="J" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="TEKNIC_8PIN_SD" x="-12.7" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="CON_39281083">
+<connects>
+<connect gate="G$1" pin="1-HLFB+" pad="1"/>
+<connect gate="G$1" pin="2-STEP+" pad="2"/>
+<connect gate="G$1" pin="3-DIR+" pad="3"/>
+<connect gate="G$1" pin="4-ENABLE+" pad="4"/>
+<connect gate="G$1" pin="5-HLFB-" pad="5"/>
+<connect gate="G$1" pin="6-STEP-" pad="6"/>
+<connect gate="G$1" pin="7-DIR-" pad="7"/>
+<connect gate="G$1" pin="8-ENABLE-" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="39281083" constant="no"/>
+<attribute name="MFR_NAME" value="Molex Connector Corporation" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
