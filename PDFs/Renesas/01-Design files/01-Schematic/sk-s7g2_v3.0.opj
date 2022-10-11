@@ -1,0 +1,38 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\sk-s7g2_v3.0.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\sk-s7g2_v3.0.dsn")
+      (Path "Design Resources" ".\sk-s7g2_v3.0.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\sk-s7g2_v3.0.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 811"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 100 848 100 513")
+        (Scroll "-25 0")
+        (Zoom "53")
+        (Occurrence "/"))
+      (Path
+         "D:\SA\SK-S7G2(RENESAS)\SK-S7G2-V3\01-DESIGN FILES\01-SCHEMATIC\SK-S7G2_V3.0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "01-Title Page"))))

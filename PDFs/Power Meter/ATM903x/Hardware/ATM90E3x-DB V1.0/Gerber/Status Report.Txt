@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [ATM90E3x-DB.PrjPcb]
+   Generated File[ATM90E3x-DB-RoundHoles.TXT]
+   Generated File[ATM90E3x-DB-SlotHoles.TXT]
+   Generated File[ATM90E3x-DB.LDP]
+   Generated File[ATM90E3x-DB.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 09:11:56 On 7/25/2013

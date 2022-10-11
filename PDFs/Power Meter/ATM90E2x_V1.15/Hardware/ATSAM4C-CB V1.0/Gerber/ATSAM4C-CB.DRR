@@ -1,0 +1,26 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: ATSAM4C-CB.PcbDoc   10/25/2013  10:35:40
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : ATSAM4C-CB-RoundHoles.TXT
+ASCII SlotHoles File : ATSAM4C-CB-SlotHoles.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        12mil (0.3048mm)         Round          470              91.37 Inch (2320.82 mm)
+T2        15mil (0.381mm)          Round          3                6.17 Inch (156.69 mm)
+T3        31.5mil (0.8001mm)       Round          2                0.28 Inch (7.00 mm)
+T4        32mil (0.8128mm)         Round          19               15.73 Inch (399.66 mm)
+T5        35mil (0.889mm)          Round          3                0.20 Inch (5.08 mm)
+T6        35.43mil (0.89992mm)     Round          80               22.28 Inch (565.98 mm)
+T7        36mil (0.9144mm)         Round          24               4.37 Inch (111.11 mm)
+T8        39.37mil (1mm)           Slot           3                285.06 Inch (7240.46 mm)
+T9        40mil (1.016mm)          Round          4                0.35 Inch (8.89 mm)
+T10       42.91mil (1.08991mm)     Round          9                0.90 Inch (22.94 mm)
+T11       55.12mil (1.40005mm)     Round          2                0.20 Inch (5.08 mm)
+T12       128.35mil (3.26009mm)    Round          2                0.98 Inch (24.99 mm)
+---------------------------------------------------------------------------
+Totals                                            621              427.90 Inch (10868.69 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:01

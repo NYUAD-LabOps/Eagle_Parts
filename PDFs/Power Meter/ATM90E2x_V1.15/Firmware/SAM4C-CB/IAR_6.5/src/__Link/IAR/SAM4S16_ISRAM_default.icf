@@ -1,0 +1,84 @@
+/*###ICF### Section handled by ICF editor, don't touch! ****/
+/*-Editor annotation file-*/
+/* IcfEditorFile="$TOOLKIT_DIR$\config\ide\IcfEditor\a_v1_0.xml" */
+
+
+/*****************************************************************************/
+/*** ISRAM ***/
+/*****************************************************************************/
+
+
+/*****************************************************************************/
+/* - Memory Regions - */
+define symbol _region_FLASH_start__ = 0x00400000;
+define symbol _region_FLASH_size__  = 0x00100000;
+/**********************************************************/
+define symbol _region_SRAM_start__ = 0x20000000;
+define symbol _region_SRAM_size__  = 0x00020000;
+
+define symbol _region_FLASH0_start__ = 0x00400000;
+define symbol _region_FLASH0_size__  = 0x00002000;
+define symbol _region_FLASH1_start__ = 0x00402000;
+define symbol _region_FLASH1_size__  = 0x00002000;
+define symbol _region_FLASH2_start__ = 0x00404000;
+define symbol _region_FLASH2_size__  = 0x0000C000;
+define symbol _region_FLASH3_start__ = 0x00410000;
+define symbol _region_FLASH3_size__  = 0x000F0000;
+/**********************************************************/
+define symbol _region_MAX_CODE_size__  = 0x00007FE0;
+define symbol _region_SRAM_BASE_size__ = 0x00020000;
+
+
+/**********************************************************/
+define symbol _region_SRAM_CODE_start__ = _region_SRAM_start__;
+define symbol _region_SRAM_CODE_size__ = _region_MAX_CODE_size__;
+define symbol _region_SRAM_BASE_start__ = _region_SRAM_start__;
+define symbol _region_SRAM_RW_start__   = _region_SRAM_CODE_start__+_region_MAX_CODE_size__;
+define symbol _region_SRAM_RW_size__    = _region_SRAM_BASE_size__-_region_MAX_CODE_size__;
+define symbol _region_SRAM_EXT_start__  = _region_SRAM_RW_start__+_region_SRAM_RW_size__;
+define symbol _region_SRAM_EXT_size__   = _region_SRAM_size__-_region_SRAM_BASE_size__;
+
+define symbol _region_FLASH_CODE_size__  = _region_MAX_CODE_size__;
+define symbol _region_FLASH_CODE_start__ = _region_FLASH_start__;
+
+define memory mem with size = 4G;
+define region FLASH  = mem:[from _region_FLASH_start__  size _region_FLASH_size__];
+define region FLASH0 = mem:[from _region_FLASH0_start__ size _region_FLASH0_size__];
+define region FLASH1 = mem:[from _region_FLASH1_start__ size _region_FLASH1_size__];
+define region FLASH2 = mem:[from _region_FLASH2_start__ size _region_FLASH2_size__];
+define region FLASH3 = mem:[from _region_FLASH3_start__ size _region_FLASH3_size__];
+define region SRAM  = mem:[from _region_SRAM_start__  size _region_SRAM_size__];
+define region SRAM_CODE = mem:[from _region_SRAM_CODE_start__  size _region_SRAM_CODE_size__];
+define region SRAM_RW   = mem:[from _region_SRAM_RW_start__  size _region_SRAM_RW_size__];
+define region SRAM_BASE = mem:[from _region_SRAM_BASE_start__  size _region_SRAM_BASE_size__];
+define region SRAM_EXT  = mem:[from _region_SRAM_EXT_start__ size _region_SRAM_EXT_size__];
+define region FLASH_CODE       = mem:[from _region_FLASH_CODE_start__ size _region_FLASH_CODE_size__];
+/*****************************************************************************/
+
+/*-binary infos-*/
+define symbol _info_add__ = _region_SRAM_CODE_start__+_region_SRAM_CODE_size__;
+place at address mem:_info_add__ { ro section .info_section };
+
+/*-checksum-*/
+define symbol _checksum_add__ = _region_SRAM_CODE_start__+_region_SRAM_CODE_size__+0x1C;
+place at address mem:_checksum_add__ { ro section .checksum };
+
+/*-Stack-*/
+define symbol __ICFEDIT_size_cstack__   = 0x0800;
+define symbol __ICFEDIT_size_heap__     = 0x0000;
+define block CSTACK    with alignment = 4, size = __ICFEDIT_size_cstack__   { };
+define block HEAP      with alignment = 4, size = __ICFEDIT_size_heap__     { };
+
+/*-Specials-*/
+define symbol __ICFEDIT_intvec_start__ = _region_SRAM_start__;
+
+
+initialize by copy { rw };
+do not initialize  { section .noinit };
+
+place at address mem:__ICFEDIT_intvec_start__ { ro section .intvec };
+
+place in SRAM_CODE  { ro  };
+place in SRAM_RW    { rw , block CSTACK };
+place in SRAM_EXT   { block HEAP };
+                        
