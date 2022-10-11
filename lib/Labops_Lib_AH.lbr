@@ -30785,6 +30785,97 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <vertex x="-7.8" y="0.975"/>
 </polygon>
 </package>
+<package name="EIA0603">
+<smd name="1" x="-0.799996875" y="0" dx="1" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="0.8" y="0" dx="1" dy="1" layer="1" rot="R90"/>
+<wire x1="-1.55" y1="-0.75" x2="1.55" y2="-0.75" width="0.1" layer="21"/>
+<wire x1="1.55" y1="-0.75" x2="1.55" y2="0.75" width="0.1" layer="21"/>
+<wire x1="-1.55" y1="0.75" x2="1.55" y2="0.75" width="0.1" layer="21"/>
+<wire x1="-1.55" y1="-0.75" x2="-1.55" y2="0.75" width="0.1" layer="21"/>
+<wire x1="-0.875" y1="-0.475" x2="-0.875" y2="0.474996875" width="0.1" layer="51"/>
+<wire x1="0.875003125" y1="-0.475" x2="0.875003125" y2="0.474996875" width="0.1" layer="51"/>
+<wire x1="-0.875" y1="0.474996875" x2="0.875003125" y2="0.474996875" width="0.1" layer="51"/>
+<wire x1="-0.875" y1="-0.475" x2="0.875003125" y2="-0.475" width="0.1" layer="51"/>
+<wire x1="-1.55" y1="-0.75" x2="-1.55" y2="0.75" width="0.1" layer="51"/>
+<wire x1="1.550003125" y1="-0.75" x2="1.550003125" y2="0.75" width="0.1" layer="51"/>
+<wire x1="-1.55" y1="0.75" x2="1.550003125" y2="0.75" width="0.1" layer="51"/>
+<wire x1="-1.55" y1="-0.75" x2="1.550003125" y2="-0.75" width="0.1" layer="51"/>
+<wire x1="-0.474996875" y1="0" x2="0.475003125" y2="0" width="0.1" layer="51"/>
+<wire x1="0.000003125" y1="-0.475" x2="0.000003125" y2="0.474996875" width="0.1" layer="51"/>
+<text x="2.54" y="1.27" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="2.54" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
+<package name="EIA0805">
+<smd name="2" x="0.9" y="0.000003125" dx="1.4" dy="1.2" layer="1" rot="R90"/>
+<smd name="1" x="-0.899996875" y="0.000003125" dx="1.4" dy="1.2" layer="1" rot="R90"/>
+<wire x1="0" y1="-0.6" x2="0" y2="0.6" width="0.2" layer="21"/>
+<wire x1="-1.075" y1="-0.699996875" x2="1.075003125" y2="-0.699996875" width="0.1" layer="51"/>
+<wire x1="-1.075" y1="0.700003125" x2="1.075003125" y2="0.700003125" width="0.1" layer="51"/>
+<wire x1="1.075003125" y1="-0.699996875" x2="1.075003125" y2="0.700003125" width="0.1" layer="51"/>
+<wire x1="-1.075" y1="-0.699996875" x2="-1.075" y2="0.700003125" width="0.1" layer="51"/>
+<wire x1="0.000003125" y1="-0.499996875" x2="0.000003125" y2="0.500003125" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="0.000003125" x2="0.5" y2="0.000003125" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="-0.949996875" x2="1.750003125" y2="-0.949996875" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="0.950003125" x2="1.750003125" y2="0.950003125" width="0.1" layer="51"/>
+<wire x1="1.750003125" y1="-0.949996875" x2="1.750003125" y2="0.950003125" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="-0.949996875" x2="-1.75" y2="0.950003125" width="0.1" layer="51"/>
+<text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
+<package name="EIA1206">
+<smd name="1" x="-1.45" y="0.000003125" dx="1.8" dy="1.3" layer="1" rot="R90"/>
+<smd name="2" x="1.45" y="0.000003125" dx="1.8" dy="1.3" layer="1" rot="R90"/>
+<wire x1="-0.4" y1="0.800003125" x2="0.4" y2="0.800003125" width="0.2" layer="21"/>
+<wire x1="-0.4" y1="-0.799996875" x2="0.4" y2="-0.799996875" width="0.2" layer="21"/>
+<wire x1="-1.675" y1="-0.874996875" x2="-1.675" y2="0.875003125" width="0.1" layer="51"/>
+<wire x1="1.675" y1="-0.874996875" x2="1.675" y2="0.875003125" width="0.1" layer="51"/>
+<wire x1="-1.675" y1="0.875003125" x2="1.675" y2="0.875003125" width="0.1" layer="51"/>
+<wire x1="-1.675" y1="-0.874996875" x2="1.675" y2="-0.874996875" width="0.1" layer="51"/>
+<wire x1="-2.35" y1="-1.149996875" x2="-2.35" y2="1.150003125" width="0.1" layer="51"/>
+<wire x1="2.35" y1="-1.149996875" x2="2.35" y2="1.150003125" width="0.1" layer="51"/>
+<wire x1="-2.35" y1="1.150003125" x2="2.35" y2="1.150003125" width="0.1" layer="51"/>
+<wire x1="-2.35" y1="-1.149996875" x2="2.35" y2="-1.149996875" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="0.000003125" x2="0.5" y2="0.000003125" width="0.1" layer="51"/>
+<wire x1="0" y1="-0.499996875" x2="0" y2="0.500003125" width="0.1" layer="51"/>
+<text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
+<package name="EIA2010">
+<smd name="2" x="2.3" y="0" dx="2.7" dy="1.4" layer="1" rot="R90"/>
+<smd name="1" x="-2.3" y="0" dx="2.7" dy="1.4" layer="1" rot="R90"/>
+<wire x1="-1.2" y1="-1.25" x2="1.2" y2="-1.25" width="0.2" layer="21"/>
+<wire x1="-1.2" y1="1.25" x2="1.2" y2="1.25" width="0.2" layer="21"/>
+<wire x1="-2.575" y1="-1.325" x2="2.575" y2="-1.325" width="0.1" layer="51"/>
+<wire x1="-2.575" y1="1.325" x2="2.575" y2="1.325" width="0.1" layer="51"/>
+<wire x1="2.575" y1="-1.325" x2="2.575" y2="1.325" width="0.1" layer="51"/>
+<wire x1="-2.575" y1="-1.325" x2="-2.575" y2="1.325" width="0.1" layer="51"/>
+<wire x1="0" y1="-0.5" x2="0" y2="0.5" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="-1.6" x2="3.25" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="1.6" x2="3.25" y2="1.6" width="0.1" layer="51"/>
+<wire x1="3.25" y1="-1.6" x2="3.25" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="-1.6" x2="-3.25" y2="1.6" width="0.1" layer="51"/>
+<text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
+<package name="EIA2512">
+<smd name="2" x="2.950003125" y="0.000003125" dx="3.4" dy="1.3" layer="1" rot="R90"/>
+<smd name="1" x="-2.95" y="0.000003125" dx="3.4" dy="1.3" layer="1" rot="R90"/>
+<wire x1="-1.9" y1="-1.6" x2="1.9" y2="-1.6" width="0.2" layer="21"/>
+<wire x1="-1.9" y1="1.600003125" x2="1.9" y2="1.600003125" width="0.2" layer="21"/>
+<wire x1="-3.225" y1="-1.674996875" x2="3.225" y2="-1.674996875" width="0.1" layer="51"/>
+<wire x1="-3.225" y1="1.675" x2="3.225" y2="1.675" width="0.1" layer="51"/>
+<wire x1="3.225" y1="-1.674996875" x2="3.225" y2="1.675" width="0.1" layer="51"/>
+<wire x1="-3.225" y1="-1.674996875" x2="-3.225" y2="1.675" width="0.1" layer="51"/>
+<wire x1="0" y1="-0.5" x2="0" y2="0.5" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="0.000003125" x2="0.5" y2="0.000003125" width="0.1" layer="51"/>
+<wire x1="-3.85" y1="-1.95" x2="3.85" y2="-1.95" width="0.1" layer="51"/>
+<wire x1="-3.85" y1="1.95" x2="3.85" y2="1.95" width="0.1" layer="51"/>
+<wire x1="3.85" y1="-1.95" x2="3.85" y2="1.95" width="0.1" layer="51"/>
+<wire x1="-3.85" y1="-1.95" x2="-3.85" y2="1.95" width="0.1" layer="51"/>
+<text x="3.81" y="2.54" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="3.81" y="-4.064" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="C0402" urn="urn:adsk.eagle:package:26136/1" locally_modified="yes" type="box">
@@ -42308,7 +42399,7 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="R0603">
+<device name="" package="EIA0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -42316,13 +42407,8 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="LIB_STATUS" value="" constant="no"/>
-<attribute name="MFN" value="Open Source " constant="no"/>
-<attribute name="MFR" value="" constant="no"/>
-<attribute name="OUR_STOCK" value="" constant="no"/>
+<attribute name="MFN" value="Open Source 0603" constant="no"/>
 <attribute name="PART_VALUE" value="" constant="no"/>
-<attribute name="PRICE-1" value="" constant="no"/>
-<attribute name="SUPPLIER-1" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -42389,7 +42475,7 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <gate name="G$1" symbol="CAP_NON_POLARIZED" x="0" y="0.508"/>
 </gates>
 <devices>
-<device name="" package="0603">
+<device name="EIA0603" package="EIA0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -42397,12 +42483,8 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="MFN" value="Open Source" constant="no"/>
-<attribute name="MFR" value="" constant="no"/>
-<attribute name="OUR-STOCK" value="" constant="no"/>
+<attribute name="MFN" value="" constant="no"/>
 <attribute name="PART_VALUE" value="" constant="no"/>
-<attribute name="PRICE-1" value="" constant="no"/>
-<attribute name="SUPPLIER-1" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -42413,7 +42495,7 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <gate name="G$1" symbol="CAP_NON_POLARIZED" x="0" y="0.508"/>
 </gates>
 <devices>
-<device name="" package="0805">
+<device name="EIA0805" package="EIA0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -42422,11 +42504,7 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <technology name="">
 <attribute name="DESCRIPTION" value="" constant="no"/>
 <attribute name="MFN" value="0805 Open Source" constant="no"/>
-<attribute name="MFR" value="" constant="no"/>
-<attribute name="OUR-STOCK" value="" constant="no"/>
 <attribute name="PART_VALUE" value="" constant="no"/>
-<attribute name="PRICE-1" value="" constant="no"/>
-<attribute name="SUPPLIER-1" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -47050,6 +47128,19 @@ Drill modified to match LabOp Machines</description>
 </technology>
 </technologies>
 </device>
+<device name="EIA1206" package="EIA1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MFN" value="Open Source R1206" constant="no"/>
+<attribute name="PART_VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="50PX470MEFC10X20" prefix="C">
@@ -47801,6 +47892,19 @@ Drill modified to match LabOp Machines</description>
 <attribute name="PART_VALUE" value="" constant="no"/>
 <attribute name="PRICE-1" value="0.11" constant="no"/>
 <attribute name="SUPPLIER-1" value="Digikey" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="EIA2010" package="EIA2010">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MFN" value="Open Source R 2010" constant="no"/>
+<attribute name="PART_VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -49060,6 +49164,26 @@ Updated by Yingchun,Shan  2020-01-06&lt;br&gt;
 <attribute name="MFR" value="Wurth Elektronik"/>
 <attribute name="PART_VALUE" value="615008148521"/>
 <attribute name="TYPE" value="Horizontal"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R_2512" prefix="R">
+<gates>
+<gate name="G$1" symbol="R-US" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="EIA2512">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MFN" value="" constant="no"/>
+<attribute name="PART_VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
