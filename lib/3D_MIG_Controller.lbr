@@ -13745,10 +13745,10 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <pad name="P$18" x="8.89" y="1.27" drill="1"/>
 <pad name="P$19" x="11.43" y="-1.27" drill="1"/>
 <pad name="P$20" x="11.43" y="1.27" drill="1"/>
-<wire x1="-12.7" y1="2.54" x2="-12.7" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="-2.54" x2="12.7" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="12.7" y1="-2.54" x2="12.7" y2="2.54" width="0.127" layer="21"/>
-<wire x1="12.7" y1="2.54" x2="-12.7" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-15" y1="3.15" x2="-15" y2="-3.15" width="0.127" layer="21"/>
+<wire x1="-15" y1="-3.15" x2="15" y2="-3.15" width="0.127" layer="21"/>
+<wire x1="15" y1="-3.15" x2="15" y2="3.15" width="0.127" layer="21"/>
+<wire x1="15" y1="3.15" x2="-15" y2="3.15" width="0.127" layer="21"/>
 <text x="-12.954" y="3.048" size="1.778" layer="125">&gt;Name</text>
 </package>
 <package name="TEST_POINT_HOLE_OFFSET">
@@ -39408,7 +39408,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="RELAY_KYOTO_KF0604D">
+<deviceset name="RELAY_KYOTO_KF0604D" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="RELAY_KYOTO_KF0604D" x="-5.08" y="0"/>
 </gates>
@@ -42950,7 +42950,7 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </device>
 </devices>
 </deviceset>
-<deviceset name="3.81MM_1_X_4_RT_ANGLE_PLUG_HEADER" prefix="J" uservalue="yes">
+<deviceset name="3.81MM_1_X_4_RT_ANGLE_PLUG_HEADER" prefix="T" uservalue="yes">
 <description>4 Position Terminal Block Header, Male Pins, Shrouded (4 Side) 0.150" (3.81mm) 90°, Right Angle - Through Hole</description>
 <gates>
 <gate name="G$1" symbol="1X4_HEADER" x="0" y="-7.62"/>
@@ -43218,7 +43218,7 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </device>
 </devices>
 </deviceset>
-<deviceset name="3.81MM_1_X_2_RT_ANGLE_PLUG_HEADER" prefix="J" uservalue="yes">
+<deviceset name="3.81MM_1_X_2_RT_ANGLE_PLUG_HEADER" prefix="T" uservalue="yes">
 <description>TERM BLOCK HDR 2POS 90DEG 3.81MM</description>
 <gates>
 <gate name="A" symbol="1X2_HEADER" x="2.54" y="-2.54"/>
@@ -45131,7 +45131,7 @@ with shutdown</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FIDUCIAL_1MM">
+<deviceset name="FIDUCIAL_1MM" prefix="FID">
 <description>For use by pick and place machines to calibrate the vision/machine, 1mm
 &lt;p&gt;By microbuilder.eu&lt;/p&gt;</description>
 <gates>
