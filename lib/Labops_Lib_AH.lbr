@@ -30972,6 +30972,40 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <text x="3.81" y="1.27" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="3.81" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="SOT23DUALDIODE">
+<smd name="1" x="-0.95" y="-1.05" dx="0.8" dy="0.9" layer="1" roundness="50"/>
+<smd name="2" x="0.95" y="-1.05" dx="0.8" dy="0.9" layer="1" roundness="50"/>
+<smd name="3" x="0" y="1.05" dx="0.8" dy="0.9" layer="1" roundness="50"/>
+<wire x1="-0.3" y1="-0.7" x2="0.3" y2="-0.7" width="0.1" layer="21"/>
+<wire x1="-1.5" y1="0.7" x2="-0.6" y2="0.7" width="0.1" layer="21"/>
+<wire x1="-1.5" y1="-0.5" x2="-1.5" y2="0.7" width="0.1" layer="21"/>
+<wire x1="0.6" y1="0.7" x2="1.5" y2="0.7" width="0.1" layer="21"/>
+<wire x1="1.5" y1="-0.5" x2="1.5" y2="0.7" width="0.1" layer="21"/>
+<text x="2.54" y="1.27" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="2.54" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
+<package name="CAPACITOR-FILM-RM12.5MM-12MM">
+<pad name="2" x="-5.9" y="1.7" drill="1.1" diameter="1.8"/>
+<pad name="1" x="6" y="-2.5" drill="1.1" diameter="1.8"/>
+<wire x1="-7.5" y1="-4.1" x2="-7.5" y2="3.4" width="0.1" layer="21"/>
+<wire x1="-7.5" y1="-4.1" x2="7.5231875" y2="-4.1" width="0.1" layer="21"/>
+<wire x1="-7.5" y1="3.4" x2="7.5231875" y2="3.4" width="0.1" layer="21"/>
+<wire x1="7.5231875" y1="-4.1" x2="7.5231875" y2="3.4" width="0.1" layer="21"/>
+<text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
+<package name="RES-RM15-RSF1W">
+<wire x1="-5.5" y1="-2.25" x2="5.5" y2="-2.25" width="0.1" layer="21"/>
+<wire x1="-5.5" y1="2.25" x2="5.5" y2="2.25" width="0.1" layer="21"/>
+<wire x1="-5.5" y1="-2.25" x2="-5.5" y2="2.25" width="0.1" layer="21"/>
+<wire x1="5.5" y1="-2.25" x2="5.5" y2="2.25" width="0.1" layer="21"/>
+<wire x1="5.5" y1="0" x2="6" y2="0" width="0.1" layer="21"/>
+<wire x1="-6" y1="0" x2="-5.5" y2="0" width="0.1" layer="21"/>
+<pad name="2" x="7.5" y="0" drill="1.2" diameter="2.5"/>
+<pad name="1" x="-7.5" y="0" drill="1.2" diameter="2.5"/>
+<text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="C0402" urn="urn:adsk.eagle:package:26136/1" locally_modified="yes" type="box">
@@ -48238,17 +48272,16 @@ Drill modified to match LabOp Machines</description>
 <gate name="G$1" symbol="VARISTOR" x="2.54" y="2.54"/>
 </gates>
 <devices>
-<device name="" package="0603">
+<device name="SMD" package="EIA0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Varistor 0603 SMD Bidirectional 50V 24V" constant="no"/>
+<attribute name="DESCRIPTION" value="aristor 0603 SMD Bidirectional 50V 24V" constant="no"/>
 <attribute name="MFN" value="0603ESDA-24N" constant="no"/>
-<attribute name="MFR" value="BORN" constant="no"/>
-<attribute name="PRICE-1" value="0.01" constant="no"/>
+<attribute name="MFR" value="Bourns" constant="no"/>
 <attribute name="SUPPLIER-1" value="LCSC" constant="no"/>
 </technology>
 </technologies>
@@ -49438,6 +49471,111 @@ Updated by Yingchun,Shan  2020-01-06&lt;br&gt;
 <attribute name="DESCRIPTION" value="Zener, 9.1V, 5%,1.6Watt, Axial DO-41" constant="no"/>
 <attribute name="MFN" value="1N4739A" constant="no"/>
 <attribute name="PART_VALUE" value="1N4739A" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GB02SLT12-214" prefix="D">
+<gates>
+<gate name="G$1" symbol="DIODE-SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMB">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Schottky SiC, 1.2KV, 2A SMB" constant="no"/>
+<attribute name="MFN" value="GB02SLT12-214" constant="no"/>
+<attribute name="MFR" value="GeneSic" constant="no"/>
+<attribute name="PART_VALUE" value="2A, 1.2KV" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SD103AW" prefix="D">
+<gates>
+<gate name="G$1" symbol="DIODE-SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Schottky 40V 350mA 600mV @ 200mA SOD-123" constant="no"/>
+<attribute name="MFN" value="SD103AW" constant="no"/>
+<attribute name="MFR" value="Onsemi, Guanddong Hottech" constant="no"/>
+<attribute name="PART_VALUE" value="350mA, 40V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAT54S" prefix="D">
+<gates>
+<gate name="G$1" symbol="DIODE-SCHOTTKY_2X_SER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23DUALDIODE">
+<connects>
+<connect gate="G$1" pin="A1" pad="1"/>
+<connect gate="G$1" pin="C1_A2" pad="2"/>
+<connect gate="G$1" pin="C2" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="200mA, 30V, SOT23, Schottky" constant="no"/>
+<attribute name="MFN" value="BAT54S" constant="no"/>
+<attribute name="MFR" value="HT" constant="no"/>
+<attribute name="PART_VALUE" value="200mA,30V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HVCC153Y6P471MEAX">
+<gates>
+<gate name="G$1" symbol="CAP_NON_POLARIZED" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="CAPACITOR-FILM-RM12.5MM-12MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="470pF/15KV, 12.5mm pitch, THT" constant="no"/>
+<attribute name="MFN" value="HVCC153Y6P471MEAX" constant="no"/>
+<attribute name="MFR" value="Vishay" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR02J22RTB">
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RES-RM15-RSF1W">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="22R,5%,2W, THT, 15mm pitch" constant="no"/>
+<attribute name="MFN" value="RR02J22RTB" constant="no"/>
+<attribute name="MFR" value="TE Connectivity" constant="no"/>
+<attribute name="PRICE-1" value="0.4" constant="no"/>
 </technology>
 </technologies>
 </device>
