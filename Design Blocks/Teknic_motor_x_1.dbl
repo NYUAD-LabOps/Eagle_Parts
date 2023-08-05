@@ -2,7 +2,7 @@
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
 <eagle version="9.6.2">
 <designblock>
-<description>Teknic Motor x 2</description>
+<description>Teknic Motor with 3pin Picoblade x 1</description>
 <attributes>
 <attribute name="AIRWIRES" value="YES"/>
 <attribute name="BOARDSIZE" value="5.9 x 12.5 mm"/>
