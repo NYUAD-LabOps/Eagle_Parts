@@ -31372,6 +31372,9 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <pad name="S1" x="8.13" y="3.43" drill="1.57"/>
 <pad name="S2" x="-8.13" y="3.43" drill="1.57"/>
 </package>
+<package name="TEST_POINT_P8MM">
+<smd name="P$1" x="0" y="0" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="C0402" urn="urn:adsk.eagle:package:26136/1" locally_modified="yes" type="box">
@@ -49239,6 +49242,21 @@ with shutdown</description>
 <attribute name="PARTREV" value="1.0"/>
 <attribute name="STANDARD" value="Manufacturer Recommendations"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST_POINT_P8MM" prefix="TP-" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="TEST_POINT" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="TEST_POINT_P8MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
