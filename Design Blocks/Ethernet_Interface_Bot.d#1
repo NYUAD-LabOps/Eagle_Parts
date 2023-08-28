@@ -816,7 +816,7 @@
 </instance>
 <instance part="GND19" gate="1" x="-505.02" y="-210.76" smashed="yes"/>
 <instance part="GND20" gate="1" x="-465.16" y="-210.76" smashed="yes"/>
-<instance part="GND21" gate="1" x="-510.82" y="-190.44" smashed="yes"/>
+<instance part="GND21" gate="1" x="-528.6" y="-210.76" smashed="yes"/>
 <instance part="GND22" gate="1" x="-474.24" y="-210.76" smashed="yes"/>
 <instance part="C56" gate="G$1" x="-307.34" y="-198.12" smashed="yes">
 <attribute name="NAME" x="-306.324" y="-197.485" size="1.778" layer="95"/>
@@ -910,8 +910,8 @@
 <segment>
 <pinref part="U$8" gate="G$1" pin="4"/>
 <pinref part="GND21" gate="1" pin="GND"/>
-<wire x1="-505.02" y1="-187.64" x2="-510.82" y2="-187.64" width="0.1524" layer="91"/>
-<wire x1="-510.82" y1="-187.64" x2="-510.82" y2="-187.9" width="0.1524" layer="91"/>
+<wire x1="-505.02" y1="-187.64" x2="-528.6" y2="-187.64" width="0.1524" layer="91"/>
+<wire x1="-528.6" y1="-187.64" x2="-528.6" y2="-208.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$8" gate="G$1" pin="2"/>
@@ -1355,9 +1355,10 @@
 <net name="N$1" class="0">
 <segment>
 <pinref part="C27" gate="G$1" pin="1"/>
-<wire x1="-505.02" y1="-192.72" x2="-505.02" y2="-199.32" width="0.1524" layer="91"/>
+<wire x1="-505.02" y1="-195.26" x2="-505.02" y2="-199.32" width="0.1524" layer="91"/>
 <pinref part="U$8" gate="G$1" pin="1"/>
-<label x="-520.7" y="-192.786" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="-505.02" y1="-192.72" x2="-505.02" y2="-195.26" width="0.1524" layer="91"/>
+<label x="-514.096" y="-192.786" size="1.016" layer="95" rot="R180" xref="yes"/>
 <wire x1="-520.7" y1="-192.786" x2="-505.02" y2="-192.786" width="0.1524" layer="91"/>
 <wire x1="-505.02" y1="-192.786" x2="-505.02" y2="-192.72" width="0.1524" layer="91"/>
 <junction x="-505.02" y="-192.72"/>
