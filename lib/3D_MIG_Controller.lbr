@@ -31441,6 +31441,54 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <text x="-3.81" y="-3.81" size="0.381" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 <wire x1="-3.175" y1="-2.921" x2="-1.905" y2="-2.921" width="0.2032" layer="22"/>
 </package>
+<package name="HEADER_1_X_16_.1_INCH">
+<pad name="P$1" x="-19.05" y="0" drill="1.2" diameter="1.6"/>
+<pad name="P$2" x="-16.51" y="0" drill="1.2" diameter="1.6"/>
+<pad name="P$3" x="-13.97" y="0" drill="1.2" diameter="1.6"/>
+<pad name="P$4" x="-11.43" y="0" drill="1.2" diameter="1.6"/>
+<pad name="P$5" x="-8.89" y="0" drill="1.2" diameter="1.6"/>
+<pad name="P$6" x="-6.35" y="0" drill="1.2" diameter="1.6"/>
+<pad name="P$7" x="-3.81" y="0" drill="1.2" diameter="1.6"/>
+<pad name="P$8" x="-1.27" y="0" drill="1.2" diameter="1.6"/>
+<pad name="P$9" x="1.27" y="0" drill="1.2" diameter="1.6"/>
+<pad name="P$10" x="3.81" y="0" drill="1.2" diameter="1.6"/>
+<pad name="P$11" x="6.35" y="0" drill="1.2" diameter="1.6"/>
+<pad name="P$12" x="8.89" y="0" drill="1.2" diameter="1.6"/>
+<pad name="P$13" x="11.43" y="0" drill="1.2" diameter="1.6"/>
+<pad name="P$14" x="13.97" y="0" drill="1.2" diameter="1.6"/>
+<pad name="P$15" x="16.51" y="0" drill="1.2" diameter="1.6"/>
+<pad name="P$16" x="19.05" y="0" drill="1.2" diameter="1.6"/>
+</package>
+<package name="ADM1602K">
+<pad name="P1" x="32.9" y="2.5" drill="1.2"/>
+<pad name="P2" x="35.44" y="2.5" drill="1.2"/>
+<pad name="P3" x="37.98" y="2.5" drill="1.2"/>
+<pad name="P4" x="40.52" y="2.5" drill="1.2"/>
+<pad name="P5" x="43.06" y="2.5" drill="1.2"/>
+<pad name="P6" x="45.6" y="2.5" drill="1.2"/>
+<pad name="P7" x="48.14" y="2.5" drill="1.2"/>
+<pad name="P8" x="50.68" y="2.5" drill="1.2"/>
+<pad name="P9" x="53.22" y="2.5" drill="1.2"/>
+<pad name="P10" x="55.76" y="2.5" drill="1.2"/>
+<pad name="P11" x="58.3" y="2.5" drill="1.2"/>
+<pad name="P12" x="60.84" y="2.5" drill="1.2"/>
+<pad name="P13" x="63.38" y="2.5" drill="1.2"/>
+<pad name="P14" x="65.92" y="2.5" drill="1.2"/>
+<pad name="P15" x="68.46" y="2.5" drill="1.2"/>
+<pad name="P16" x="71" y="2.5" drill="1.2"/>
+<hole x="2.5" y="2.5" drill="3"/>
+<hole x="77.5" y="2.5" drill="3"/>
+<hole x="77.5" y="33.5" drill="3"/>
+<hole x="2.5" y="33.5" drill="3"/>
+<wire x1="0" y1="0" x2="0" y2="36" width="0.127" layer="21"/>
+<wire x1="0" y1="36" x2="80" y2="36" width="0.127" layer="21"/>
+<wire x1="80" y1="36" x2="80" y2="0" width="0.127" layer="21"/>
+<wire x1="80" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="4" y1="32" x2="76" y2="32" width="0.127" layer="21"/>
+<wire x1="76" y1="32" x2="76" y2="4" width="0.127" layer="21"/>
+<wire x1="76" y1="4" x2="4" y2="4" width="0.127" layer="21"/>
+<wire x1="4" y1="4" x2="4" y2="32" width="0.127" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="C0402" urn="urn:adsk.eagle:package:26136/1" locally_modified="yes" type="box">
@@ -37710,6 +37758,24 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <pin name="5" x="-7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 <pin name="3" x="-7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 <pin name="1" x="-7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="1_X_16_HEADER_GENERIC_.1INCH">
+<pin name="P$1" x="-7.62" y="-15.24" length="middle"/>
+<pin name="P$2" x="-7.62" y="-10.16" length="middle"/>
+<pin name="P$3" x="-7.62" y="-5.08" length="middle"/>
+<pin name="P$4" x="-7.62" y="0" length="middle"/>
+<pin name="P$5" x="-7.62" y="5.08" length="middle"/>
+<pin name="P$6" x="-7.62" y="10.16" length="middle"/>
+<pin name="P$7" x="-7.62" y="15.24" length="middle"/>
+<pin name="P$8" x="-7.62" y="20.32" length="middle"/>
+<pin name="P$9" x="-7.62" y="25.4" length="middle"/>
+<pin name="P$10" x="-7.62" y="30.48" length="middle"/>
+<pin name="P$11" x="-7.62" y="35.56" length="middle"/>
+<pin name="P$12" x="-7.62" y="40.64" length="middle"/>
+<pin name="P$13" x="-7.62" y="45.72" length="middle"/>
+<pin name="P$14" x="-7.62" y="50.8" length="middle"/>
+<pin name="P$15" x="-7.62" y="55.88" length="middle"/>
+<pin name="P$16" x="-7.62" y="60.96" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -49449,6 +49515,62 @@ with shutdown</description>
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1_X_16_HEADER_GENERIC_.1INCH">
+<gates>
+<gate name="G$1" symbol="1_X_12_HEADER_GENERIC_.1INCH" x="2.54" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="HEADER_1_X_12_.1_INCH">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$10" pad="P$10"/>
+<connect gate="G$1" pin="P$11" pad="P$11"/>
+<connect gate="G$1" pin="P$12" pad="P$12"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
+<connect gate="G$1" pin="P$6" pad="P$6"/>
+<connect gate="G$1" pin="P$7" pad="P$7"/>
+<connect gate="G$1" pin="P$8" pad="P$8"/>
+<connect gate="G$1" pin="P$9" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADM1602K" prefix="LCD" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="1_X_16_HEADER_GENERIC_.1INCH" x="5.08" y="-22.86"/>
+</gates>
+<devices>
+<device name="" package="ADM1602K">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P1"/>
+<connect gate="G$1" pin="P$10" pad="P10"/>
+<connect gate="G$1" pin="P$11" pad="P11"/>
+<connect gate="G$1" pin="P$12" pad="P12"/>
+<connect gate="G$1" pin="P$13" pad="P13"/>
+<connect gate="G$1" pin="P$14" pad="P14"/>
+<connect gate="G$1" pin="P$15" pad="P15"/>
+<connect gate="G$1" pin="P$16" pad="P16"/>
+<connect gate="G$1" pin="P$2" pad="P2"/>
+<connect gate="G$1" pin="P$3" pad="P3"/>
+<connect gate="G$1" pin="P$4" pad="P4"/>
+<connect gate="G$1" pin="P$5" pad="P5"/>
+<connect gate="G$1" pin="P$6" pad="P6"/>
+<connect gate="G$1" pin="P$7" pad="P7"/>
+<connect gate="G$1" pin="P$8" pad="P8"/>
+<connect gate="G$1" pin="P$9" pad="P9"/>
 </connects>
 <technologies>
 <technology name=""/>
