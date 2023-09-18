@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -31593,8 +31593,8 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <rectangle x1="3.556" y1="-1.524" x2="4.064" y2="-1.016" layer="51" rot="R90"/>
 </package>
 <package name="CAP_YX_10X16_RUB">
-<pad name="1" x="0" y="0" drill="0.8636" diameter="1.3716"/>
-<pad name="2" x="5.0038" y="0" drill="0.8636" diameter="1.3716" rot="R180"/>
+<pad name="1" x="0" y="0" drill="0.795" diameter="1.3716"/>
+<pad name="2" x="5.0038" y="0" drill="0.795" diameter="1.3716" rot="R180"/>
 <wire x1="-4.2672" y1="0" x2="-2.9972" y2="0" width="0.1524" layer="21"/>
 <wire x1="-3.6322" y1="0.635" x2="-3.6322" y2="-0.635" width="0.1524" layer="21"/>
 <wire x1="7.874" y1="0" x2="-2.8702" y2="0" width="0.1524" layer="21" curve="-180"/>
