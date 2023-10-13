@@ -5,7 +5,7 @@
 <description>Teknic Motor with 4pin Picoblade x 2</description>
 <attributes>
 <attribute name="AIRWIRES" value="YES"/>
-<attribute name="BOARDSIZE" value="6.4 x 20.9 mm"/>
+<attribute name="BOARDSIZE" value="10.4 x 20.3 mm"/>
 <attribute name="LAYERS" value="1: 1"/>
 </attributes>
 <drawings>
@@ -374,6 +374,8 @@
 <part name="R2" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="R3" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="J3" library="3D_MIG_Controller" deviceset="CONN_530470410_PICOBLADE_X_4" device=""/>
+<part name="U4" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="R4" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 </parts>
 <sheets>
 <sheet>
@@ -400,6 +402,10 @@
 <instance part="J3" gate="A" x="106.68" y="137.16" smashed="yes">
 <attribute name="NAME" x="110.8456" y="142.4686" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 </instance>
+<instance part="U4" gate="A" x="129.54" y="152.4" smashed="yes"/>
+<instance part="R4" gate="G$1" x="111.76" y="152.4" smashed="yes">
+<attribute name="NAME" x="110.49" y="153.8986" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -422,11 +428,6 @@
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="66.04" y1="79.36" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="78.74" x2="71.12" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J3" gate="A" pin="1"/>
-<wire x1="106.68" y1="137.16" x2="93.98" y2="137.16" width="0.1524" layer="91"/>
-<label x="93.98" y="137.16" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MO_STEP" class="0">
@@ -508,6 +509,37 @@
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="U1" gate="A" pin="B(2)"/>
 <wire x1="53.34" y1="132.08" x2="57.04" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="U4" gate="A" pin="B(2)"/>
+<wire x1="116.84" y1="152.4" x2="120.54" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="HLFB" class="0">
+<segment>
+<pinref part="J3" gate="A" pin="1"/>
+<wire x1="106.68" y1="137.16" x2="101.6" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="137.16" x2="101.6" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="152.4" x2="106.68" y2="152.4" width="0.1524" layer="91"/>
+<label x="101.6" y="152.4" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="VDD" class="0">
+<segment>
+<pinref part="U4" gate="A" pin="C(3)"/>
+<wire x1="129.54" y1="159.42" x2="129.54" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="167.64" x2="134.62" y2="167.64" width="0.1524" layer="91"/>
+<label x="134.62" y="167.64" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="U4" gate="A" pin="E(1)"/>
+<wire x1="129.54" y1="145.4" x2="129.54" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -943,13 +975,22 @@ design rules under a new name.</description>
 <element name="R2" library="3D_MIG_Controller" package="0402" value="33R0" x="11.91" y="5.5317625" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="RMCF0402JT33R0" x="11.91" y="5.5317625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R3" library="3D_MIG_Controller" package="0402" value="33R0" x="13.42" y="1.6116875" smashed="yes" rot="R180">
-<attribute name="PARTNO" value="RMCF0402JT33R0" x="13.42" y="1.6116875" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R3" library="3D_MIG_Controller" package="0402" value="33R0" x="14.1183125" y="2.2" smashed="yes" rot="R270">
+<attribute name="PARTNO" value="RMCF0402JT33R0" x="14.1183125" y="2.2" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J3" library="3D_MIG_Controller" package="CON_530470410_MOL" value="CONN_530470410_PICOBLADE_X_4" x="11.2" y="19.905853125" smashed="yes" rot="R90">
 <attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="11.2" y="19.905853125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="530470410" x="11.2" y="19.905853125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR_NAME" value="Molex Connector Corporation" x="11.2" y="19.905853125" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U4" library="3D_MIG_Controller" package="SOT323" value="NPN" x="15.8" y="8.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="18.8226" y="6.641" size="1.27" layer="25" ratio="6" rot="SR180"/>
+<attribute name="PARTNO" value="BC846BW_NPN" x="15.8" y="8.8" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R4" library="3D_MIG_Controller" package="0402" value="33R0" x="16.44" y="11.88" smashed="yes">
+<attribute name="NAME" x="16.059" y="12.769" size="0.254" layer="25"/>
+<attribute name="PARTNO" value="RMCF0402JT33R0" x="14.44" y="14.88" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="16.186" y="10.864" size="0.254" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -957,32 +998,35 @@ design rules under a new name.</description>
 <contactref element="U2" pad="2"/>
 <contactref element="U1" pad="2"/>
 <contactref element="U3" pad="2"/>
-<contactref element="J3" pad="1"/>
-<wire x1="11.844203125" y1="11.6437" x2="11.2" y2="19.905853125" width="0" layer="19" extent="16-16"/>
-<wire x1="13.264278125" y1="7.6937" x2="11.844203125" y2="11.6437" width="0" layer="19" extent="16-16"/>
-<wire x1="14.71435625" y1="3.7537" x2="13.264278125" y2="7.6937" width="0" layer="19" extent="16-16"/>
+<wire x1="11.844203125" y1="11.6437" x2="13.264278125" y2="7.6937" width="0" layer="19" extent="1-1"/>
+<wire x1="14.71435625" y1="3.7537" x2="13.264278125" y2="7.6937" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MO_STEP">
 <contactref element="U1" pad="3"/>
 <contactref element="J3" pad="4"/>
-<wire x1="11.194203125" y1="13.3963" x2="11.2" y2="16.146653125" width="0" layer="19" extent="1-1"/>
+<wire x1="11.194203125" y1="13.3963" x2="11.194203125" y2="16.14085625" width="0.2" layer="1"/>
+<wire x1="11.194203125" y1="16.14085625" x2="11.2" y2="16.146653125" width="0.2" layer="1"/>
 </signal>
 <signal name="MO_DIR">
 <contactref element="U2" pad="3"/>
 <contactref element="J3" pad="3"/>
-<wire x1="12.614278125" y1="9.4463" x2="11.2" y2="17.416653125" width="0" layer="19" extent="1-1"/>
+<wire x1="12.614278125" y1="9.4463" x2="12.614278125" y2="16.585721875" width="0.2" layer="1"/>
+<wire x1="11.2" y1="17.416653125" x2="11.783346875" y2="17.416653125" width="0.2" layer="1"/>
+<wire x1="12.614278125" y1="16.585721875" x2="11.783346875" y2="17.416653125" width="0.2" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R2" pad="P$2"/>
 <contactref element="U2" pad="1"/>
-<wire x1="11.91" y1="6.1317625" x2="11.91" y2="7.639421875" width="0.254" layer="1"/>
 <wire x1="11.91" y1="7.639421875" x2="11.964278125" y2="7.6937" width="0.254" layer="1"/>
+<wire x1="11.964278125" y1="7.6937" x2="11.964278125" y2="6.186040625" width="0.2" layer="1"/>
+<wire x1="11.964278125" y1="6.186040625" x2="11.91" y2="6.1317625" width="0.2" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="U3" pad="1"/>
 <contactref element="R3" pad="P$2"/>
-<wire x1="13.41435625" y1="3.7537" x2="13.42" y2="3.74805625" width="0.254" layer="1"/>
-<wire x1="13.42" y1="3.74805625" x2="13.42" y2="2.2116875" width="0.254" layer="1"/>
+<wire x1="13.41435625" y1="3.7537" x2="13.4" y2="3.73934375" width="0.254" layer="1"/>
+<wire x1="13.41435625" y1="3.7537" x2="13.41435625" y2="2.29604375" width="0.2" layer="1"/>
+<wire x1="13.41435625" y1="2.29604375" x2="13.5183125" y2="2.2" width="0.2" layer="1"/>
 </signal>
 <signal name="STEP">
 <contactref element="R1" pad="P$1"/>
@@ -997,13 +1041,35 @@ design rules under a new name.</description>
 <contactref element="U3" pad="3"/>
 <wire x1="14.06435625" y1="5.5063" x2="14.06435625" y2="8.212296875" width="0.2" layer="1"/>
 <contactref element="J3" pad="2"/>
-<wire x1="14.06435625" y1="8.212296875" x2="11.2" y2="18.661253125" width="0" layer="19" extent="1-1"/>
+<wire x1="14.06435625" y1="5.5063" x2="14.06435625" y2="17.23564375" width="0.2" layer="1"/>
+<wire x1="12.638746875" y1="18.661253125" x2="11.2" y2="18.661253125" width="0.2" layer="1"/>
+<wire x1="14.06435625" y1="17.23564375" x2="12.638746875" y2="18.661253125" width="0.2" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R1" pad="P$2"/>
 <contactref element="U1" pad="1"/>
 <wire x1="10.544203125" y1="11.6437" x2="10.5" y2="11.599496875" width="0.254" layer="1"/>
-<wire x1="10.5" y1="10.1518375" x2="10.5" y2="11.599496875" width="0.254" layer="1"/>
+<wire x1="10.544203125" y1="11.6437" x2="10.544203125" y2="10.196040625" width="0.2" layer="1"/>
+<wire x1="10.544203125" y1="10.196040625" x2="10.5" y2="10.1518375" width="0.2" layer="1"/>
+</signal>
+<signal name="N$3">
+<contactref element="R4" pad="P$2"/>
+<contactref element="U4" pad="1"/>
+<wire x1="16.45" y1="9.6763" x2="16.45" y2="11.27" width="0.1524" layer="1"/>
+<wire x1="16.45" y1="11.27" x2="16.44" y2="11.28" width="0.1524" layer="1"/>
+</signal>
+<signal name="HLFB">
+<contactref element="J3" pad="1"/>
+<contactref element="R4" pad="P$1"/>
+<wire x1="11.2" y1="19.905853125" x2="14.294146875" y2="19.905853125" width="0.1524" layer="1"/>
+<wire x1="16.44" y1="17.76" x2="16.44" y2="12.48" width="0.1524" layer="1"/>
+<wire x1="14.294146875" y1="19.905853125" x2="16.44" y2="17.76" width="0.1524" layer="1"/>
+</signal>
+<signal name="VDD">
+<contactref element="U4" pad="3"/>
+</signal>
+<signal name="N$5">
+<contactref element="U4" pad="2"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

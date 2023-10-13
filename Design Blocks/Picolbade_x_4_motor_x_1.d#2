@@ -5,7 +5,7 @@
 <description>Teknic Motor with 4pin Picoblade x 2</description>
 <attributes>
 <attribute name="AIRWIRES" value="YES"/>
-<attribute name="BOARDSIZE" value="6.3 x 21 mm"/>
+<attribute name="BOARDSIZE" value="6.4 x 20.9 mm"/>
 <attribute name="LAYERS" value="1: 1"/>
 </attributes>
 <drawings>
@@ -383,7 +383,7 @@
 <instance part="U1" gate="A" x="66.04" y="132.08" smashed="yes"/>
 <instance part="U2" gate="A" x="66.04" y="109.22" smashed="yes"/>
 <instance part="U3" gate="A" x="66.04" y="86.36" smashed="yes"/>
-<instance part="GND4" gate="1" x="73.66" y="81.28" smashed="yes" rot="R90"/>
+<instance part="GND4" gate="1" x="73.66" y="78.74" smashed="yes" rot="R90"/>
 <instance part="GND5" gate="1" x="73.66" y="101.6" smashed="yes" rot="R90"/>
 <instance part="GND6" gate="1" x="73.66" y="124.46" smashed="yes" rot="R90"/>
 <instance part="R1" gate="G$1" x="48.26" y="132.08" smashed="yes">
@@ -397,8 +397,8 @@
 <attribute name="NAME" x="44.45" y="87.8586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="44.45" y="83.058" size="1.778" layer="96"/>
 </instance>
-<instance part="J3" gate="A" x="101.6" y="137.16" smashed="yes">
-<attribute name="NAME" x="105.7656" y="142.4686" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<instance part="J3" gate="A" x="106.68" y="137.16" smashed="yes">
+<attribute name="NAME" x="110.8456" y="142.4686" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 </instance>
 </instances>
 <busses>
@@ -420,35 +420,37 @@
 <segment>
 <pinref part="U3" gate="A" pin="E(1)"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="66.04" y1="79.36" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="81.28" x2="71.12" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="79.36" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="78.74" x2="71.12" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J3" gate="A" pin="1"/>
-<wire x1="101.6" y1="137.16" x2="93.98" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="137.16" x2="93.98" y2="137.16" width="0.1524" layer="91"/>
 <label x="93.98" y="137.16" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="A_MI_STEP" class="0">
+<net name="MO_STEP" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="C(3)"/>
 <wire x1="86.36" y1="139.7" x2="66.04" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="139.7" x2="66.04" y2="139.1" width="0.1524" layer="91"/>
 <label x="86.36" y="134.62" size="1.016" layer="95" rot="R180" xref="yes"/>
 <wire x1="86.36" y1="134.62" x2="86.36" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="J3" gate="A" pin="2"/>
-<wire x1="86.36" y1="134.62" x2="101.6" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="J3" gate="A" pin="4"/>
+<wire x1="106.68" y1="129.54" x2="101.6" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="129.54" x2="101.6" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="134.62" x2="86.36" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="A_MI_DIR" class="0">
+<net name="MO_DIR" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="C(3)"/>
 <wire x1="66.04" y1="119.38" x2="66.04" y2="116.24" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="119.38" x2="66.04" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="132.08" x2="86.36" y2="119.38" width="0.1524" layer="91"/>
 <label x="86.36" y="132.08" size="1.016" layer="95" rot="R180" xref="yes"/>
-<wire x1="86.36" y1="132.08" x2="101.6" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="J3" gate="A" pin="3"/>
+<wire x1="106.68" y1="132.08" x2="86.36" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -465,36 +467,40 @@
 <wire x1="57.04" y1="86.36" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="_A_STEP" class="0">
+<net name="STEP" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="132.08" x2="43.18" y2="132.08" width="0.1524" layer="91"/>
 <label x="40.64" y="132.08" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="_A_DIR" class="0">
+<net name="DIR" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="109.22" x2="43.18" y2="109.22" width="0.1524" layer="91"/>
 <label x="40.64" y="109.22" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="_A_ENABLE" class="0">
+<net name="ENABLE" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="86.36" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
 <label x="40.64" y="86.36" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="A_MI_ENABLE" class="0">
+<net name="MO_ENABLE" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="C(3)"/>
 <wire x1="66.04" y1="96.52" x2="66.04" y2="93.38" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="129.54" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="129.54" x2="99.06" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="124.46" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="96.52" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
 <label x="99.06" y="129.54" size="1.016" layer="95" rot="R180" xref="yes"/>
-<wire x1="99.06" y1="129.54" x2="101.6" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="J3" gate="A" pin="4"/>
+<pinref part="J3" gate="A" pin="2"/>
+<wire x1="106.68" y1="134.62" x2="104.14" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="134.62" x2="104.14" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="124.46" x2="99.06" y2="124.46" width="0.1524" layer="91"/>
+<junction x="99.06" y="124.46"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -507,6 +513,20 @@
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="106,1,43.18,109.22,DIR,,,,,"/>
+<approved hash="106,1,43.18,86.36,ENABLE,,,,,"/>
+<approved hash="206,1,66.04,102.22,GND,,,,,"/>
+<approved hash="206,1,66.04,125.08,GND,,,,,"/>
+<approved hash="206,1,66.04,79.36,GND,,,,,"/>
+<approved hash="208,1,66.04,102.22,GND,out,,,,"/>
+<approved hash="208,1,71.12,101.6,GND,sup,,,,"/>
+<approved hash="208,1,66.04,125.08,GND,out,,,,"/>
+<approved hash="208,1,71.12,124.46,GND,sup,,,,"/>
+<approved hash="208,1,66.04,79.36,GND,out,,,,"/>
+<approved hash="208,1,71.12,78.74,GND,sup,,,,"/>
+<approved hash="106,1,43.18,132.08,STEP,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <drawing>
@@ -907,24 +927,24 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="3D_MIG_Controller" package="SOT323" value="NPN" x="13.894203125" y="4.52" smashed="yes">
-<attribute name="PARTNO" value="BC846BW_NPN" x="46.914203125" y="-22.149996875" size="1.778" layer="27" display="off"/>
+<element name="U1" library="3D_MIG_Controller" package="SOT323" value="NPN" x="11.194203125" y="12.52" smashed="yes">
+<attribute name="PARTNO" value="BC846BW_NPN" x="44.214203125" y="-14.149996875" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U2" library="3D_MIG_Controller" package="SOT323" value="NPN" x="12.564278125" y="8.5" smashed="yes">
-<attribute name="PARTNO" value="BC846BW_NPN" x="50.664278125" y="-18.16999375" size="1.778" layer="27" display="off"/>
+<element name="U2" library="3D_MIG_Controller" package="SOT323" value="NPN" x="12.614278125" y="8.57" smashed="yes">
+<attribute name="PARTNO" value="BC846BW_NPN" x="50.714278125" y="-18.09999375" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U3" library="3D_MIG_Controller" package="SOT323" value="NPN" x="11.26435625" y="12.5" smashed="yes">
-<attribute name="PARTNO" value="BC846BW_NPN" x="54.444353125" y="-14.169996875" size="1.778" layer="27" display="off"/>
+<element name="U3" library="3D_MIG_Controller" package="SOT323" value="NPN" x="14.06435625" y="4.63" smashed="yes">
+<attribute name="PARTNO" value="BC846BW_NPN" x="57.244353125" y="-22.039996875" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R1" library="3D_MIG_Controller" package="0402" value="33R0" x="13.25" y="1.5918375" smashed="yes" rot="R180">
-<attribute name="PARTNO" value="RMCF0402JT33R0" x="13.25" y="1.5918375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="33R0" x="13.25" y="1.5918375" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R1" library="3D_MIG_Controller" package="0402" value="33R0" x="10.5" y="9.5518375" smashed="yes" rot="R180">
+<attribute name="PARTNO" value="RMCF0402JT33R0" x="10.5" y="9.5518375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="33R0" x="10.5" y="9.5518375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R2" library="3D_MIG_Controller" package="0402" value="33R0" x="11.91" y="5.5317625" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="RMCF0402JT33R0" x="11.91" y="5.5317625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R3" library="3D_MIG_Controller" package="0402" value="33R0" x="10.6" y="9.5316875" smashed="yes" rot="R180">
-<attribute name="PARTNO" value="RMCF0402JT33R0" x="10.6" y="9.5316875" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R3" library="3D_MIG_Controller" package="0402" value="33R0" x="13.42" y="1.6116875" smashed="yes" rot="R180">
+<attribute name="PARTNO" value="RMCF0402JT33R0" x="13.42" y="1.6116875" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J3" library="3D_MIG_Controller" package="CON_530470410_MOL" value="CONN_530470410_PICOBLADE_X_4" x="11.2" y="19.905853125" smashed="yes" rot="R90">
 <attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="11.2" y="19.905853125" size="1.778" layer="27" rot="R90" display="off"/>
@@ -938,49 +958,52 @@ design rules under a new name.</description>
 <contactref element="U1" pad="2"/>
 <contactref element="U3" pad="2"/>
 <contactref element="J3" pad="1"/>
-<wire x1="14.544203125" y1="3.6437" x2="11.2" y2="19.905853125" width="0" layer="19" extent="16-16"/>
-<wire x1="13.214278125" y1="7.6237" x2="14.544203125" y2="3.6437" width="0" layer="19" extent="16-16"/>
-<wire x1="11.91435625" y1="11.6237" x2="13.214278125" y2="7.6237" width="0" layer="19" extent="16-16"/>
+<wire x1="11.844203125" y1="11.6437" x2="11.2" y2="19.905853125" width="0" layer="19" extent="16-16"/>
+<wire x1="13.264278125" y1="7.6937" x2="11.844203125" y2="11.6437" width="0" layer="19" extent="16-16"/>
+<wire x1="14.71435625" y1="3.7537" x2="13.264278125" y2="7.6937" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="A_MI_STEP">
+<signal name="MO_STEP">
 <contactref element="U1" pad="3"/>
-<contactref element="J3" pad="2"/>
-<wire x1="13.894203125" y1="5.3963" x2="11.2" y2="18.661253125" width="0" layer="19" extent="1-1"/>
+<contactref element="J3" pad="4"/>
+<wire x1="11.194203125" y1="13.3963" x2="11.2" y2="16.146653125" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="A_MI_DIR">
+<signal name="MO_DIR">
 <contactref element="U2" pad="3"/>
 <contactref element="J3" pad="3"/>
-<wire x1="11.2" y1="17.416653125" x2="12.564278125" y2="9.3763" width="0" layer="19" extent="1-1"/>
+<wire x1="12.614278125" y1="9.4463" x2="11.2" y2="17.416653125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R2" pad="P$2"/>
 <contactref element="U2" pad="1"/>
-<wire x1="11.91" y1="6.1317625" x2="11.914278125" y2="7.6237" width="0" layer="19" extent="1-1"/>
+<wire x1="11.91" y1="6.1317625" x2="11.91" y2="7.639421875" width="0.254" layer="1"/>
+<wire x1="11.91" y1="7.639421875" x2="11.964278125" y2="7.6937" width="0.254" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="U3" pad="1"/>
 <contactref element="R3" pad="P$2"/>
-<wire x1="10.6" y1="10.1316875" x2="10.61435625" y2="11.6237" width="0" layer="19" extent="1-1"/>
+<wire x1="13.41435625" y1="3.7537" x2="13.42" y2="3.74805625" width="0.254" layer="1"/>
+<wire x1="13.42" y1="3.74805625" x2="13.42" y2="2.2116875" width="0.254" layer="1"/>
 </signal>
-<signal name="_A_STEP">
+<signal name="STEP">
 <contactref element="R1" pad="P$1"/>
 </signal>
-<signal name="_A_DIR">
+<signal name="DIR">
 <contactref element="R2" pad="P$1"/>
 </signal>
-<signal name="_A_ENABLE">
+<signal name="ENABLE">
 <contactref element="R3" pad="P$1"/>
 </signal>
-<signal name="A_MI_ENABLE">
+<signal name="MO_ENABLE">
 <contactref element="U3" pad="3"/>
-<contactref element="J3" pad="4"/>
-<wire x1="11.26435625" y1="13.3763" x2="11.2" y2="16.146653125" width="0" layer="19" extent="1-1"/>
+<wire x1="14.06435625" y1="5.5063" x2="14.06435625" y2="8.212296875" width="0.2" layer="1"/>
+<contactref element="J3" pad="2"/>
+<wire x1="14.06435625" y1="8.212296875" x2="11.2" y2="18.661253125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R1" pad="P$2"/>
 <contactref element="U1" pad="1"/>
-<wire x1="13.25" y1="2.1918375" x2="13.25" y2="3.637903125" width="0.254" layer="1"/>
-<wire x1="13.25" y1="3.637903125" x2="13.244203125" y2="3.6437" width="0.254" layer="1"/>
+<wire x1="10.544203125" y1="11.6437" x2="10.5" y2="11.599496875" width="0.254" layer="1"/>
+<wire x1="10.5" y1="10.1518375" x2="10.5" y2="11.599496875" width="0.254" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
