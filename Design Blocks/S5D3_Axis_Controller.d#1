@@ -2146,8 +2146,8 @@
 <technologies>
 <technology name="">
 <attribute name="COPYRIGHT" value="Copyright (C) 2023 Ultra Librarian. All rights reserved." constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ABM8G-12.000MHZ-B4Y-T" constant="no"/>
 <attribute name="MFR_NAME" value="Abracon" constant="no"/>
-<attribute name="PARTNO" value="ABM8G-12.000MHZ-B4Y-T" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2161,8 +2161,8 @@
 <technologies>
 <technology name="">
 <attribute name="COPYRIGHT" value="Copyright (C) 2023 Ultra Librarian. All rights reserved." constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ABM8G-12.000MHZ-B4Y-T" constant="no"/>
 <attribute name="MFR_NAME" value="Abracon" constant="no"/>
-<attribute name="PARTNO" value="ABM8G-12.000MHZ-B4Y-T" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2176,8 +2176,8 @@
 <technologies>
 <technology name="">
 <attribute name="COPYRIGHT" value="Copyright (C) 2023 Ultra Librarian. All rights reserved." constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ABM8G-12.000MHZ-B4Y-T" constant="no"/>
 <attribute name="MFR_NAME" value="Abracon" constant="no"/>
-<attribute name="PARTNO" value="ABM8G-12.000MHZ-B4Y-T" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5220,8 +5220,8 @@ design rules under a new name.</description>
 </element>
 <element name="Y1" library="3D_MIG_Controller" package="CRYSTAL_ABM8G_ABR" value="XTAL_12MHZ_ABM8G-12.000MHZ-B4Y-T" x="-2.85" y="13.7" smashed="yes">
 <attribute name="COPYRIGHT" value="Copyright (C) 2023 Ultra Librarian. All rights reserved." x="-2.85" y="13.7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ABM8G-12.000MHZ-B4Y-T" x="-2.85" y="13.7" size="1.778" layer="27" display="off"/>
 <attribute name="MFR_NAME" value="Abracon" x="-2.85" y="13.7" size="1.778" layer="27" display="off"/>
-<attribute name="PARTNO" value="ABM8G-12.000MHZ-B4Y-T" x="-2.85" y="13.7" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R5" library="3D_MIG_Controller" package="0402" value="100K0" x="12.2" y="1.35" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="RCG0402100KFKED" x="12.2" y="1.35" size="1.778" layer="27" rot="R270" display="off"/>
