@@ -1,0 +1,112 @@
+*************************************************************
+FileName = TB-S5D5_v1.2.PcbDoc
+ODB++ directory structure
+*************************************************************
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\matrix\matrix
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\profile
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\stephdr
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\attrlist
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\keep-out_layer\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\keep-out_layer\attrlist
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\bottom_paste\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\bottom_paste\attrlist
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\gnd_l3\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\gnd_l3\attrlist
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\bottom_solder\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\bottom_solder\attrlist
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\top_paste\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\top_paste\attrlist
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\sig_l2\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\sig_l2\attrlist
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\top_solder\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\top_solder\attrlist
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\sig_l4\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\sig_l4\attrlist
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\bot_l6\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\bot_l6\attrlist
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\drill\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\drill\attrlist
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\drill\tools
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\top_l1\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\top_l1\attrlist
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\sig_l5\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\sig_l5\attrlist
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\bottom_overlay\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\bottom_overlay\attrlist
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\top_overlay\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\top_overlay\attrlist
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\comp_+_bot\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\comp_+_bot\components
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\comp_+_top\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\layers\comp_+_top\components
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\steps\pcb\eda\data
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\symbols\rect11.811x70.8661xr2.9528_45\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\symbols\rect11.811x70.8661xr2.9528_135\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\symbols\rect82.6772x716.5354_225\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\symbols\rect82.6772x716.5354_315\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\symbols\rect82.6772x716.5354_45\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\symbols\rect82.6772x716.5354_135\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\symbols\rect7.7952x66.8503xr0.9449_45\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\symbols\rect7.7952x66.8503xr0.9449_135\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\symbols\rect82.6772x716.5354_225\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\symbols\rect82.6772x716.5354_315\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\symbols\rect82.6772x716.5354_45\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\symbols\rect82.6772x716.5354_135\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\symbols\rect15.811x74.8661xr4.9528_45\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\symbols\rect15.811x74.8661xr4.9528_135\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\symbols\rect11.811x70.8661xr2.9528_45\features
+
+Generated File : C:\Users\michael.merrill\AppData\Local\Temp\Releases\Snapshot\1\Assembly MP\tb-s5d5-v1.2-designpackage\manufacturingfiles\odb\odb\symbols\rect11.811x70.8661xr2.9528_135\features
+
